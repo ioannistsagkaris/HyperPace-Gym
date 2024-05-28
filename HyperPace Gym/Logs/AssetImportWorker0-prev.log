@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56463
+57770
 Successfully changed project path to: /Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym
 /Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Volumes/SSD/GitHub/HyperPace-Gym/HyperPac
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8692206592] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3376311197 [EditorId] 3376311197 [Version] 1048832 [Id] OSXEditor(0,ioannis) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8692206592] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 815220312 [EditorId] 815220312 [Version] 1048832 [Id] OSXEditor(0,ioannis) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8692206592] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3376311197 [EditorId] 3376311197 [Version] 1048832 [Id] OSXEditor(0,ioannis) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8692206592] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 815220312 [EditorId] 815220312 [Version] 1048832 [Id] OSXEditor(0,ioannis) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 23.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
 [Subsystems] Discovering subsystems at path /Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,48 +76,48 @@ Initialize mono
 Mono path[0] = '/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005066 seconds.
-- Loaded All Assemblies, in  0.433 seconds
+Registered in 0.009252 seconds.
+- Loaded All Assemblies, in  0.587 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.235 seconds
-Domain Reload Profiling: 669ms
-	BeginReloadAssembly (187ms)
+- Finished resetting the current domain, in  0.359 seconds
+Domain Reload Profiling: 947ms
+	BeginReloadAssembly (207ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (143ms)
-		LoadAssemblies (190ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (210ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (124ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (236ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (178ms)
+		SetupLoadedEditorAssemblies (271ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,8 +125,8 @@ Domain Reload Profiling: 669ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.743 seconds
-Refreshing native plugins compatible for Editor in 4.97 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.966 seconds
+Refreshing native plugins compatible for Editor in 7.10 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -135,141 +135,49 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.705 seconds
-Domain Reload Profiling: 1444ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.974 seconds
+Domain Reload Profiling: 1935ms
+	BeginReloadAssembly (226ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (498ms)
-		LoadAssemblies (398ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (615ms)
+		LoadAssemblies (471ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (148ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (705ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (975ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (564ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (488ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Launching external process: /Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (1.8 MB). Loaded Objects now: 4239.
-Memory consumption went from 170.5 MB to 168.6 MB.
-Total: 4.232375 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.057958 ms MarkObjects: 3.543166 ms  DeleteObjects: 0.496333 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 115725.067864 seconds.
-  path: Assets/Highman Gym Pack/Default.asset
-  artifactKey: Guid(aa9d217dc23d6a14fa3f3b87454d02b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Default.asset using Guid(aa9d217dc23d6a14fa3f3b87454d02b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922395d7500493f36913cac1c65f187a') in 0.015869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 18.322278 seconds.
-  path: Assets/Highman Gym Pack/Materials/hmg_bricks.mat
-  artifactKey: Guid(897a2f1e56cd61a4393d4cfc12da87a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Materials/hmg_bricks.mat using Guid(897a2f1e56cd61a4393d4cfc12da87a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b5532eefc2f006cf9071fb0d2a2ac3') in 0.127956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Highman Gym Pack/Materials/hmg_rubber_floor.mat
-  artifactKey: Guid(95f207790d38e5b4ebaa6257d66eb0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Materials/hmg_rubber_floor.mat using Guid(95f207790d38e5b4ebaa6257d66eb0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27db4bd38f108b9cd9a872060c709d56') in 0.040727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16fe7b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.467 seconds
-Refreshing native plugins compatible for Editor in 5.99 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.716 seconds
-Domain Reload Profiling: 2182ms
-	BeginReloadAssembly (159ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (234ms)
-		LoadAssemblies (283ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1716ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (680ms)
+		SetupLoadedEditorAssemblies (778ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (584ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (674ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 5.77 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 4295.
-Memory consumption went from 174.8 MB to 172.9 MB.
-Total: 6.371292 ms (FindLiveObjects: 0.257584 ms CreateObjectMapping: 0.110292 ms MarkObjects: 5.686875 ms  DeleteObjects: 0.315375 ms)
+Unloading 3772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (1.8 MB). Loaded Objects now: 4239.
+Memory consumption went from 170.2 MB to 168.3 MB.
+Total: 5.762291 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.082375 ms MarkObjects: 4.909000 ms  DeleteObjects: 0.572750 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -285,157 +193,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2038.708809 seconds.
-  path: Assets/Highman Gym Pack/Materials/hmg_concrete_tiles.mat
-  artifactKey: Guid(803a768468889dc46be712ba730719bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Materials/hmg_concrete_tiles.mat using Guid(803a768468889dc46be712ba730719bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6843078915ace2aec31d4938dac329ec') in 0.074477 seconds
+  Time since last request: 130894.637957 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_balcony_01.prefab
+  artifactKey: Guid(acb2281c630ea034f9082d63570af2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_balcony_01.prefab using Guid(acb2281c630ea034f9082d63570af2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a82d6dcca778ab0ff99a16e51d6e7e') in 0.243801 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 441.842686 seconds.
-  path: Assets/Highman Gym Pack/Prefabs/HMG_locker_room_divider.prefab
-  artifactKey: Guid(bae06829e0f15954f812564a19b8b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Prefabs/HMG_locker_room_divider.prefab using Guid(bae06829e0f15954f812564a19b8b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afbf3e993739720286433fd5bb1a9dd') in 0.055376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 1188.660961 seconds.
-  path: Assets/Highman Gym Pack/Materials/hmg_concrete_tiles.mat
-  artifactKey: Guid(803a768468889dc46be712ba730719bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Materials/hmg_concrete_tiles.mat using Guid(803a768468889dc46be712ba730719bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab09100ef3448a33cf74414de11b0e31') in 0.020416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000668 seconds.
-  path: Assets/Highman Gym Pack/Materials/hmg_rubber_floor.mat
-  artifactKey: Guid(95f207790d38e5b4ebaa6257d66eb0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Materials/hmg_rubber_floor.mat using Guid(95f207790d38e5b4ebaa6257d66eb0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e26ebbda94cc9f1f7d1053d69c80707') in 0.018831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Highman Gym Pack/Materials/hmg_paint.mat
-  artifactKey: Guid(c19d1be4762b5624a997858632f92840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Materials/hmg_paint.mat using Guid(c19d1be4762b5624a997858632f92840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0370f3c3cbfc00fb7d1643091cff6e') in 0.011409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 189.462577 seconds.
-  path: Assets/Highman Gym Pack/Prefabs/HMG_floor_tile_01.prefab
-  artifactKey: Guid(a73e995e96c09a9418a5a56427244095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Prefabs/HMG_floor_tile_01.prefab using Guid(a73e995e96c09a9418a5a56427244095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63491d0a3b57cdedc4ca0502b624ec24') in 0.022239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Highman Gym Pack/Prefabs/HMG_wall_02.prefab
-  artifactKey: Guid(9a496dedd5c93a74f86d412225a7a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Prefabs/HMG_wall_02.prefab using Guid(9a496dedd5c93a74f86d412225a7a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de61943e7dc44c2e9fadfff3246c732') in 0.022668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Highman Gym Pack/Prefabs/HMG_shower_divider_01.prefab
-  artifactKey: Guid(b978d1d07a55b884d9d06e23a48b9213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Prefabs/HMG_shower_divider_01.prefab using Guid(b978d1d07a55b884d9d06e23a48b9213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555a58302d6cd0b8f0001928b2bf0aac') in 0.026901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Highman Gym Pack/Prefabs/HMG_wall_divider_01.prefab
-  artifactKey: Guid(d9c8d3bd029faf54b97b0c70c5c9e76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Prefabs/HMG_wall_divider_01.prefab using Guid(d9c8d3bd029faf54b97b0c70c5c9e76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f01b59bd6c0fc91ef95f651c14d98b7') in 0.015211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Highman Gym Pack/Prefabs/HMG_support_column.prefab
-  artifactKey: Guid(fbf03d9ec214c224c9e7e20906733e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Prefabs/HMG_support_column.prefab using Guid(fbf03d9ec214c224c9e7e20906733e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0408cf7ceb369b40f6f895d2ef59aa0a') in 0.030248 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 670.888296 seconds.
-  path: Assets/Highman Gym Pack/Materials/hmg_tiling_ceiling.mat
-  artifactKey: Guid(668725371ee51d64c8ac8f2579ad0488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Highman Gym Pack/Materials/hmg_tiling_ceiling.mat using Guid(668725371ee51d64c8ac8f2579ad0488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcded7e280dcf5c43c7349e51e4048e') in 0.025215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16fe7b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.505 seconds
-Refreshing native plugins compatible for Editor in 6.08 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.960 seconds
-Domain Reload Profiling: 2465ms
-	BeginReloadAssembly (196ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (230ms)
-		LoadAssemblies (297ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1961ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (832ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (715ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 6.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.8 MB). Loaded Objects now: 4311.
-Memory consumption went from 185.1 MB to 183.3 MB.
-Total: 7.779833 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 0.133792 ms MarkObjects: 6.857583 ms  DeleteObjects: 0.371625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 24
