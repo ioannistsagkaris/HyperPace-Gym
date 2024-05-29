@@ -244,3 +244,11 @@ Received Import Request.
 Start importing Assets/Scenes/gymSceneIoannis.unity using Guid(31db5ced037f1471097831f83f4a44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49fc44da65a6f66d25129b9e2e36c30') in 0.000658 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 398.104896 seconds.
+  path: Assets/Scenes/gymSceneIoannis.unity
+  artifactKey: Guid(31db5ced037f1471097831f83f4a44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/gymSceneIoannis.unity using Guid(31db5ced037f1471097831f83f4a44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa03813c23d471772736cef6161d59bd') in 0.001862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
