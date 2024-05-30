@@ -137,7 +137,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Assembly-CSharp >= 1.0.0"
+      "Addressable_Editor >= 1.0.0",
+      "Assembly-CSharp >= 1.0.0",
+      "UMA_Content >= 1.0.0",
+      "UMA_Core >= 1.0.0",
+      "UMA_Core_Editor >= 1.0.0",
+      "UMA_Examples >= 1.0.0",
+      "UMA_Examples_Editor >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -166,8 +172,26 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
+            "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj": {
+              "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj"
+            },
             "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Assembly-CSharp.csproj": {
               "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Assembly-CSharp.csproj"
+            },
+            "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj": {
+              "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj"
+            },
+            "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj": {
+              "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj"
+            },
+            "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core_Editor.csproj": {
+              "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core_Editor.csproj"
+            },
+            "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Examples.csproj": {
+              "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Examples.csproj"
+            },
+            "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Examples_Editor.csproj": {
+              "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Examples_Editor.csproj"
             }
           }
         }
