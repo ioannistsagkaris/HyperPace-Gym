@@ -1,0 +1,1145 @@
+Unity Editor version:    2022.3.25f1 (530ae0ba3889)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65524
+Successfully changed project path to: /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym
+/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8341408768] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 349512460 [EditorId] 349512460 [Version] 1048832 [Id] OSXEditor(0,stavross-air) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8341408768] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 349512460 [EditorId] 349512460 [Version] 1048832 [Id] OSXEditor(0,stavross-air) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 26.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56690
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004848 seconds.
+- Loaded All Assemblies, in  0.869 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1546ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (378ms)
+				TypeCache.ScanAssembly (345ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-0x146119800 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.979 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.007 seconds
+Domain Reload Profiling: 4006ms
+	BeginReloadAssembly (412ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (1378ms)
+		LoadAssemblies (736ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (757ms)
+			TypeCache.Refresh (645ms)
+				TypeCache.ScanAssembly (579ms)
+			ScanForSourceGeneratedMonoScriptInfo (71ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (2009ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (1229ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.43 seconds
+Refreshing native plugins compatible for Editor in 7.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 106 unused Assets / (2.5 MB). Loaded Objects now: 6559.
+Memory consumption went from 259.6 MB to 257.1 MB.
+Total: 51.365584 ms (FindLiveObjects: 2.813292 ms CreateObjectMapping: 0.650584 ms MarkObjects: 40.692958 ms  DeleteObjects: 7.200250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80850.449982 seconds.
+  path: Assets/Highman Gym Pack/Materials/jumpBox.mat
+  artifactKey: Guid(5ceec92b7159d4135a91b44dd0a05f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Materials/jumpBox.mat using Guid(5ceec92b7159d4135a91b44dd0a05f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fdd38ad63d5b5a0d9ac3daef45f74c') in 0.381683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 77.378444 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_balcony_02.prefab
+  artifactKey: Guid(d08e7fee03f171548b0e0300a180ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_balcony_02.prefab using Guid(d08e7fee03f171548b0e0300a180ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0555796f4f888d589f64962d3a5c08') in 0.208528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_fly_machine_01.prefab
+  artifactKey: Guid(aa78e0982ad05eb4baafb0578586e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_fly_machine_01.prefab using Guid(aa78e0982ad05eb4baafb0578586e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b13b829df94f41f4dd98f350d8c138f') in 0.069074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_large_mirror_01.prefab
+  artifactKey: Guid(5edb8171d743fcb42afc23a110c18046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_large_mirror_01.prefab using Guid(5edb8171d743fcb42afc23a110c18046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dffc56f74e30542be5df1d65330c77a') in 0.026320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_bicep_curl_machine_01.prefab
+  artifactKey: Guid(7fe513f45cb6b254490f84edd595995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_bicep_curl_machine_01.prefab using Guid(7fe513f45cb6b254490f84edd595995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c3f64d65381951e250fd62ed502cb3') in 0.046078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_wall_01.prefab
+  artifactKey: Guid(42d02825c1f08e245bdbee705a5dc8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_wall_01.prefab using Guid(42d02825c1f08e245bdbee705a5dc8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3ad190119340c34d4d5b91e068108a') in 0.020226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_treadmill_01.prefab
+  artifactKey: Guid(f5d4c450b5b67654bae9fa2e2a14c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_treadmill_01.prefab using Guid(f5d4c450b5b67654bae9fa2e2a14c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2161caeb75d3e943f01d8d74fc0d8d5') in 0.034386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_dumbell_large.prefab
+  artifactKey: Guid(59025672d87c9fc4ab143f7335d09e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_dumbell_large.prefab using Guid(59025672d87c9fc4ab143f7335d09e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781be5abb3cbf7417fcfe435c797bc63') in 0.025721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_locker_room_entrance.prefab
+  artifactKey: Guid(d26a8607c5a8ad04f8decd040eb70373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_locker_room_entrance.prefab using Guid(d26a8607c5a8ad04f8decd040eb70373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f599fb9883e4363ff40b6cef688f93') in 0.032933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_speaker_01.prefab
+  artifactKey: Guid(4797315249682d646bdb1de3738d997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_speaker_01.prefab using Guid(4797315249682d646bdb1de3738d997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bf8359604af850105b1df6958dc293') in 0.462851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_dumbell_rack_01_FULL.prefab
+  artifactKey: Guid(05a24753940fab94f88dca84d82c8578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_dumbell_rack_01_FULL.prefab using Guid(05a24753940fab94f88dca84d82c8578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47432640a6cf20d186d58c572660c0e') in 0.058469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 228
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_bathroom_stalls_01.prefab
+  artifactKey: Guid(2d00d8fe45e0d1c4097e4274de68853c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_bathroom_stalls_01.prefab using Guid(2d00d8fe45e0d1c4097e4274de68853c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685f300a30b8688b7234d20af9708d6a') in 0.036634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_dumbell_medium.prefab
+  artifactKey: Guid(da31e9116acdc3944b5882a319b618ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_dumbell_medium.prefab using Guid(da31e9116acdc3944b5882a319b618ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b621bc19d35ace3b218c442e2a278a') in 0.034971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.003135 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_barbell_rack_01.prefab
+  artifactKey: Guid(ce48ce813eaa8e94c8c6470c4ee51ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_barbell_rack_01.prefab using Guid(ce48ce813eaa8e94c8c6470c4ee51ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad90d0ad728548c1eae4e8b251c1b762') in 0.048278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.006413 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_shower_mat_01.prefab
+  artifactKey: Guid(653dd1dc3173f7d489b4265782811107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_shower_mat_01.prefab using Guid(653dd1dc3173f7d489b4265782811107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971baed8faf4ce0b4f10629b07b488fb') in 0.050657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.002210 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/hmg_trim_cover_01.prefab
+  artifactKey: Guid(8e5daccf70a4e8c41992db14dd037e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/hmg_trim_cover_01.prefab using Guid(8e5daccf70a4e8c41992db14dd037e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c820a3f80dbbe124c3d4e1d9bb958a3e') in 0.035824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_balcony_overhang.prefab
+  artifactKey: Guid(4135b6054f2f2e24e99488822e63da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_balcony_overhang.prefab using Guid(4135b6054f2f2e24e99488822e63da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e056993fa3156c53a676873139f6b4e') in 0.091733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_shower_divider_01.prefab
+  artifactKey: Guid(b978d1d07a55b884d9d06e23a48b9213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_shower_divider_01.prefab using Guid(b978d1d07a55b884d9d06e23a48b9213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfc6b57c7cb264eca28baafb832208b') in 0.046517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.001334 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_wall_03.prefab
+  artifactKey: Guid(7f1dfdc7295400245bcc515ad08ded73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_wall_03.prefab using Guid(7f1dfdc7295400245bcc515ad08ded73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0333403a522f3fc30c34b9d252b0e1f6') in 0.079282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_lockers_corner_01.prefab
+  artifactKey: Guid(9e02357de301d3146b7b334b039ab4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_lockers_corner_01.prefab using Guid(9e02357de301d3146b7b334b039ab4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3abd314bd7c74caffe5c787dcc6415c') in 0.043797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.001674 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_lockers_01.prefab
+  artifactKey: Guid(6fd32d9884a773441802c4212a52f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_lockers_01.prefab using Guid(6fd32d9884a773441802c4212a52f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095bb414f25e1eaa0f4c6417a175a568') in 0.026644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_dumbell_rack_01.prefab
+  artifactKey: Guid(d45d2a36d050de14f8ee970167f1dfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_dumbell_rack_01.prefab using Guid(d45d2a36d050de14f8ee970167f1dfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f9a434f48349b276fcc524b033643c') in 0.039039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_window_01.prefab
+  artifactKey: Guid(ecbb79995a2b4354d92179e102929b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_window_01.prefab using Guid(ecbb79995a2b4354d92179e102929b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342c8d2224767b195d749724ae526319') in 0.046254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_locker_room_divider.prefab
+  artifactKey: Guid(bae06829e0f15954f812564a19b8b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_locker_room_divider.prefab using Guid(bae06829e0f15954f812564a19b8b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfbd149f368918721fb343e03126403') in 0.077575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.004908 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_support_column.prefab
+  artifactKey: Guid(fbf03d9ec214c224c9e7e20906733e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_support_column.prefab using Guid(fbf03d9ec214c224c9e7e20906733e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697b3ca31c35646d25fc611614c17fd0') in 0.089903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/hmg_vent_pipe_01.prefab
+  artifactKey: Guid(d87e4c881dff8994e9d8115e8e992754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/hmg_vent_pipe_01.prefab using Guid(d87e4c881dff8994e9d8115e8e992754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209015ec363e9c345ce28acebb4710f0') in 0.048259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.003002 seconds.
+  path: Assets/Highman Gym Pack/Prefabs/HMG_window_door.prefab
+  artifactKey: Guid(883542b6de435e44c8dc041a39066c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Highman Gym Pack/Prefabs/HMG_window_door.prefab using Guid(883542b6de435e44c8dc041a39066c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c780e5cec1a67f368f9a36b5d64bcca') in 0.062749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x3398cb000 may have been prematurely finalized
+Symbol file data-0x1464ebe00 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.983 seconds
+Domain Reload Profiling: 4548ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3984ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (1131ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (67.7 MB). Loaded Objects now: 6617.
+Memory consumption went from 237.4 MB to 169.7 MB.
+Total: 41.691042 ms (FindLiveObjects: 1.181334 ms CreateObjectMapping: 0.287667 ms MarkObjects: 25.394916 ms  DeleteObjects: 14.826125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d86b000 may have been prematurely finalized
+Symbol file data-0x14734b200 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.952 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.973 seconds
+Domain Reload Profiling: 4927ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (601ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (43ms)
+	FinalizeReload (3973ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1627ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (286ms)
+			ProcessInitializeOnLoadAttributes (1153ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (2.5 MB). Loaded Objects now: 6631.
+Memory consumption went from 242.6 MB to 240.1 MB.
+Total: 17.094375 ms (FindLiveObjects: 0.808416 ms CreateObjectMapping: 0.577584 ms MarkObjects: 13.828625 ms  DeleteObjects: 1.879000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1755.643171 seconds.
+  path: Assets/Props/BMA's Supplement Pack/Prefabs/Creatine.prefab
+  artifactKey: Guid(44ecc95769d70a0438558a45a9646603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BMA's Supplement Pack/Prefabs/Creatine.prefab using Guid(44ecc95769d70a0438558a45a9646603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ff7e2a107a124eb09aee6285e763bb') in 0.589666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Props/BMA's Supplement Pack/Prefabs/Protein shot.prefab
+  artifactKey: Guid(2fdbb5d553a4f7544bfaf369d5cc1854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BMA's Supplement Pack/Prefabs/Protein shot.prefab using Guid(2fdbb5d553a4f7544bfaf369d5cc1854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b8778f96e16458919f12d5e972e11a') in 0.026635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Props/BMA's Supplement Pack/Prefabs/Shaker, red cap.prefab
+  artifactKey: Guid(09375ac6eb2c81d4cb51133ca108effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BMA's Supplement Pack/Prefabs/Shaker, red cap.prefab using Guid(09375ac6eb2c81d4cb51133ca108effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271adc1298766e2343937c5a6b47bc8d') in 0.017100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Props/BMA's Supplement Pack/Prefabs/Whey, 5lbs.prefab
+  artifactKey: Guid(4df3b231b76808d439e018f3b2abce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BMA's Supplement Pack/Prefabs/Whey, 5lbs.prefab using Guid(4df3b231b76808d439e018f3b2abce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab138661e5d385f2e35ceb7cec85838') in 0.019902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Props/BMA's Supplement Pack/Prefabs/Shaker, blue cap.prefab
+  artifactKey: Guid(8e4c98007f91ee64cb44a6666311d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BMA's Supplement Pack/Prefabs/Shaker, blue cap.prefab using Guid(8e4c98007f91ee64cb44a6666311d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2640ac6f23466bd71cee7d5bb6c09218') in 0.024116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 12.888818 seconds.
+  path: Assets/Props/BNCBE_OfficeSet/Textures/MOB_Office_Set_A_Cooler_01_nm.tga
+  artifactKey: Guid(d5c42f6fdb4d77f409e0b37e69e64850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BNCBE_OfficeSet/Textures/MOB_Office_Set_A_Cooler_01_nm.tga using Guid(d5c42f6fdb4d77f409e0b37e69e64850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd6e161b018c2ae5627ab6d09f5ae10') in 0.172680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 682.119074 seconds.
+  path: Assets/Models/Free/WASTEBIN_TYPE23_L9_MAP_001.tga
+  artifactKey: Guid(8f640c52265776d4fa21faff1fc3265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free/WASTEBIN_TYPE23_L9_MAP_001.tga using Guid(8f640c52265776d4fa21faff1fc3265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca56812b2fc02230dd6ee1d95d2563e') in 0.077013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Models/Free/WASTEBIN_TYPE23_L9_NOR_001.tga
+  artifactKey: Guid(1fd1d13fb793db54fa54fc3567f56f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free/WASTEBIN_TYPE23_L9_NOR_001.tga using Guid(1fd1d13fb793db54fa54fc3567f56f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a83db18e1ce809079aa16275cbaedd') in 0.015949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models/Free/WASTEBIN_TYPE23_L9_SPE_001.tga
+  artifactKey: Guid(ca2401ef400167143be6fa2b7a6ae342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free/WASTEBIN_TYPE23_L9_SPE_001.tga using Guid(ca2401ef400167143be6fa2b7a6ae342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954930e3a1a9bd7abafaeedffbfcaceb') in 0.026312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 110.136201 seconds.
+  path: Assets/Models/School Supplies/Eraser.prefab
+  artifactKey: Guid(1e9452c2e358b30408e6165e6d56053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/School Supplies/Eraser.prefab using Guid(1e9452c2e358b30408e6165e6d56053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85349131d3104ea2ad91dc616bc48d58') in 0.067410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Models/School Supplies/Pen.prefab
+  artifactKey: Guid(0bc9f3e0b20fe984697b880329a181fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/School Supplies/Pen.prefab using Guid(0bc9f3e0b20fe984697b880329a181fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de593e35e4c3a2e52596583c69ee12aa') in 0.501572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/School Supplies/Pencil.prefab
+  artifactKey: Guid(acd1035e6037f5340b25cdc9d4460022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/School Supplies/Pencil.prefab using Guid(acd1035e6037f5340b25cdc9d4460022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b8ea3b2d218ea5ff33cb7e8ac9acb9') in 0.012870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 91.416554 seconds.
+  path: Assets/Model/Materials/MatBlue.mat
+  artifactKey: Guid(c74c875240baa1e4496860e4b67e8452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/MatBlue.mat using Guid(c74c875240baa1e4496860e4b67e8452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08633c2309581fed6c521b46f030cf7') in 0.796992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 811.720561 seconds.
+  path: Assets/Props/Clipboard/Materials/Metal.mat
+  artifactKey: Guid(377792ebe77b1854d950246193edc5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Clipboard/Materials/Metal.mat using Guid(377792ebe77b1854d950246193edc5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d307e011a0c41be24e44211cb7f03a') in 0.056990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 376.238907 seconds.
+  path: Assets/Props/Laptop/laptop.mat
+  artifactKey: Guid(54c38eb35b5848443a34928936331d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Laptop/laptop.mat using Guid(54c38eb35b5848443a34928936331d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6136cc689c4edfa633a11a1c0472db3a') in 0.344830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Props/Laptop/laptop_s.tga
+  artifactKey: Guid(356f2bc3a03d6b3448768ab986a926b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Laptop/laptop_s.tga using Guid(356f2bc3a03d6b3448768ab986a926b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb6bf749679f0b464321e97fc783ea2') in 0.164022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Props/Laptop/laptop_n.tga
+  artifactKey: Guid(7349e76c837a33e42a61a654719f1045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Laptop/laptop_n.tga using Guid(7349e76c837a33e42a61a654719f1045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d7c5c11689a18c8e0a8cc97b91a6c3') in 0.040165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Props/Laptop/laptop_ao.tga
+  artifactKey: Guid(26156147a2ed42744a03b6f5c1ca0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Laptop/laptop_ao.tga using Guid(26156147a2ed42744a03b6f5c1ca0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56704ed35fb375c719f221331b873d71') in 0.040732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 462.610654 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/BarFloorNormal.mat
+  artifactKey: Guid(7e0dc84c408f05548a9408863a4d7ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/BarFloorNormal.mat using Guid(7e0dc84c408f05548a9408863a4d7ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739d1879ca7fcbb19b62df741d8df11e') in 0.079925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_006.mat
+  artifactKey: Guid(23abbb2d4a8bf6e4f9a1c580d8d2f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_006.mat using Guid(23abbb2d4a8bf6e4f9a1c580d8d2f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f6cd56faaf6deb61dca74fc27ba7ca') in 0.014056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_008.mat
+  artifactKey: Guid(2ede1528976a7b646a602c4bf34000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_008.mat using Guid(2ede1528976a7b646a602c4bf34000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6aa6e602da5432a511398b2d8ad2b6') in 0.011363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/beerneonsign-Material_001.mat
+  artifactKey: Guid(b10774f88cecf0b4a8cc7d3538871cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/beerneonsign-Material_001.mat using Guid(b10774f88cecf0b4a8cc7d3538871cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f249b6181c60ea2e037f8a3025efde') in 0.014533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_029.mat
+  artifactKey: Guid(3fa00ae8d3823ea45bb3c5399afd7983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_029.mat using Guid(3fa00ae8d3823ea45bb3c5399afd7983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b44084c870444b48e295f996c884d1') in 0.013249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_017.mat
+  artifactKey: Guid(cb92dcfa8e9e78248afa3ad964b88a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_017.mat using Guid(cb92dcfa8e9e78248afa3ad964b88a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8136294abec096329a1265034ca60ef8') in 0.034119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000933 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_007.mat
+  artifactKey: Guid(9699225022672c949a155784df34b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_007.mat using Guid(9699225022672c949a155784df34b9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf34e8d71a285083ff8e782bd093dd9') in 0.025901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Baseboard_material_002.mat
+  artifactKey: Guid(00d302368138881438028afa425d31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Baseboard_material_002.mat using Guid(00d302368138881438028afa425d31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f69594f9509ccc022f4166450ee2d84') in 0.018392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001366 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_004.mat
+  artifactKey: Guid(dbddc5b6ae37ad04ea061cbf5dce4a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_004.mat using Guid(dbddc5b6ae37ad04ea061cbf5dce4a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e84611a773eee4c5ed25311dd30ae3e') in 0.019280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001568 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_028.mat
+  artifactKey: Guid(91dbe50e3665d0046bfe89e5c0ffdba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_028.mat using Guid(91dbe50e3665d0046bfe89e5c0ffdba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fd6630acbc0e8ab84337366e27312c') in 0.011949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/New Material.mat
+  artifactKey: Guid(c151c8c02d630814e92f966e98b6bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/New Material.mat using Guid(c151c8c02d630814e92f966e98b6bc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a1db3c430e1176bd586be0401a61ba') in 0.018807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004159 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Floor_material.mat
+  artifactKey: Guid(bc109af5458a1aa40a398cd6d15f4ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Floor_material.mat using Guid(bc109af5458a1aa40a398cd6d15f4ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6173bc9bb49f72d64ce62f175e37037c') in 0.022227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001350 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_013.mat
+  artifactKey: Guid(a9a2be8a405cc0644863990723c97844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_013.mat using Guid(a9a2be8a405cc0644863990723c97844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd896699f82979a2dca1b312712550c34') in 0.017415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_003.mat
+  artifactKey: Guid(97f75902b9730054284e86e18ef0be2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_003.mat using Guid(97f75902b9730054284e86e18ef0be2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7543d46445d99ff58a2b9d8bc6a5b2') in 0.013975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_022.mat
+  artifactKey: Guid(433af93327b6e2244864066b8cfa25d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_022.mat using Guid(433af93327b6e2244864066b8cfa25d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100348cef1e755e674099b6f4983891c') in 0.026542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003734 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_011.mat
+  artifactKey: Guid(5b06b40f7b708a94cb38860fa4c0e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_011.mat using Guid(5b06b40f7b708a94cb38860fa4c0e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0f2beb2d40c4ddb6f2a110a01822c0') in 0.022275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000822 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/beerneonsign-Material_003.mat
+  artifactKey: Guid(70da1ac9cdc77254597357ebb3b1fc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/beerneonsign-Material_003.mat using Guid(70da1ac9cdc77254597357ebb3b1fc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a17a7016d91cc71c942779e372cc64') in 0.179410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_005.mat
+  artifactKey: Guid(ad044bb719dad7d48a6be6f21766d7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_005.mat using Guid(ad044bb719dad7d48a6be6f21766d7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcce774bb4b9f37aaceba08bc97faec2') in 0.015873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001380 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_027.mat
+  artifactKey: Guid(fddc27643c8e79f4ca0514f80687cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_027.mat using Guid(fddc27643c8e79f4ca0514f80687cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0530692e57b6dddc6b0118f6dbaa9e8d') in 0.018834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001084 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_020.mat
+  artifactKey: Guid(1627a963ddf5f6b449063e8ee6a583ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_020.mat using Guid(1627a963ddf5f6b449063e8ee6a583ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d068fc52b8d5eed24b702b30ae0836') in 0.025997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002308 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_018.mat
+  artifactKey: Guid(6fcba5833deea924997244a0e3a1892c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_018.mat using Guid(6fcba5833deea924997244a0e3a1892c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65c44f42c8a3714f6432e32777a0261') in 0.017258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004322 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_009.mat
+  artifactKey: Guid(09cbd49576ca473478ae35d759818921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_009.mat using Guid(09cbd49576ca473478ae35d759818921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e219b15b2e5b29bdf669c4b77f6fcccb') in 0.021038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_014.mat
+  artifactKey: Guid(1bb654434cce5f74697e5157ace12a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_014.mat using Guid(1bb654434cce5f74697e5157ace12a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fc6413c0294f65caba7f6c92397939') in 0.018130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003140 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_015.mat
+  artifactKey: Guid(c177e37dc04f8af449e4528a908dd328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Bar/Materials/Material_015.mat using Guid(c177e37dc04f8af449e4528a908dd328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3178f4e357c2e55cae861611d4be4e00') in 0.011569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.278741 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(d913d2cc849cf2048b63d31ccf9b8bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/Lightmap-0_comp_dir.png using Guid(d913d2cc849cf2048b63d31ccf9b8bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1621429c656b32b08c4a38552c29a14e') in 0.029000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-3.exr
+  artifactKey: Guid(eb0f05975c196254982c17452fdebd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-3.exr using Guid(eb0f05975c196254982c17452fdebd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75857c0784337a590efed34feab15523') in 0.126571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-5.exr
+  artifactKey: Guid(69521340d3c403341acf4d250da389fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-5.exr using Guid(69521340d3c403341acf4d250da389fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c8be8de4113b9ed4672ff53b2ab278') in 0.015674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-2.exr
+  artifactKey: Guid(3990caa0a3ec3ef469c2f1a391d60ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-2.exr using Guid(3990caa0a3ec3ef469c2f1a391d60ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac624e038a0d06c095716a33c84e507e') in 0.011400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-4.exr
+  artifactKey: Guid(3885eee08b9fc1242b28630f9e880c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-4.exr using Guid(3885eee08b9fc1242b28630f9e880c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed10ad196b2f22d19c19cbd736799edc') in 0.011810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-1.exr
+  artifactKey: Guid(38b9e254d2b366c40b09c12bdd26c937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStoolDemoScene/Scenes/BarStool_DemoScene/ReflectionProbe-1.exr using Guid(38b9e254d2b366c40b09c12bdd26c937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517f8038afc36f6cda29005bd4f726f2') in 0.011312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.172883 seconds.
+  path: Assets/Props/BarStool/BarStool/Prefabs/Blue_StandardBarstool.dae
+  artifactKey: Guid(c88dd68634bf90840b801a4f2a1e07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/BarStool/BarStool/Prefabs/Blue_StandardBarstool.dae using Guid(c88dd68634bf90840b801a4f2a1e07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da6385be024ac350e611aa41cc8ed72') in 0.155238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d86b000 may have been prematurely finalized
+Symbol file data-0x147763000 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.756 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.762 seconds
+Domain Reload Profiling: 3523ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (1077ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (2.5 MB). Loaded Objects now: 6656.
+Memory consumption went from 248.8 MB to 246.3 MB.
+Total: 12.543542 ms (FindLiveObjects: 0.718042 ms CreateObjectMapping: 0.208541 ms MarkObjects: 10.110458 ms  DeleteObjects: 1.505583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16de6f000 may have been prematurely finalized
+Symbol file data-0x32842b000 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 13.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.367 seconds
+Domain Reload Profiling: 4091ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (3368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (1008ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (2.5 MB). Loaded Objects now: 6671.
+Memory consumption went from 254.0 MB to 251.5 MB.
+Total: 15.227833 ms (FindLiveObjects: 0.666958 ms CreateObjectMapping: 0.221208 ms MarkObjects: 11.643458 ms  DeleteObjects: 2.695334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16de6f000 may have been prematurely finalized
+Symbol file data-0x146600c00 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.663 seconds
+Refreshing native plugins compatible for Editor in 6.47 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.914 seconds
+Domain Reload Profiling: 3585ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (362ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2915ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1574ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (284ms)
+			ProcessInitializeOnLoadAttributes (1103ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (2.5 MB). Loaded Objects now: 6686.
+Memory consumption went from 259.2 MB to 256.7 MB.
+Total: 12.640833 ms (FindLiveObjects: 1.219708 ms CreateObjectMapping: 0.278083 ms MarkObjects: 9.958333 ms  DeleteObjects: 1.180583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
