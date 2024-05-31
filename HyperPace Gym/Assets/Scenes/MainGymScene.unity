@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 091944f170ef24ff6b9990a81438e50d, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: f030dee90f3a9404b8c70c49bc62a92c, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: e6263a13ccfb441628c47e5c99e8095a, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -134,6 +134,14 @@ PrefabInstance:
     - target: {fileID: 1158754678514140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
       propertyPath: m_Name
       value: Pen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158754678514140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825006966832668, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4414685883407140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
       propertyPath: m_LocalScale.x
@@ -341,6 +349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: phone512
       objectReference: {fileID: 0}
+    - target: {fileID: 1145214836529793487, guid: 93903fac38405d94381bff9993d61f64, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3112867370740676602, guid: 93903fac38405d94381bff9993d61f64, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.846154
@@ -411,9 +423,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 177027087363703433, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3498269993257099588, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_Name
       value: HMG_bathroom_stalls_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498269993257099588, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4307564034285059070, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_LocalScale.x
@@ -465,6 +485,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4307564034285059070, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591791585927511916, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5071095820034240643, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
@@ -545,6 +569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_window_door_frame (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5830939224564521550, guid: bfcb16887d4a1754991ba9e76b8957ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6602410061778059508, guid: bfcb16887d4a1754991ba9e76b8957ce, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.83
@@ -615,6 +643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bench_01
       objectReference: {fileID: 0}
+    - target: {fileID: 323278554532559009, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1096438000815596059, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4999998
@@ -682,6 +714,14 @@ PrefabInstance:
     - target: {fileID: 3377130113767330200, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618351746569204506, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972395672864599624, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -861,6 +901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_floor_tile_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5173626059820504742, guid: a73e995e96c09a9418a5a56427244095, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5514580576356420636, guid: a73e995e96c09a9418a5a56427244095, type: 3}
       propertyPath: m_LocalScale.x
       value: 7.9
@@ -971,6 +1015,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760659669}
     m_Modifications:
+    - target: {fileID: 997997979049067474, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4903653653087386173, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4999998
@@ -1027,6 +1075,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bicep_curl_machine_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5712419928789852295, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907327250306976801, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939606923424306883, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983042485920186310, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1049,6 +1113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_bench_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8517994105720723677, guid: 71f34739d2e837148852180206cba5d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9042715880616264295, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1059,7 +1127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9042715880616264295, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 9042715880616264295, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1158,6 +1226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_divider (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -1224,14 +1296,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1702592373744781241, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097878307821906405, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1240,6 +1324,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1296,10 +1384,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1318,9 +1414,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760659669}
     m_Modifications:
+    - target: {fileID: 1417587890185990645, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2348136971558065439, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4321455308772805732, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514626182118220909, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6929108763261678216, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
       propertyPath: m_Name
       value: HMG_fly_machine_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929108763261678216, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7738014402081876018, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
       propertyPath: m_LocalScale.x
@@ -1396,6 +1512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bench_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 323278554532559009, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1096438000815596059, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4999998
@@ -1463,6 +1583,14 @@ PrefabInstance:
     - target: {fileID: 3377130113767330200, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618351746569204506, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972395672864599624, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1542,6 +1670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_clock_01
       objectReference: {fileID: 0}
+    - target: {fileID: 9131353193378781730, guid: 75be1ae1bdc24394480e2b9e5b130ab4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1567,6 +1699,10 @@ PrefabInstance:
     - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_divider (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1698,6 +1834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_entrance (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9011470209471421793, guid: d26a8607c5a8ad04f8decd040eb70373, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1716,6 +1856,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1985579884}
     m_Modifications:
+    - target: {fileID: 2868286613004840775, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693925473385204884, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5147080594295013579, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1772,6 +1920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_barbell_rack_01_FULL
       objectReference: {fileID: 0}
+    - target: {fileID: 5487014007857650289, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 316911666548328415, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
@@ -1823,9 +1975,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 1028298447856264, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451490347123022, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1716111664439686, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
       propertyPath: m_Name
       value: laptop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716111664439686, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4763079543819776, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1985,6 +2149,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 294778902679800959, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2364276285295695418, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -2004,6 +2172,10 @@ PrefabInstance:
     - target: {fileID: 4983637973364799292, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_Name
       value: hmg_toilet (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983637973364799292, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5648253876285877638, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalScale.x
@@ -2057,6 +2229,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8624810430552280406, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2107,6 +2283,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 294778902679800959, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2364276285295695418, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.67559016
@@ -2126,6 +2306,10 @@ PrefabInstance:
     - target: {fileID: 4983637973364799292, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_Name
       value: hmg_toilet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983637973364799292, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5648253876285877638, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalScale.x
@@ -2177,6 +2361,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5648253876285877638, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8624810430552280406, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2379,6 +2567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_dumbell_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2979839495543799752, guid: 59025672d87c9fc4ab143f7335d09e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2400,6 +2592,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b42d8ed352e936b408a1eac1967fad87, type: 3}
       propertyPath: m_Name
       value: snacks
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b42d8ed352e936b408a1eac1967fad87, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b42d8ed352e936b408a1eac1967fad87, type: 3}
       propertyPath: m_LocalScale.x
@@ -2577,6 +2773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_tv_screen_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1161581737911172030, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2673,6 +2873,10 @@ PrefabInstance:
     - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Name
       value: HMG_tv_screen_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1161581737911172030, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2783,6 +2987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bench_press_rack (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7701360263952337775, guid: 514e3acad2fc75c40876a8a733aa036d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2804,6 +3012,10 @@ PrefabInstance:
     - target: {fileID: 190282, guid: 01ad085925c8a0f45a8e3a9cb5365427, type: 3}
       propertyPath: m_Name
       value: Vitamin, apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 190282, guid: 01ad085925c8a0f45a8e3a9cb5365427, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 445322, guid: 01ad085925c8a0f45a8e3a9cb5365427, type: 3}
       propertyPath: m_LocalScale.x
@@ -2878,6 +3090,10 @@ PrefabInstance:
     - target: {fileID: 1217707077934046, guid: acd1035e6037f5340b25cdc9d4460022, type: 3}
       propertyPath: m_Name
       value: Pencil (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217707077934046, guid: acd1035e6037f5340b25cdc9d4460022, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4105059492611526, guid: acd1035e6037f5340b25cdc9d4460022, type: 3}
       propertyPath: m_LocalScale.x
@@ -2983,6 +3199,7 @@ Transform:
   - {fileID: 1320005120}
   - {fileID: 760659669}
   - {fileID: 1525352858}
+  - {fileID: 777015130}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &274739000
@@ -3116,6 +3333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_window_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8647064401166310978, guid: ecbb79995a2b4354d92179e102929b8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3138,14 +3359,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1702592373744781241, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097878307821906405, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3154,6 +3387,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -3210,10 +3447,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3436,6 +3681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_dumbell_medium (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3959877993676805325, guid: da31e9116acdc3944b5882a319b618ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4449416392626556535, guid: da31e9116acdc3944b5882a319b618ac, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -3517,6 +3766,10 @@ PrefabInstance:
     - target: {fileID: 3576992885678471338, guid: 0f318aa2419c6bd448454e138dd28b15, type: 3}
       propertyPath: m_Name
       value: hmg_yoga_mat_rolled
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576992885678471338, guid: 0f318aa2419c6bd448454e138dd28b15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4246851290367697424, guid: 0f318aa2419c6bd448454e138dd28b15, type: 3}
       propertyPath: m_LocalScale.x
@@ -3644,6 +3897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hmg_yogamat (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5626281528711399934, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6130645172444260395, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3710,6 +3967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_tv_screen_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1161581737911172030, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3732,9 +3993,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760659669}
     m_Modifications:
+    - target: {fileID: 1417587890185990645, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2348136971558065439, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4321455308772805732, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514626182118220909, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6929108763261678216, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
       propertyPath: m_Name
       value: HMG_fly_machine_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929108763261678216, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7738014402081876018, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
       propertyPath: m_LocalScale.x
@@ -3862,6 +4143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hmg_yogamat
       objectReference: {fileID: 0}
+    - target: {fileID: 5626281528711399934, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6130645172444260395, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3887,6 +4172,10 @@ PrefabInstance:
     - target: {fileID: 177444, guid: c99e10d745f0fad45b867310bb962b84, type: 3}
       propertyPath: m_Name
       value: Shaker, pink
+      objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: c99e10d745f0fad45b867310bb962b84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 458710, guid: c99e10d745f0fad45b867310bb962b84, type: 3}
       propertyPath: m_LocalScale.x
@@ -3958,9 +4247,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 1182431919570870, guid: 00931e932c93cef48ae2d8cc87408c66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1832049472115158, guid: 00931e932c93cef48ae2d8cc87408c66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1884156196641044, guid: 00931e932c93cef48ae2d8cc87408c66, type: 3}
       propertyPath: m_Name
       value: Notepad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1884156196641044, guid: 00931e932c93cef48ae2d8cc87408c66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4527064727974542, guid: 00931e932c93cef48ae2d8cc87408c66, type: 3}
       propertyPath: m_LocalScale.x
@@ -4047,6 +4348,10 @@ PrefabInstance:
     - target: {fileID: 8504764898665336763, guid: acb2281c630ea034f9082d63570af2bb, type: 3}
       propertyPath: m_Name
       value: HMG_ReceptionCounter_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504764898665336763, guid: acb2281c630ea034f9082d63570af2bb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9028923619720877313, guid: acb2281c630ea034f9082d63570af2bb, type: 3}
       propertyPath: m_LocalScale.x
@@ -4205,6 +4510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bench_press_rack (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7701360263952337775, guid: 514e3acad2fc75c40876a8a733aa036d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4325,6 +4634,10 @@ PrefabInstance:
     - target: {fileID: 194044, guid: c5c16fbf60fbeb143acbf29a92228616, type: 3}
       propertyPath: m_Name
       value: Energybang
+      objectReference: {fileID: 0}
+    - target: {fileID: 194044, guid: c5c16fbf60fbeb143acbf29a92228616, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 408150, guid: c5c16fbf60fbeb143acbf29a92228616, type: 3}
       propertyPath: m_LocalScale.x
@@ -4527,6 +4840,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pen (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1158754678514140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825006966832668, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4414685883407140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5384617
@@ -4589,6 +4910,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4414685883407140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
   m_PrefabInstance: {fileID: 461181099}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &478944354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8944336655422409498, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
+  m_PrefabInstance: {fileID: 1521851809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &478944358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
+  m_PrefabInstance: {fileID: 1521851809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &478944359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478944354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 478944358}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1001 &492046217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4600,6 +4991,10 @@ PrefabInstance:
     - target: {fileID: 5172742085642319787, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
       propertyPath: m_Name
       value: HMG_wall_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172742085642319787, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5513132900869745937, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
       propertyPath: m_LocalScale.x
@@ -4852,6 +5247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bench_press_rack (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7701360263952337775, guid: 514e3acad2fc75c40876a8a733aa036d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4902,6 +5301,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 294778902679800959, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2364276285295695418, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -4921,6 +5324,10 @@ PrefabInstance:
     - target: {fileID: 4983637973364799292, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_Name
       value: hmg_toilet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983637973364799292, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5648253876285877638, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalScale.x
@@ -4974,6 +5381,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8624810430552280406, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4995,6 +5406,10 @@ PrefabInstance:
     - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_Name
       value: HMG_treadmill_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4074735217932335609, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_LocalScale.x
@@ -5168,6 +5583,10 @@ PrefabInstance:
     - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_divider (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.y
@@ -5371,6 +5790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shaker, pink (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: c99e10d745f0fad45b867310bb962b84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 458710, guid: c99e10d745f0fad45b867310bb962b84, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
@@ -5496,6 +5919,11 @@ Transform:
   - {fileID: 205184724}
   m_Father: {fileID: 1884056130}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &586205523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+  m_PrefabInstance: {fileID: 1720048433}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &587214023
 GameObject:
   m_ObjectHideFlags: 0
@@ -5542,6 +5970,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 1825926835337928719, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697578801876380081, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5510744984186987931, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5549,6 +5985,10 @@ PrefabInstance:
     - target: {fileID: 6303602612454589518, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
       propertyPath: m_Name
       value: HMG_lockers_corner_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303602612454589518, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6499217046663891044, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5610,6 +6050,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 7416646449843123214, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8369988219494136349, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
       propertyPath: m_LocalRotation.w
       value: -0.17364807
@@ -5634,6 +6078,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 9179456838596731047, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5655,6 +6103,10 @@ PrefabInstance:
     - target: {fileID: 4307560395867504668, guid: bf0ea4a7b2c279047a7d801bff445913, type: 3}
       propertyPath: m_Name
       value: Fire Extinguisher (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307560395867504668, guid: bf0ea4a7b2c279047a7d801bff445913, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345197550711715204, guid: bf0ea4a7b2c279047a7d801bff445913, type: 3}
       propertyPath: m_LocalScale.x
@@ -5917,6 +6369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black_StandardBarstool
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cf05b2158505a5e48844e2fee5e3819a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cf05b2158505a5e48844e2fee5e3819a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5
@@ -6123,6 +6579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vitamin, apple (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 190282, guid: 01ad085925c8a0f45a8e3a9cb5365427, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 445322, guid: 01ad085925c8a0f45a8e3a9cb5365427, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.04
@@ -6241,6 +6701,10 @@ PrefabInstance:
     - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_Name
       value: Cola Can
+      objectReference: {fileID: 0}
+    - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_LocalScale.x
@@ -6375,9 +6839,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 100000, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
       propertyPath: m_Name
       value: PaperCrane (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
       propertyPath: m_LocalScale.x
@@ -6445,100 +6917,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
   m_PrefabInstance: {fileID: 687208642}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &688933096
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 688933098}
-  - component: {fileID: 688933097}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &688933097
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688933096}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 1
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &688933098
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688933096}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -0.811, y: 9.914, z: 1.405}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &690181800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6606,6 +6984,10 @@ PrefabInstance:
     - target: {fileID: 4155135365727625883, guid: 4797315249682d646bdb1de3738d997f, type: 3}
       propertyPath: m_Name
       value: HMG_speaker_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155135365727625883, guid: 4797315249682d646bdb1de3738d997f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6712,6 +7094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hmg_yogamat
       objectReference: {fileID: 0}
+    - target: {fileID: 5626281528711399934, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6130645172444260395, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6810,6 +7196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_tv_screen_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1161581737911172030, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6832,9 +7222,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 1436944102497898, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_Name
       value: Clipboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954106281014710, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4795266759639050, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_LocalScale.x
@@ -6910,6 +7312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_bench_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8517994105720723677, guid: 71f34739d2e837148852180206cba5d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9042715880616264295, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -6980,6 +7386,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760659669}
     m_Modifications:
+    - target: {fileID: 997997979049067474, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4903653653087386173, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4999998
@@ -7036,6 +7446,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bicep_curl_machine_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5712419928789852295, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907327250306976801, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939606923424306883, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983042485920186310, guid: 7fe513f45cb6b254490f84edd595995c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7061,6 +7487,10 @@ PrefabInstance:
     - target: {fileID: 5830939224564521550, guid: bfcb16887d4a1754991ba9e76b8957ce, type: 3}
       propertyPath: m_Name
       value: HMG_window_door_frame (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830939224564521550, guid: bfcb16887d4a1754991ba9e76b8957ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6602410061778059508, guid: bfcb16887d4a1754991ba9e76b8957ce, type: 3}
       propertyPath: m_LocalScale.x
@@ -7131,6 +7561,10 @@ PrefabInstance:
     - target: {fileID: 5172742085642319787, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
       propertyPath: m_Name
       value: HMG_wall_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172742085642319787, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5513132900869745937, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
       propertyPath: m_LocalScale.x
@@ -7205,6 +7639,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0bd7b40e5b828884dbc8f918b741f871, type: 3}
       propertyPath: m_Name
       value: mob_WaterCooler_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0bd7b40e5b828884dbc8f918b741f871, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0bd7b40e5b828884dbc8f918b741f871, type: 3}
       propertyPath: m_LocalScale.x
@@ -7885,6 +8323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_treadmill_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4074735217932335609, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.2
@@ -7963,6 +8405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_divider (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -8017,6 +8463,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
   m_PrefabInstance: {fileID: 771776071}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &777015129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777015130}
+  m_Layer: 0
+  m_Name: Ceiling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &777015130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777015129}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 586205523}
+  - {fileID: 1940329904}
+  m_Father: {fileID: 266672358}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &778351827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8028,6 +8507,10 @@ PrefabInstance:
     - target: {fileID: 5172742085642319787, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
       propertyPath: m_Name
       value: HMG_wall_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172742085642319787, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5513132900869745937, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
       propertyPath: m_LocalScale.x
@@ -8102,6 +8585,14 @@ PrefabInstance:
     - target: {fileID: 1158754678514140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
       propertyPath: m_Name
       value: Pen (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158754678514140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825006966832668, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4414685883407140, guid: 0bc9f3e0b20fe984697b880329a181fd, type: 3}
       propertyPath: m_LocalScale.x
@@ -8229,6 +8720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hmg_yogamat (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5626281528711399934, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6130645172444260395, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8283,9 +8778,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 760659669}
     m_Modifications:
+    - target: {fileID: 1417587890185990645, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2348136971558065439, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4321455308772805732, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514626182118220909, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6929108763261678216, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
       propertyPath: m_Name
       value: HMG_fly_machine_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929108763261678216, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7738014402081876018, guid: aa78e0982ad05eb4baafb0578586e5a4, type: 3}
       propertyPath: m_LocalScale.x
@@ -8424,6 +8939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_window_door
       objectReference: {fileID: 0}
+    - target: {fileID: 8426489792735057701, guid: 883542b6de435e44c8dc041a39066c04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9204011280818359711, guid: 883542b6de435e44c8dc041a39066c04, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6599998
@@ -8521,9 +9040,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 100000, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
       propertyPath: m_Name
       value: PaperCrane
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d93bc5bf0eeb6fb4eb9b30ceabe8430d, type: 3}
       propertyPath: m_LocalScale.x
@@ -8599,6 +9126,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1985579884}
     m_Modifications:
+    - target: {fileID: 316911666548328415, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868286613004840775, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693925473385204884, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5147080594295013579, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -8655,6 +9194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_barbell_rack_01_FULL
       objectReference: {fileID: 0}
+    - target: {fileID: 5487014007857650289, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8709,6 +9252,10 @@ PrefabInstance:
     - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_Name
       value: HMG_treadmill_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4074735217932335609, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_LocalScale.x
@@ -8784,14 +9331,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1702592373744781241, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4184900023462101434, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.42261827
@@ -8812,6 +9371,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -8868,10 +9431,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8890,9 +9461,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 2246369942039601103, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811778832875698467, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_Name
       value: HMG_shower_divider_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811778832875698467, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3953963933685583330, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8966,6 +9545,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7295205965800043046, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517434942973146250, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8984,9 +9571,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 1436944102497898, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_Name
       value: Clipboard
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954106281014710, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4795266759639050, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_LocalScale.x
@@ -9062,14 +9661,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1702592373744781241, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4184900023462101434, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.97629607
@@ -9090,6 +9701,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -9146,10 +9761,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9241,6 +9864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_window_door (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8426489792735057701, guid: 883542b6de435e44c8dc041a39066c04, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9204011280818359711, guid: 883542b6de435e44c8dc041a39066c04, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6600001
@@ -9307,9 +9934,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 177027087363703433, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3498269993257099588, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_Name
       value: HMG_bathroom_stalls_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498269993257099588, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4307564034285059070, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_LocalScale.x
@@ -9363,6 +9998,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4591791585927511916, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5071095820034240643, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -9404,6 +10043,10 @@ PrefabInstance:
     - target: {fileID: 5944701028281521510, guid: c20d46d4d4056fc4e8711b02152ad827, type: 3}
       propertyPath: m_Name
       value: hmg_barbell_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944701028281521510, guid: c20d46d4d4056fc4e8711b02152ad827, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6427765566658760668, guid: c20d46d4d4056fc4e8711b02152ad827, type: 3}
       propertyPath: m_LocalScale.x
@@ -9479,6 +10122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bench_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 323278554532559009, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1096438000815596059, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4999998
@@ -9547,6 +10194,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -85
       objectReference: {fileID: 0}
+    - target: {fileID: 3618351746569204506, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972395672864599624, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9568,6 +10223,10 @@ PrefabInstance:
     - target: {fileID: 8517994105720723677, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_bench_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517994105720723677, guid: 71f34739d2e837148852180206cba5d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9042715880616264295, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_LocalScale.x
@@ -9642,6 +10301,10 @@ PrefabInstance:
     - target: {fileID: 5173626059820504742, guid: a73e995e96c09a9418a5a56427244095, type: 3}
       propertyPath: m_Name
       value: HMG_floor_tile_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173626059820504742, guid: a73e995e96c09a9418a5a56427244095, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5514580576356420636, guid: a73e995e96c09a9418a5a56427244095, type: 3}
       propertyPath: m_LocalScale.x
@@ -9834,6 +10497,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 294778902679800959, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2364276285295695418, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.67559016
@@ -9853,6 +10520,10 @@ PrefabInstance:
     - target: {fileID: 4983637973364799292, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_Name
       value: hmg_toilet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983637973364799292, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5648253876285877638, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalScale.x
@@ -9904,6 +10575,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5648253876285877638, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8624810430552280406, guid: 805cbcbd13bcd4e41a6473fde17adff6, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10102,6 +10777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_bench_01
       objectReference: {fileID: 0}
+    - target: {fileID: 8517994105720723677, guid: 71f34739d2e837148852180206cba5d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9042715880616264295, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -10213,6 +10892,10 @@ PrefabInstance:
     - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_divider (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.y
@@ -10409,6 +11092,10 @@ PrefabInstance:
     - target: {fileID: 123754, guid: 44ecc95769d70a0438558a45a9646603, type: 3}
       propertyPath: m_Name
       value: Creatine
+      objectReference: {fileID: 0}
+    - target: {fileID: 123754, guid: 44ecc95769d70a0438558a45a9646603, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 482764, guid: 44ecc95769d70a0438558a45a9646603, type: 3}
       propertyPath: m_LocalScale.x
@@ -10853,6 +11540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_dumbell_large
       objectReference: {fileID: 0}
+    - target: {fileID: 2979839495543799752, guid: 59025672d87c9fc4ab143f7335d09e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10927,6 +11618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: phone1k (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5560905291789515636, guid: 4b658ae02ca4e154f80cea2d74db1ef1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10985,6 +11680,10 @@ PrefabInstance:
     - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_divider
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.y
@@ -11083,6 +11782,10 @@ PrefabInstance:
     - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_Name
       value: HMG_treadmill_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4074735217932335609, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_LocalScale.x
@@ -11190,6 +11893,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 1825926835337928719, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697578801876380081, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5510744984186987931, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -11197,6 +11908,10 @@ PrefabInstance:
     - target: {fileID: 6303602612454589518, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
       propertyPath: m_Name
       value: HMG_lockers_corner_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303602612454589518, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6499217046663891044, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11258,10 +11973,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 7416646449843123214, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9074125250259588571, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 9179456838596731047, guid: 9e02357de301d3146b7b334b039ab4e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11336,6 +12059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: phone1k
       objectReference: {fileID: 0}
+    - target: {fileID: 5560905291789515636, guid: 4b658ae02ca4e154f80cea2d74db1ef1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11357,6 +12084,10 @@ PrefabInstance:
     - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_Name
       value: Cola Can (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_LocalScale.x
@@ -11496,6 +12227,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1985579884}
     m_Modifications:
+    - target: {fileID: 316911666548328415, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693925473385204884, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5147080594295013579, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -11552,6 +12291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_barbell_rack_01_FULL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5487014007857650289, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2868286613004840775, guid: e86fa70347fb8284381cbfd142baa8d9, type: 3}
@@ -11575,6 +12318,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1640905691170173891, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.42261827
@@ -11591,10 +12338,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097878307821906405, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -11603,6 +12358,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -11659,10 +12418,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12012,6 +12779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shaker, blue cap
       objectReference: {fileID: 0}
+    - target: {fileID: 183018, guid: 8e4c98007f91ee64cb44a6666311d78d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 428514, guid: 8e4c98007f91ee64cb44a6666311d78d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000003
@@ -12085,6 +12856,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b42d8ed352e936b408a1eac1967fad87, type: 3}
       propertyPath: m_Name
       value: snacks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b42d8ed352e936b408a1eac1967fad87, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b42d8ed352e936b408a1eac1967fad87, type: 3}
       propertyPath: m_LocalScale.x
@@ -12163,6 +12938,10 @@ PrefabInstance:
     - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_divider (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.y
@@ -12293,6 +13072,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1640905691170173891, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.42261827
@@ -12309,10 +13092,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097878307821906405, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12321,6 +13112,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -12377,10 +13172,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12459,14 +13262,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -25
       objectReference: {fileID: 0}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1702592373744781241, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097878307821906405, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12475,6 +13290,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -12531,10 +13350,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12553,9 +13380,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 2246369942039601103, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811778832875698467, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_Name
       value: HMG_shower_divider_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811778832875698467, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3900478546393879182, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12649,6 +13484,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7295205965800043046, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517434942973146250, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12713,6 +13556,10 @@ PrefabInstance:
     - target: {fileID: 8504764898665336763, guid: acb2281c630ea034f9082d63570af2bb, type: 3}
       propertyPath: m_Name
       value: HMG_ReceptionCounter_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504764898665336763, guid: acb2281c630ea034f9082d63570af2bb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9028923619720877313, guid: acb2281c630ea034f9082d63570af2bb, type: 3}
       propertyPath: m_LocalScale.x
@@ -12929,6 +13776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hmg_yogamat
       objectReference: {fileID: 0}
+    - target: {fileID: 5626281528711399934, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6130645172444260395, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -12985,6 +13836,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 39bcb2bc55ab6c14a8d3f24fc5e07575, type: 3}
       propertyPath: m_Name
       value: trash
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 39bcb2bc55ab6c14a8d3f24fc5e07575, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 39bcb2bc55ab6c14a8d3f24fc5e07575, type: 3}
       propertyPath: m_LocalScale.x
@@ -13172,6 +14027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_speaker_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4155135365727625883, guid: 4797315249682d646bdb1de3738d997f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13249,6 +14108,10 @@ PrefabInstance:
     - target: {fileID: 4155135365727625883, guid: 4797315249682d646bdb1de3738d997f, type: 3}
       propertyPath: m_Name
       value: HMG_speaker_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155135365727625883, guid: 4797315249682d646bdb1de3738d997f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13530,9 +14393,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 1028298447856264, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451490347123022, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1716111664439686, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
       propertyPath: m_Name
       value: laptop (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716111664439686, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4763079543819776, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13764,6 +14639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_tv_screen_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1161581737911172030, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13849,7 +14728,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8944336655422409498, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 478944359}
   m_SourcePrefab: {fileID: 100100000, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
 --- !u!1 &1525352857
 GameObject:
@@ -13960,6 +14842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_large_mirror_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6868570571413603805, guid: 5edb8171d743fcb42afc23a110c18046, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14015,6 +14901,10 @@ PrefabInstance:
     - target: {fileID: 323278554532559009, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_Name
       value: HMG_bench_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 323278554532559009, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1096438000815596059, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_LocalScale.x
@@ -14084,6 +14974,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3618351746569204506, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972395672864599624, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14105,6 +15003,10 @@ PrefabInstance:
     - target: {fileID: 167844, guid: 09375ac6eb2c81d4cb51133ca108effd, type: 3}
       propertyPath: m_Name
       value: Shaker, red cap
+      objectReference: {fileID: 0}
+    - target: {fileID: 167844, guid: 09375ac6eb2c81d4cb51133ca108effd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 423276, guid: 09375ac6eb2c81d4cb51133ca108effd, type: 3}
       propertyPath: m_LocalScale.x
@@ -14180,6 +15082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_bench_01
       objectReference: {fileID: 0}
+    - target: {fileID: 8517994105720723677, guid: 71f34739d2e837148852180206cba5d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9042715880616264295, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -14253,6 +15159,10 @@ PrefabInstance:
     - target: {fileID: 1191933010613832, guid: 42db2464346d91c47b812288879592f1, type: 3}
       propertyPath: m_Name
       value: smartphone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1191933010613832, guid: 42db2464346d91c47b812288879592f1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4717887507390182, guid: 42db2464346d91c47b812288879592f1, type: 3}
       propertyPath: m_LocalScale.x
@@ -14415,6 +15325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_large_mirror_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6868570571413603805, guid: 5edb8171d743fcb42afc23a110c18046, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14501,9 +15415,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 177027087363703433, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3498269993257099588, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_Name
       value: HMG_bathroom_stalls_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498269993257099588, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4307564034285059070, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_LocalScale.x
@@ -14555,6 +15477,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4307564034285059070, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591791585927511916, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5071095820034240643, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
@@ -14635,6 +15561,10 @@ PrefabInstance:
     - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_divider (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.y
@@ -14729,9 +15659,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 1436944102497898, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_Name
       value: Clipboard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685343955664076, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954106281014710, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4795266759639050, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_LocalScale.x
@@ -14907,6 +15849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shaker, yellow cap
       objectReference: {fileID: 0}
+    - target: {fileID: 146966, guid: 871182fa14ca433429b943948252233d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 477858, guid: 871182fa14ca433429b943948252233d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -15008,6 +15954,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1347741686}
     m_Modifications:
+    - target: {fileID: 132323752302949774, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 282464729097453541, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 834819094827797567, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632069135670841183, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1711787080457411460, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4999995
@@ -15060,9 +16022,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1729703045790407860, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863557571259219114, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2056647405338886462, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
       propertyPath: m_Name
       value: HMG_dumbell_rack_01_FULL
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056647405338886462, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2156545375123166693, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15095,6 +16069,26 @@ PrefabInstance:
     - target: {fileID: 2156545375123166693, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 122.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429644817067152255, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2709353614490473366, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287654670057540367, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3389523667984947565, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504594766972206425, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3528089776335172089, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15130,6 +16124,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3528089776335172089, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111789140123566446, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4304766529713826627, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4655414835276903017, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4789785010081164257, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
@@ -15168,6 +16174,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 4848785502505609274, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904908917936460540, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273259280984475592, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274679135888781659, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571050675633458897, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237003300506404196, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7478319798082520671, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7785535056577285988, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844923570603158596, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203179177133480453, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4092293887294296753, guid: 05a24753940fab94f88dca84d82c8578, type: 3}
@@ -15198,6 +16244,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cf05b2158505a5e48844e2fee5e3819a, type: 3}
       propertyPath: m_Name
       value: Black_StandardBarstool (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cf05b2158505a5e48844e2fee5e3819a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cf05b2158505a5e48844e2fee5e3819a, type: 3}
       propertyPath: m_LocalScale.x
@@ -15294,9 +16344,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 2246369942039601103, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811778832875698467, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_Name
       value: HMG_shower_divider_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811778832875698467, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3900478546393879182, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15368,6 +16426,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4588596323725927321, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7295205965800043046, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517434942973146250, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15456,6 +16522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_TVCounter
       objectReference: {fileID: 0}
+    - target: {fileID: 9191048422387883573, guid: d08e7fee03f171548b0e0300a180ae11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15477,6 +16547,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cf05b2158505a5e48844e2fee5e3819a, type: 3}
       propertyPath: m_Name
       value: Black_StandardBarstool (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cf05b2158505a5e48844e2fee5e3819a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cf05b2158505a5e48844e2fee5e3819a, type: 3}
       propertyPath: m_LocalScale.x
@@ -15586,6 +16660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Whey, 2lbs (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 143718, guid: ea7f6f5d6160c59439a63cfa92f15d7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 444728, guid: ea7f6f5d6160c59439a63cfa92f15d7a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.33000004
@@ -15678,7 +16756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3666441598048925729, guid: 4797315249682d646bdb1de3738d997f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 54.217
+      value: 53.632
       objectReference: {fileID: 0}
     - target: {fileID: 3666441598048925729, guid: 4797315249682d646bdb1de3738d997f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15715,6 +16793,10 @@ PrefabInstance:
     - target: {fileID: 4155135365727625883, guid: 4797315249682d646bdb1de3738d997f, type: 3}
       propertyPath: m_Name
       value: HMG_speaker_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155135365727625883, guid: 4797315249682d646bdb1de3738d997f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15778,6 +16860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_tv_screen_01
       objectReference: {fileID: 0}
+    - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1161581737911172030, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -15803,6 +16889,10 @@ PrefabInstance:
     - target: {fileID: 177444, guid: c99e10d745f0fad45b867310bb962b84, type: 3}
       propertyPath: m_Name
       value: Shaker, pink (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: c99e10d745f0fad45b867310bb962b84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 458710, guid: c99e10d745f0fad45b867310bb962b84, type: 3}
       propertyPath: m_LocalScale.x
@@ -15874,9 +16964,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 177027087363703433, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3498269993257099588, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_Name
       value: HMG_bathroom_stalls_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498269993257099588, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4307564034285059070, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_LocalScale.x
@@ -15928,6 +17026,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4307564034285059070, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591791585927511916, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5071095820034240643, guid: 2d00d8fe45e0d1c4097e4274de68853c, type: 3}
@@ -15984,14 +17086,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -25
       objectReference: {fileID: 0}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1702592373744781241, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097878307821906405, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -16000,6 +17114,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -16056,10 +17174,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16134,6 +17260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_dumbell_large
       objectReference: {fileID: 0}
+    - target: {fileID: 2979839495543799752, guid: 59025672d87c9fc4ab143f7335d09e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16155,6 +17285,10 @@ PrefabInstance:
     - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_Name
       value: HMG_treadmill_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4074735217932335609, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_LocalScale.x
@@ -16238,6 +17372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_divider (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.9
@@ -16300,6 +17438,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
   m_PrefabInstance: {fileID: 1719309650}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1720048433
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 777015130}
+    m_Modifications:
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252203949993617313, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_Name
+      value: HMG_ceiling_tile_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252203949993617313, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
 --- !u!1001 &1722592583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16311,6 +17522,10 @@ PrefabInstance:
     - target: {fileID: 4307560395867504668, guid: bf0ea4a7b2c279047a7d801bff445913, type: 3}
       propertyPath: m_Name
       value: Fire Extinguisher
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307560395867504668, guid: bf0ea4a7b2c279047a7d801bff445913, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345197550711715204, guid: bf0ea4a7b2c279047a7d801bff445913, type: 3}
       propertyPath: m_LocalScale.x
@@ -16385,6 +17600,10 @@ PrefabInstance:
     - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_Name
       value: HMG_treadmill_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731107750513550147, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4074735217932335609, guid: f5d4c450b5b67654bae9fa2e2a14c43d, type: 3}
       propertyPath: m_LocalScale.x
@@ -16552,6 +17771,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1347741686}
     m_Modifications:
     - target: {fileID: 4923257906144535560, guid: 5edb8171d743fcb42afc23a110c18046, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923257906144535560, guid: 5edb8171d743fcb42afc23a110c18046, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ea39ab68f35a18144a1808892cebf028, type: 2}
@@ -16614,6 +17837,10 @@ PrefabInstance:
     - target: {fileID: 6868570571413603805, guid: 5edb8171d743fcb42afc23a110c18046, type: 3}
       propertyPath: m_Name
       value: HMG_large_mirror_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6868570571413603805, guid: 5edb8171d743fcb42afc23a110c18046, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16900,6 +18127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_ReceptionCounter_1
       objectReference: {fileID: 0}
+    - target: {fileID: 9191048422387883573, guid: d08e7fee03f171548b0e0300a180ae11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16953,6 +18184,10 @@ PrefabInstance:
     - target: {fileID: 143718, guid: ea7f6f5d6160c59439a63cfa92f15d7a, type: 3}
       propertyPath: m_Name
       value: Whey, 2lbs
+      objectReference: {fileID: 0}
+    - target: {fileID: 143718, guid: ea7f6f5d6160c59439a63cfa92f15d7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 444728, guid: ea7f6f5d6160c59439a63cfa92f15d7a, type: 3}
       propertyPath: m_LocalScale.x
@@ -17187,6 +18422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hmg_barbell_large
       objectReference: {fileID: 0}
+    - target: {fileID: 5944701028281521510, guid: c20d46d4d4056fc4e8711b02152ad827, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6427765566658760668, guid: c20d46d4d4056fc4e8711b02152ad827, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -17260,6 +18499,10 @@ PrefabInstance:
     - target: {fileID: 8517994105720723677, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_bench_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517994105720723677, guid: 71f34739d2e837148852180206cba5d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9042715880616264295, guid: 71f34739d2e837148852180206cba5d3, type: 3}
       propertyPath: m_LocalScale.x
@@ -17335,14 +18578,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1702592373744781241, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097878307821906405, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17351,6 +18606,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -17407,6 +18666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6807146885934872785, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.97629607
@@ -17423,6 +18686,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17602,6 +18869,10 @@ PrefabInstance:
     - target: {fileID: 9191048422387883573, guid: d08e7fee03f171548b0e0300a180ae11, type: 3}
       propertyPath: m_Name
       value: HMG_TVCounter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9191048422387883573, guid: d08e7fee03f171548b0e0300a180ae11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17854,6 +19125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hmg_yogamat
       objectReference: {fileID: 0}
+    - target: {fileID: 5626281528711399934, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6130645172444260395, guid: 026dd9754a1bae94ca5ba01acd593c83, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17936,6 +19211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_window_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8647064401166310978, guid: ecbb79995a2b4354d92179e102929b8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17985,9 +19264,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1804630507}
     m_Modifications:
+    - target: {fileID: 1028298447856264, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451490347123022, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1716111664439686, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
       propertyPath: m_Name
       value: laptop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716111664439686, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4763079543819776, guid: d95dfe9eeea7731489064565a2d8b306, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18082,6 +19373,10 @@ PrefabInstance:
     - target: {fileID: 1217707077934046, guid: acd1035e6037f5340b25cdc9d4460022, type: 3}
       propertyPath: m_Name
       value: Pencil
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217707077934046, guid: acd1035e6037f5340b25cdc9d4460022, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4105059492611526, guid: acd1035e6037f5340b25cdc9d4460022, type: 3}
       propertyPath: m_LocalScale.x
@@ -18190,6 +19485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bench_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 323278554532559009, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1096438000815596059, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4999998
@@ -18257,6 +19556,14 @@ PrefabInstance:
     - target: {fileID: 3377130113767330200, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3618351746569204506, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972395672864599624, guid: 53fdb8067c7f84141b11ac7364f1d559, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18332,6 +19639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_bench_press_rack
       objectReference: {fileID: 0}
+    - target: {fileID: 7701360263952337775, guid: 514e3acad2fc75c40876a8a733aa036d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18353,6 +19664,10 @@ PrefabInstance:
     - target: {fileID: 391236226706915624, guid: 476e70611304fc5439a04e91e5e3c888, type: 3}
       propertyPath: m_Name
       value: HMG_window_door_complete
+      objectReference: {fileID: 0}
+    - target: {fileID: 391236226706915624, guid: 476e70611304fc5439a04e91e5e3c888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1019541857443584914, guid: 476e70611304fc5439a04e91e5e3c888, type: 3}
       propertyPath: m_LocalScale.x
@@ -18466,6 +19781,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -181
       objectReference: {fileID: 0}
+    - target: {fileID: 3289241336709317264, guid: 476e70611304fc5439a04e91e5e3c888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289241336935160252, guid: 476e70611304fc5439a04e91e5e3c888, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18475,6 +19798,84 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1019541857443584914, guid: 476e70611304fc5439a04e91e5e3c888, type: 3}
   m_PrefabInstance: {fileID: 1930542464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1940329903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 777015130}
+    m_Modifications:
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -26.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252203949993617313, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_Name
+      value: HMG_ceiling_tile_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252203949993617313, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+--- !u!4 &1940329904 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4875220293401296155, guid: fce5e2998f2fa9b45bcd847c621b7487, type: 3}
+  m_PrefabInstance: {fileID: 1940329903}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1941274153
 GameObject:
@@ -18564,6 +19965,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6767d39ea73197e4dbbde50394138364, type: 3}
       propertyPath: m_Name
       value: cold_drinks
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6767d39ea73197e4dbbde50394138364, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6767d39ea73197e4dbbde50394138364, type: 3}
       propertyPath: m_LocalScale.x
@@ -18727,6 +20132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_window_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8647064401166310978, guid: ecbb79995a2b4354d92179e102929b8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18830,6 +20239,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 909778588989351532, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1640905691170173891, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.97629607
@@ -18846,10 +20259,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 2129775621766457721, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3051449034287119061, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 3555610367932226304, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097878307821906405, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -18858,6 +20279,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 6141793520156779115, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265740265600520842, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -18914,10 +20339,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_lockers_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6755312852825491504, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7972967201826686737, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d7c7748bb17a4f72ab86a5367d3eabd, type: 2}
+    - target: {fileID: 8477277657138456260, guid: 6fd32d9884a773441802c4212a52f43f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18943,6 +20376,10 @@ PrefabInstance:
     - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_divider
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.x
@@ -19014,9 +20451,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1941274154}
     m_Modifications:
+    - target: {fileID: 2246369942039601103, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3811778832875698467, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_Name
       value: HMG_shower_divider_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811778832875698467, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4588596323725927321, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_LocalScale.x
@@ -19068,6 +20513,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4588596323725927321, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7295205965800043046, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7517434942973146250, guid: b978d1d07a55b884d9d06e23a48b9213, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -19345,6 +20798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_wall_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5172742085642319787, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5513132900869745937, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.62
@@ -19418,6 +20875,10 @@ PrefabInstance:
     - target: {fileID: 108618, guid: 3b47db86129ccaa489e7078210c4696c, type: 3}
       propertyPath: m_Name
       value: Vitamin, orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 108618, guid: 3b47db86129ccaa489e7078210c4696c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 434490, guid: 3b47db86129ccaa489e7078210c4696c, type: 3}
       propertyPath: m_LocalScale.x
@@ -19548,6 +21009,10 @@ PrefabInstance:
     - target: {fileID: 8647064401166310978, guid: ecbb79995a2b4354d92179e102929b8a, type: 3}
       propertyPath: m_Name
       value: HMG_window_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647064401166310978, guid: ecbb79995a2b4354d92179e102929b8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19719,6 +21184,10 @@ PrefabInstance:
     - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Name
       value: HMG_tv_screen_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 801139491785480811, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1161581737911172030, guid: 1454b15fa9e62214bb4050b0b5355d94, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19943,6 +21412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HMG_locker_room_entrance
       objectReference: {fileID: 0}
+    - target: {fileID: 9011470209471421793, guid: d26a8607c5a8ad04f8decd040eb70373, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19968,6 +21441,10 @@ PrefabInstance:
     - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_Name
       value: HMG_locker_room_divider (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935360635160579645, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4456000708876768391, guid: bae06829e0f15954f812564a19b8b82f, type: 3}
       propertyPath: m_LocalScale.y
@@ -20087,6 +21564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hmg_barbell_medium
       objectReference: {fileID: 0}
+    - target: {fileID: 2051125527656090629, guid: 2a5a6823e9b008e48a8e80c177636660, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20134,7 +21615,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 764866870}
-  - {fileID: 688933098}
   - {fileID: 1521851809}
   - {fileID: 1032757493}
   - {fileID: 2026845883}
