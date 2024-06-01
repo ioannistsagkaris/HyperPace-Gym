@@ -383,6 +383,7 @@
 -analyzer:"/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/InputSystem/StarterAssetsInputs.cs"
 "Assets/Scripts/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
+"Assets/Scripts/ThirdPersonController/Scripts/SpeakerSound.cs"
 "Assets/Scripts/ThirdPersonController/Scripts/ThirdPersonController.cs"
 -langversion:9.0
 /deterministic
