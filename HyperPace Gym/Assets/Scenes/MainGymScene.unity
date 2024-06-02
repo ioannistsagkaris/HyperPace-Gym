@@ -437,11 +437,11 @@ Transform:
   m_GameObject: {fileID: 31165568}
   serializedVersion: 2
   m_LocalRotation: {x: 0.67437977, y: 0.21263108, z: -0.21263108, w: 0.67437977}
-  m_LocalPosition: {x: -17.939, y: 6, z: -19.913}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.04}
+  m_LocalPosition: {x: -19.07796, y: 2.5580845, z: -23.376606}
+  m_LocalScale: {x: 0.15384617, y: 1.5384617, z: 0.06153846}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1370010913}
   m_LocalEulerAnglesHint: {x: 90, y: 35, z: 0}
 --- !u!1001 &34424658
 PrefabInstance:
@@ -15301,6 +15301,8 @@ Transform:
   - {fileID: 1894385064}
   - {fileID: 2101374081}
   - {fileID: 118186091}
+  - {fileID: 31165572}
+  - {fileID: 1695087701}
   m_Father: {fileID: 266672358}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1371282242
@@ -19083,7 +19085,7 @@ GameObject:
   - component: {fileID: 1695087699}
   - component: {fileID: 1695087698}
   m_Layer: 0
-  m_Name: Men_Sign (1)
+  m_Name: Women_Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19170,11 +19172,11 @@ Transform:
   m_GameObject: {fileID: 1695087697}
   serializedVersion: 2
   m_LocalRotation: {x: 0.67437977, y: -0.21263108, z: 0.21263108, w: 0.67437977}
-  m_LocalPosition: {x: -15.509, y: 6, z: -19.929}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.04}
+  m_LocalPosition: {x: -15.3394985, y: 2.5580845, z: -23.401222}
+  m_LocalScale: {x: 0.15384617, y: 1.5384617, z: 0.06153846}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1370010913}
   m_LocalEulerAnglesHint: {x: 90, y: -35, z: 0}
 --- !u!1001 &1702384793
 PrefabInstance:
@@ -24667,5 +24669,3 @@ SceneRoots:
   - {fileID: 266672358}
   - {fileID: 1571834847}
   - {fileID: 172963380}
-  - {fileID: 31165572}
-  - {fileID: 1695087701}
