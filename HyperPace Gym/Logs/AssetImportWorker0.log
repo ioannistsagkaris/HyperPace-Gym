@@ -6,25 +6,25 @@ macOS version:           Version 14.5 (Build 23F79)
 Darwin version:          23.5.0
 Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        16384 MB
+Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym
+/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57945
-Successfully changed project path to: /Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym
-/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym
+55712
+Successfully changed project path to: /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym
+/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,16 +56,16 @@ Successfully changed project path to: /Volumes/SSD/GitHub/HyperPace-Gym/HyperPac
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8571735040] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2234797962 [EditorId] 2234797962 [Version] 1048832 [Id] OSXEditor(0,ioannis) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8341408768] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2415596194 [EditorId] 2415596194 [Version] 1048832 [Id] OSXEditor(0,stavross-air) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8571735040] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2234797962 [EditorId] 2234797962 [Version] 1048832 [Id] OSXEditor(0,ioannis) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8341408768] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2415596194 [EditorId] 2415596194 [Version] 1048832 [Id] OSXEditor(0,stavross-air) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 34.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
-[Subsystems] Discovering subsystems at path /Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -73,51 +73,49 @@ Metal devices available: 1
 Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = '/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56465
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56223
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002384 seconds.
-- Loaded All Assemblies, in  0.380 seconds
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003613 seconds.
+- Loaded All Assemblies, in  0.648 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.194 seconds
-Domain Reload Profiling: 574ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1281ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (153ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (130ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (111ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (194ms)
+		AnalyzeDomain (353ms)
+			TypeCache.Refresh (350ms)
+				TypeCache.ScanAssembly (307ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (633ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (147ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,9 +123,10 @@ Domain Reload Profiling: 574ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.916 seconds
-Refreshing native plugins compatible for Editor in 5.38 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
+Symbol file data-0x1241daa00 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.826 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -135,48 +134,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.914 seconds
-Domain Reload Profiling: 1831ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  2.628 seconds
+Domain Reload Profiling: 5518ms
+	BeginReloadAssembly (531ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (26ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (716ms)
-		LoadAssemblies (559ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (172ms)
+	RebuildCommonClasses (172ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (2031ms)
+		LoadAssemblies (1182ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (203ms)
-				TypeCache.ScanAssembly (179ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (915ms)
+		AnalyzeDomain (976ms)
+			TypeCache.Refresh (867ms)
+				TypeCache.ScanAssembly (790ms)
+			ScanForSourceGeneratedMonoScriptInfo (67ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (2630ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (769ms)
+		SetupLoadedEditorAssemblies (2108ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (666ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (232ms)
+			ProcessInitializeOnLoadAttributes (1633ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Launching external process: /Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.22 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 1.11 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6099 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 106 unused Assets / (2.5 MB). Loaded Objects now: 6561.
-Memory consumption went from 263.6 MB to 261.1 MB.
-Total: 4.518792 ms (FindLiveObjects: 0.226583 ms CreateObjectMapping: 0.086958 ms MarkObjects: 3.663167 ms  DeleteObjects: 0.541500 ms)
+Memory consumption went from 261.0 MB to 258.5 MB.
+Total: 44.735416 ms (FindLiveObjects: 0.880833 ms CreateObjectMapping: 0.294208 ms MarkObjects: 39.954250 ms  DeleteObjects: 3.605459 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,113 +192,167 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 89381.594451 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_fly_machine_01.prefab
-  artifactKey: Guid(aa78e0982ad05eb4baafb0578586e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_fly_machine_01.prefab using Guid(aa78e0982ad05eb4baafb0578586e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4192668fb66a32257f8706826432993d') in 0.161879 seconds
+  Time since last request: 106747.437852 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(759f8856427944827a1f1d55731fa9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(759f8856427944827a1f1d55731fa9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493b36a763af128a1d426ef27cba53f8') in 0.012461 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_balcony_overhang.prefab
-  artifactKey: Guid(4135b6054f2f2e24e99488822e63da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_balcony_overhang.prefab using Guid(4135b6054f2f2e24e99488822e63da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15771da27c5cc11692f1a8e1f1e3ea36') in 0.156620 seconds
+  Time since last request: 0.000424 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(31db5ced037f1471097831f83f4a44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene.unity using Guid(31db5ced037f1471097831f83f4a44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b347fb45f349602b9dba95debf9d96') in 0.000511 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_speaker_01.prefab
-  artifactKey: Guid(4797315249682d646bdb1de3738d997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_speaker_01.prefab using Guid(4797315249682d646bdb1de3738d997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d637957c3ad63a675778006a217ea73') in 0.034302 seconds
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(5040d6aecf8cb4df389077c89ad83cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(5040d6aecf8cb4df389077c89ad83cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559f922526b633a8fd043ab112269c06') in 0.000530 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_ceiling_tile_01.prefab
-  artifactKey: Guid(fce5e2998f2fa9b45bcd847c621b7487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_ceiling_tile_01.prefab using Guid(fce5e2998f2fa9b45bcd847c621b7487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe9508285bc247d8de987488e8efd26') in 0.042556 seconds
+  Time since last request: 0.657223 seconds.
+  path: Assets/Resources/Screenshot 2024-06-02 at 6.50.46 PM.png
+  artifactKey: Guid(b0cbcf8e7e1904179a8e4d4ac7c730d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Screenshot 2024-06-02 at 6.50.46 PM.png using Guid(b0cbcf8e7e1904179a8e4d4ac7c730d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8e846f9a48ded2dc975e69fbd0d98b') in 0.196727 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_lockers_01.prefab
-  artifactKey: Guid(6fd32d9884a773441802c4212a52f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_lockers_01.prefab using Guid(6fd32d9884a773441802c4212a52f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce121d60704ec61e62ed685dc67e7ac') in 0.025173 seconds
+  Time since last request: 12.576997 seconds.
+  path: Assets/Resources/Logo.png
+  artifactKey: Guid(b0cbcf8e7e1904179a8e4d4ac7c730d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Logo.png using Guid(b0cbcf8e7e1904179a8e4d4ac7c730d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4d1d01ea1985b466b402fc24e8b6c2') in 0.129298 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_clock_01.prefab
-  artifactKey: Guid(75be1ae1bdc24394480e2b9e5b130ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_clock_01.prefab using Guid(75be1ae1bdc24394480e2b9e5b130ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64343eb875c68d5c175eaf2ce29e2c9a') in 0.019410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_bench_press_rack.prefab
-  artifactKey: Guid(514e3acad2fc75c40876a8a733aa036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_bench_press_rack.prefab using Guid(514e3acad2fc75c40876a8a733aa036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493615db0c31ac822e301913af304087') in 0.030433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x305087000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.489 seconds
-Refreshing native plugins compatible for Editor in 8.67 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
+Thread 0x338307000 may have been prematurely finalized
+Symbol file data-0x326cf9000 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.582 seconds
+Refreshing native plugins compatible for Editor in 2.86 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.358 seconds
-Domain Reload Profiling: 2847ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  1.886 seconds
+Domain Reload Profiling: 2469ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (288ms)
-		LoadAssemblies (320ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (329ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (29ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (2358ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1887ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (545ms)
+		SetupLoadedEditorAssemblies (847ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (424ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (673ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 4.53 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 8.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (67.7 MB). Loaded Objects now: 6586.
-Memory consumption went from 243.0 MB to 175.3 MB.
-Total: 9.878125 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.083625 ms MarkObjects: 4.083292 ms  DeleteObjects: 5.442916 ms)
+Unloading 60 unused Assets / (2.5 MB). Loaded Objects now: 6579.
+Memory consumption went from 235.9 MB to 233.4 MB.
+Total: 74.523459 ms (FindLiveObjects: 1.696875 ms CreateObjectMapping: 0.503125 ms MarkObjects: 64.541625 ms  DeleteObjects: 7.781500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f603000 may have been prematurely finalized
+Symbol file data-0x34eed1800 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.853 seconds
+Refreshing native plugins compatible for Editor in 14.57 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.612 seconds
+Domain Reload Profiling: 4510ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (513ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (87ms)
+	FinalizeReload (3614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (1117ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5973 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (2.5 MB). Loaded Objects now: 6594.
+Memory consumption went from 240.9 MB to 238.4 MB.
+Total: 17.730625 ms (FindLiveObjects: 1.326834 ms CreateObjectMapping: 0.489917 ms MarkObjects: 13.871500 ms  DeleteObjects: 2.040584 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -317,233 +370,336 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 352.329729 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_bench_01.prefab
-  artifactKey: Guid(53fdb8067c7f84141b11ac7364f1d559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_bench_01.prefab using Guid(53fdb8067c7f84141b11ac7364f1d559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4ef64df8ef6dd57e9d9e68c2a6e4ee') in 0.124660 seconds
+  Time since last request: 1094.216326 seconds.
+  path: Assets/Resources/Screenshot 2024-06-02 at 7.09.52 PM.png
+  artifactKey: Guid(4107d573588184149acd979c61158263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Screenshot 2024-06-02 at 7.09.52 PM.png using Guid(4107d573588184149acd979c61158263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccdefb83260f12598b388ad7f2adb55') in 0.287025 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_large_mirror_01.prefab
-  artifactKey: Guid(5edb8171d743fcb42afc23a110c18046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_large_mirror_01.prefab using Guid(5edb8171d743fcb42afc23a110c18046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5ac40fa691fcad73fc1dbccf3fe6b0') in 0.025280 seconds
+  Time since last request: 0.000638 seconds.
+  path: Assets/Resources/Screenshot 2024-06-02 at 7.10.59 PM.png
+  artifactKey: Guid(c6b823045fabb401e8f267690a1e1d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Screenshot 2024-06-02 at 7.10.59 PM.png using Guid(c6b823045fabb401e8f267690a1e1d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028152800fa249755fd46c42a34d3d31') in 0.008850 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Props/Gym Pack/Prefabs/HMG_bicep_curl_machine_01.prefab
-  artifactKey: Guid(7fe513f45cb6b254490f84edd595995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Prefabs/HMG_bicep_curl_machine_01.prefab using Guid(7fe513f45cb6b254490f84edd595995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf70543a03f62f9c26c9ded9229f96ce') in 0.033532 seconds
+  Time since last request: 10.985298 seconds.
+  path: Assets/Resources/TrainerLogo.png
+  artifactKey: Guid(4107d573588184149acd979c61158263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TrainerLogo.png using Guid(4107d573588184149acd979c61158263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592c4821d0813d0644a7b2f472636215') in 0.124003 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 224.303313 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_balcony_01.fbx
-  artifactKey: Guid(73176696f9a925a40bb4ccc18be52653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_balcony_01.fbx using Guid(73176696f9a925a40bb4ccc18be52653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71960351ba16202f6c07903de9553be') in 0.027866 seconds
+  Time since last request: 6.215073 seconds.
+  path: Assets/Resources/ShopLogo.png
+  artifactKey: Guid(6024c168522c2453b8310ad9f2f77698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ShopLogo.png using Guid(6024c168522c2453b8310ad9f2f77698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fcc7d994acb816a8e3a403a3e13ffe') in 0.011320 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_fly_machine_01.fbx
-  artifactKey: Guid(0304dd9591815a84cb6dcfef47715f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_fly_machine_01.fbx using Guid(0304dd9591815a84cb6dcfef47715f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d10f9deeac7e17318186e272340d7b') in 0.039802 seconds
+  Time since last request: 11.218781 seconds.
+  path: Assets/Resources/NutrinionistLogo.png
+  artifactKey: Guid(c6b823045fabb401e8f267690a1e1d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NutrinionistLogo.png using Guid(c6b823045fabb401e8f267690a1e1d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1d2539b2dbbfb435f5bcb39340a521') in 0.056353 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f603000 may have been prematurely finalized
+Symbol file data-0x117c00600 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.961 seconds
+Refreshing native plugins compatible for Editor in 10.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.837 seconds
+Domain Reload Profiling: 4825ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (658ms)
+		LoadAssemblies (566ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (73ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (76ms)
+	FinalizeReload (3838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (1052ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (2.5 MB). Loaded Objects now: 6610.
+Memory consumption went from 245.7 MB to 243.2 MB.
+Total: 78.473459 ms (FindLiveObjects: 3.732458 ms CreateObjectMapping: 0.861792 ms MarkObjects: 69.524125 ms  DeleteObjects: 4.348458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_dumbell_rack_01.fbx
-  artifactKey: Guid(4935b044dfaa54645ad59c13d49fb73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_dumbell_rack_01.fbx using Guid(4935b044dfaa54645ad59c13d49fb73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d0eee129c4bf75a62fe2377bdb32e4') in 0.012365 seconds
+  Time since last request: 456.567678 seconds.
+  path: Assets/Resources/Materials
+  artifactKey: Guid(7c3d8f12f180e4e44ad658a6842c3470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials using Guid(7c3d8f12f180e4e44ad658a6842c3470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c243b133de0d917cbf1c54ef76b179b') in 0.009361 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_shower_mat_01.fbx
-  artifactKey: Guid(55ce4e6413376de49ac3a9fca11ee6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_shower_mat_01.fbx using Guid(55ce4e6413376de49ac3a9fca11ee6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d600b9d38e3470d051a96f4a2fa8d5') in 0.010990 seconds
+  Time since last request: 0.078396 seconds.
+  path: Assets/Resources/Materials/locker.mat
+  artifactKey: Guid(5525b7342f4314fdbbee4b02fbe82913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/locker.mat using Guid(5525b7342f4314fdbbee4b02fbe82913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98397165d67e5a99e810138b946437c7') in 0.157311 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Props/Gym Pack/Meshes/hmg_vent_pipe_01.fbx
-  artifactKey: Guid(b0bc1d95d37a5d84e8460a21cd32d737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/hmg_vent_pipe_01.fbx using Guid(b0bc1d95d37a5d84e8460a21cd32d737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae3bd3119b2abf7e54e1560355d4ab1') in 0.011131 seconds
+  Time since last request: 0.000067 seconds.
+  path: Assets/Resources/Materials/women.mat
+  artifactKey: Guid(14b99574dc538414abe519f9452137d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/women.mat using Guid(14b99574dc538414abe519f9452137d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b015fe8263909d1081497683efb000c') in 0.011715 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Props/Gym Pack/Meshes/hmg_barbell_large.fbx
-  artifactKey: Guid(54114847041fa7d49866231075e6837c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/hmg_barbell_large.fbx using Guid(54114847041fa7d49866231075e6837c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6985b7ca46468d7b62946554ee6947b8') in 0.011967 seconds
+  Time since last request: 0.000179 seconds.
+  path: Assets/Resources/Materials/men.mat
+  artifactKey: Guid(e82177344a32046feb0051714cea3013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/men.mat using Guid(e82177344a32046feb0051714cea3013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c98e4aaf02f55091926f839c3fc330c') in 0.020583 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_locker_room_divider.fbx
-  artifactKey: Guid(5467fb4d1d3e7de4e9a21511b7273177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_locker_room_divider.fbx using Guid(5467fb4d1d3e7de4e9a21511b7273177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc74f109b22f6d14cecc39489c9f26d7') in 0.014768 seconds
+  Time since last request: 0.000188 seconds.
+  path: Assets/Resources/Materials/TrainerLogo.mat
+  artifactKey: Guid(f65ec22f870a9478b93accbf92e18fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/TrainerLogo.mat using Guid(f65ec22f870a9478b93accbf92e18fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdf6e789b78c28879805e9994add16b') in 0.023006 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Props/Gym Pack/Meshes/hmg_suspended_light.fbx
-  artifactKey: Guid(0171f523eaca6fb4fb632f3204feac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/hmg_suspended_light.fbx using Guid(0171f523eaca6fb4fb632f3204feac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322942f75a5dee3736ffb68a135eb297') in 0.012430 seconds
+  Time since last request: 523.648588 seconds.
+  path: Assets/Resources/Materials/Logo.mat
+  artifactKey: Guid(a5b3850a8396d48d4a05f2ecffe06948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Logo.mat using Guid(a5b3850a8396d48d4a05f2ecffe06948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59082d70a900292ce67c705f5bd451a7') in 0.111941 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_ceiling_tile_01.fbx
-  artifactKey: Guid(937de6d4d3df471468b14f4908d09e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_ceiling_tile_01.fbx using Guid(937de6d4d3df471468b14f4908d09e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966c7decdec99ca6e8d7247843a5b357') in 0.010721 seconds
+  Time since last request: 237.522732 seconds.
+  path: Assets/Props/Gym Pack/Materials/hmg_paint 1.mat
+  artifactKey: Guid(7f304cf6744a544efa36e9ab2c7a4066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gym Pack/Materials/hmg_paint 1.mat using Guid(7f304cf6744a544efa36e9ab2c7a4066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560ad00ecba1af7a9f52210ca82ad046') in 0.157508 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_support_column.fbx
-  artifactKey: Guid(beeb03aab9ad63340963f330db298ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_support_column.fbx using Guid(beeb03aab9ad63340963f330db298ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49785c1f0083604f34d770e1dee95417') in 0.010937 seconds
+  Time since last request: 9.913473 seconds.
+  path: Assets/Props/Gym Pack/Materials/DoorPaint.mat
+  artifactKey: Guid(7f304cf6744a544efa36e9ab2c7a4066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gym Pack/Materials/DoorPaint.mat using Guid(7f304cf6744a544efa36e9ab2c7a4066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d03c8ebff8b530fd0fb637be0a881f9') in 0.026558 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f603000 may have been prematurely finalized
+Symbol file data-0x1433f8600 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.152 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.928 seconds
+Domain Reload Profiling: 4086ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (834ms)
+		LoadAssemblies (817ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (47ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1335ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (1018ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (2.5 MB). Loaded Objects now: 6665.
+Memory consumption went from 252.8 MB to 250.3 MB.
+Total: 15.038833 ms (FindLiveObjects: 1.376917 ms CreateObjectMapping: 0.559875 ms MarkObjects: 11.248709 ms  DeleteObjects: 1.852125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_wall_02.fbx
-  artifactKey: Guid(3dbe827aa0143194982ea14ca579a21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_wall_02.fbx using Guid(3dbe827aa0143194982ea14ca579a21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c319775bee69fcbd9b71ec75d2f6fab3') in 0.010913 seconds
+  Time since last request: 206.005053 seconds.
+  path: Assets/Props/Gym Pack/Materials/DoorPaint.mat
+  artifactKey: Guid(7f304cf6744a544efa36e9ab2c7a4066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gym Pack/Materials/DoorPaint.mat using Guid(7f304cf6744a544efa36e9ab2c7a4066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3581dd65dba2550b314a9e341d1ea029') in 0.170572 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f603000 may have been prematurely finalized
+Symbol file data-0x117e62000 doesn't match image /Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.120 seconds
+Refreshing native plugins compatible for Editor in 4.01 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.404 seconds
+Domain Reload Profiling: 5529ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (718ms)
+		LoadAssemblies (737ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (4405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1874ms)
+			LogAssemblyErrors (2ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (1355ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (2.5 MB). Loaded Objects now: 6680.
+Memory consumption went from 258.1 MB to 255.6 MB.
+Total: 115.357500 ms (FindLiveObjects: 2.464291 ms CreateObjectMapping: 2.281292 ms MarkObjects: 106.133375 ms  DeleteObjects: 4.474208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_bicep_curl_machine_01.fbx
-  artifactKey: Guid(873fbdf9141b2384687ec51e9d8dfc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_bicep_curl_machine_01.fbx using Guid(873fbdf9141b2384687ec51e9d8dfc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b55a4c22656d1223a1146c09eaf9cf') in 0.035954 seconds
+  Time since last request: 95.527961 seconds.
+  path: Assets/Resources/Materials/Logo 1.mat
+  artifactKey: Guid(c90661e9090b94a88b671ee26f2679f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Logo 1.mat using Guid(c90661e9090b94a88b671ee26f2679f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583e9507c66f5a296cac9949a4f9ebde') in 0.122576 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_treadmill_01.fbx
-  artifactKey: Guid(3f8b123b9ac0fa9428f24e5c876d27ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_treadmill_01.fbx using Guid(3f8b123b9ac0fa9428f24e5c876d27ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd07526280fed979b7fa7b51d4c02139') in 0.011896 seconds
+  Time since last request: 587.744292 seconds.
+  path: Assets/Resources/71wvcSh82vL._AC_UF894,1000_QL80_.jpg
+  artifactKey: Guid(bfe4b2bb7ded44749beb03cdbdb684d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/71wvcSh82vL._AC_UF894,1000_QL80_.jpg using Guid(bfe4b2bb7ded44749beb03cdbdb684d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71569413c3c5593d951bda7216dec7f7') in 0.611061 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_balcony_overhang.fbx
-  artifactKey: Guid(b8ac48ec66f2e754a83a965aa0817416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_balcony_overhang.fbx using Guid(b8ac48ec66f2e754a83a965aa0817416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4726c7185acf938707ff7f1ea00c37eb') in 0.011013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_window_door.fbx
-  artifactKey: Guid(5388f48846d3edd488f95c17035aa949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_window_door.fbx using Guid(5388f48846d3edd488f95c17035aa949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae896b3a7e731b1bc0c8c67083348045') in 0.012262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Props/Gym Pack/Meshes/hmg_yogamat.fbx
-  artifactKey: Guid(26fba464665210744a39298562a517a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/hmg_yogamat.fbx using Guid(26fba464665210744a39298562a517a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ade99ecca96353ed041549ef2b74d23') in 0.034851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_locker_room_bench_01.fbx
-  artifactKey: Guid(8b50d50180a81b34e82e1b03e733f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_locker_room_bench_01.fbx using Guid(8b50d50180a81b34e82e1b03e733f6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51898cab793b191413c4349a96cf14ef') in 0.014110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_dumbell_medium.fbx
-  artifactKey: Guid(a3209d7361b7161409c70d09cd640fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_dumbell_medium.fbx using Guid(a3209d7361b7161409c70d09cd640fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb876cede7fca8c49ded7803f0dbc313') in 0.019727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_recessed_light.fbx
-  artifactKey: Guid(d7879b76882e0a94e87c75a9823c73f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_recessed_light.fbx using Guid(d7879b76882e0a94e87c75a9823c73f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73534a5f578c11c00b3f206b06a28e98') in 0.014524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_lockers_01.fbx
-  artifactKey: Guid(4c56b278744a1814f8fbc5265b703a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_lockers_01.fbx using Guid(4c56b278744a1814f8fbc5265b703a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef896d7fe05f54df50789f1e60e5522') in 0.016210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_bathroom_stalls_01.fbx
-  artifactKey: Guid(e3b399ac92d1f1e46ba8e8e8b817deee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_bathroom_stalls_01.fbx using Guid(e3b399ac92d1f1e46ba8e8e8b817deee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6005529790b4f832cfe4d42759e524cc') in 0.022418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_locker_room_entrance.fbx
-  artifactKey: Guid(cb39f6bfec89ba5429f2b8c42b000676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_locker_room_entrance.fbx using Guid(cb39f6bfec89ba5429f2b8c42b000676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7f911bad920a3fe58861558d085f26') in 0.011968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_speaker_01.fbx
-  artifactKey: Guid(7a1927f934400a14fa8b00820e7f749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_speaker_01.fbx using Guid(7a1927f934400a14fa8b00820e7f749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d663271cdd9f21eb51160a8310e15a2') in 0.010601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Props/Gym Pack/Meshes/HMG_wall_divider_01.fbx
-  artifactKey: Guid(2f10a3cf23beb8c42aab3a3a85547365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Meshes/HMG_wall_divider_01.fbx using Guid(2f10a3cf23beb8c42aab3a3a85547365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d11be8d6449a00c4b2b26d7864bc6d4') in 0.009893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.293007 seconds.
-  path: Assets/Props/Gym Pack/Materials/hmg_gym_props.mat
-  artifactKey: Guid(df8e97bbeed1d1f4ab28547d99be476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Materials/hmg_gym_props.mat using Guid(df8e97bbeed1d1f4ab28547d99be476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed599a85121e3711b773a668cd9725c5') in 0.021099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 4.244070 seconds.
-  path: Assets/Props/Gym Pack/Materials/hmg_mirror 1.mat
-  artifactKey: Guid(de5f9006645d4455a8196644d5bd944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Gym Pack/Materials/hmg_mirror 1.mat using Guid(de5f9006645d4455a8196644d5bd944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c35145cbdb7f138eb7e5c5a1ef6fef2') in 0.006532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
