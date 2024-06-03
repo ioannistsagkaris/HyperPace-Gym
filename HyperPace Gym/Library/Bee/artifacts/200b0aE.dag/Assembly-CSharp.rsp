@@ -337,6 +337,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UMA_Core_Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UMA_Examples.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UMA_Examples_Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
@@ -382,6 +383,7 @@
 -analyzer:"/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/InputSystem/StarterAssetsInputs.cs"
+"Assets/Scripts/MainMenuScript.cs"
 "Assets/Scripts/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/ThirdPersonController/Scripts/ThirdPersonController.cs"
 -langversion:9.0
