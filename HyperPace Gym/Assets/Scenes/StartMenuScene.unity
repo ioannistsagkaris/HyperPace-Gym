@@ -490,6 +490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 85060301}
   - component: {fileID: 85060302}
+  - component: {fileID: 85060303}
   m_Layer: 5
   m_Name: RadioButtons
   m_TagString: Untagged
@@ -531,6 +532,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 0
+--- !u!114 &85060303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85060300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d4b1a033e45403082e7aa3622c174b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maleToggle: {fileID: 1899280606}
+  femaleToggle: {fileID: 1399707183}
 --- !u!1 &143310150
 GameObject:
   m_ObjectHideFlags: 0
@@ -5009,7 +5024,19 @@ MonoBehaviour:
   m_Group: {fileID: 85060302}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 85060303}
+        m_TargetAssemblyTypeName: WriteGender, Assembly-CSharp
+        m_MethodName: OnToggleChanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 1
 --- !u!1 &1955761890
 GameObject:
