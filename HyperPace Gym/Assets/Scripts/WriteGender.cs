@@ -11,11 +11,11 @@ public class WriteGender : MonoBehaviour
     {
         if (femaleToggle.isOn)
         {
-            File.WriteAllText("Assets/Scripts/Gender.txt", "Female");
+            File.WriteAllText("Assets/Resources/CharacterRecipes/Gender.txt", "Female");
         }
         else
         {
-            File.WriteAllText("Assets/Scripts/Gender.txt", "Male");
+            File.WriteAllText("Assets/Resources/CharacterRecipes/Gender.txt", "Male");
         }
     }
 }

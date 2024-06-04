@@ -9,7 +9,7 @@ public class ReadGender : MonoBehaviour
     public GameObject femaleCamera;
 
     void Start() {
-        if (File.ReadAllText("Assets/Scripts/Gender.txt") == "Female") {
+        if (File.ReadAllText("Assets/Resources/CharacterRecipes/Gender.txt") == "Female") {
             malePlayer.SetActive(false);
             maleCamera.SetActive(false);
             femalePlayer.SetActive(true);
