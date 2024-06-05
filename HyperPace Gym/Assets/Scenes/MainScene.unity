@@ -47270,6 +47270,8 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: f2a4361eb60434d60b43239e30edadba, type: 2}
   sensitivitySlider: {fileID: 651061888}
   resolutionDropdown: {fileID: 1527736679}
+  toggleMan: {fileID: 0}
+  toggleWoman: {fileID: 0}
 --- !u!1 &1719059607
 GameObject:
   m_ObjectHideFlags: 0
