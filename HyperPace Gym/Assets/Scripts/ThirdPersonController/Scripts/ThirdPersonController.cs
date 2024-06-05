@@ -1,4 +1,5 @@
-﻿ using UnityEngine;
+﻿using System.IO;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -76,11 +77,12 @@ namespace StarterAssets
         public bool LockCameraPosition = false;
 
         [Tooltip("Mouse sensitivity for camera rotation")]
-        public float Sensitivity = 1.0f;
+        public float Sensitivity = 3.0f;
 
         // cinemachine
         private float _cinemachineTargetYaw;
         private float _cinemachineTargetPitch;
+        private string newSensitivity;
 
         // player
         private float _speed;
@@ -146,6 +148,10 @@ namespace StarterAssets
 
             AssignAnimationIDs();
 
+            newSensitivity = File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt");
+            if (newSensitivity != "" || newSensitivity != null)
+                Sensitivity = float.Parse(newSensitivity);
+
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
@@ -204,6 +210,10 @@ namespace StarterAssets
 
                 // Cinemachine will follow this target
                 CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride, _cinemachineTargetYaw, 0.0f);
+            } else {
+                newSensitivity = File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt");
+                if (newSensitivity != "" || newSensitivity != null)
+                    Sensitivity = float.Parse(newSensitivity);
             }
         }
 

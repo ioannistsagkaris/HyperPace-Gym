@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -40,5 +41,9 @@ public class OptionsMenuScript : MonoBehaviour
 
     public void SetFullscreen(bool isFullscreen) {
         Screen.fullScreen = isFullscreen;
+    }
+
+    public void SetSensitivity(float sensitivity) {
+        File.WriteAllText(Application.persistentDataPath + "/Sensitivity.txt", sensitivity.ToString());
     }
 }

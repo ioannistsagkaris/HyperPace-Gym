@@ -1493,7 +1493,19 @@ MonoBehaviour:
   m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1225487739}
+        m_TargetAssemblyTypeName: OptionsMenuScript, Assembly-CSharp
+        m_MethodName: SetSensitivity
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &607746868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3217,6 +3229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: f2a4361eb60434d60b43239e30edadba, type: 2}
   resolutionDropdown: {fileID: 607746870}
+  thirdPersonController: {fileID: 0}
 --- !u!1 &1231374753
 GameObject:
   m_ObjectHideFlags: 0
