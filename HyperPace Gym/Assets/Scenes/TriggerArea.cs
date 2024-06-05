@@ -9,7 +9,7 @@ public class TriggerArea : MonoBehaviour
     public DialogueTrigger dialogueTrigger;
     public DialogueManager dialogueManager;
     private bool isPlayerInRange = false;
-    private bool dialogueStarted = false;
+    public bool dialogueStarted = false;
 
     void Start()
     {
@@ -45,10 +45,12 @@ public class TriggerArea : MonoBehaviour
                 dialogueStarted = true;
                 talkText.SetActive(false); 
             }
-            else
-            {
-                dialogueManager.DisplayNextSentence();
-            }
+            
+            dialogueManager.DisplayNextSentence();            
+        }
+        else if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            dialogueManager.EndDialogue();
         }
     }
 }
