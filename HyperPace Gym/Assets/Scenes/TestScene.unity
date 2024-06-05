@@ -15944,7 +15944,7 @@ GameObject:
   - component: {fileID: 658418587}
   - component: {fileID: 658418586}
   - component: {fileID: 658418585}
-  - component: {fileID: 658418584}
+  - component: {fileID: 658418589}
   m_Layer: 0
   m_Name: TrainerZone
   m_TagString: Untagged
@@ -15952,21 +15952,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &658418584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658418583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4badf68eae814e99bd5cef8953fa388, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactMessage: {fileID: 0}
-  isPlayerInRange: 0
-  dialogueTrigger: {fileID: 0}
 --- !u!65 &658418585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16053,6 +16038,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &658418589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658418583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac88b7447b5c4a209673dff64b84139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talkText: {fileID: 1522481306}
+  dialogueTrigger: {fileID: 445033760}
+  dialogueManager: {fileID: 2076752746}
 --- !u!1 &658657070
 GameObject:
   m_ObjectHideFlags: 0
@@ -17510,7 +17510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.2, y: -85}
+  m_AnchoredPosition: {x: 11.2, y: -185}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &706315533
@@ -48977,7 +48977,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2076752745}
-  - component: {fileID: 2076752744}
+  - component: {fileID: 2076752746}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -48985,21 +48985,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2076752744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076752743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69049dd2465dd4ec58d3445d36e0f5f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: {fileID: 120609241}
-  dialogueText: {fileID: 610848300}
-  animator: {fileID: 704169371}
 --- !u!4 &2076752745
 Transform:
   m_ObjectHideFlags: 0
@@ -49015,6 +49000,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2076752746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076752743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69049dd2465dd4ec58d3445d36e0f5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 120609241}
+  dialogueText: {fileID: 610848300}
+  animator: {fileID: 704169371}
 --- !u!1 &2078199057
 GameObject:
   m_ObjectHideFlags: 0
@@ -50474,9 +50474,9 @@ SceneRoots:
   - {fileID: 1838756595}
   - {fileID: 661240667}
   - {fileID: 482099000}
-  - {fileID: 109789976}
-  - {fileID: 2076752745}
-  - {fileID: 445033761}
-  - {fileID: 1293407348}
   - {fileID: 658418588}
+  - {fileID: 1293407348}
+  - {fileID: 445033761}
+  - {fileID: 2076752745}
+  - {fileID: 109789976}
   - {fileID: 478128661}
