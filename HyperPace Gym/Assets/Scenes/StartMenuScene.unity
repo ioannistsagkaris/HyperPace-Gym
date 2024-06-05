@@ -3228,8 +3228,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: f2a4361eb60434d60b43239e30edadba, type: 2}
+  sensitivitySlider: {fileID: 591991489}
   resolutionDropdown: {fileID: 607746870}
-  thirdPersonController: {fileID: 0}
+  toggleMan: {fileID: 1899280606}
+  toggleWoman: {fileID: 1399707183}
 --- !u!1 &1231374753
 GameObject:
   m_ObjectHideFlags: 0
