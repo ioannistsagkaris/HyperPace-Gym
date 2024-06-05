@@ -389,8 +389,11 @@
 "Assets/Scripts/InputSystem/StarterAssetsInputs.cs"
 "Assets/Scripts/MainMenuScript.cs"
 "Assets/Scripts/OptionsMenuScript.cs"
+"Assets/Scripts/PauseMenu.cs"
+"Assets/Scripts/ReadGender.cs"
 "Assets/Scripts/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/ThirdPersonController/Scripts/ThirdPersonController.cs"
+"Assets/Scripts/WriteGender.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -1,4 +1,5 @@
-﻿ using UnityEngine;
+﻿using System.IO;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -76,11 +77,12 @@ namespace StarterAssets
         public bool LockCameraPosition = false;
 
         [Tooltip("Mouse sensitivity for camera rotation")]
-        public float Sensitivity = 1.0f;
+        public float Sensitivity = 3.0f;
 
         // cinemachine
         private float _cinemachineTargetYaw;
         private float _cinemachineTargetPitch;
+        private string newSensitivity;
 
         // player
         private float _speed;
@@ -146,6 +148,10 @@ namespace StarterAssets
 
             AssignAnimationIDs();
 
+            newSensitivity = File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt");
+            if (newSensitivity != "" || newSensitivity != null)
+                Sensitivity = float.Parse(newSensitivity);
+
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
@@ -187,22 +193,28 @@ namespace StarterAssets
 
         private void CameraRotation()
         {
-            // if there is an input and camera position is not fixed
-            if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition)
-            {
-                //Don't multiply mouse input by Time.deltaTime;
-                float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
+            if (Time.timeScale == 1.0f) {
+                // if there is an input and camera position is not fixed
+                if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition)
+                {
+                    //Don't multiply mouse input by Time.deltaTime;
+                    float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
 
-                _cinemachineTargetYaw += _input.look.x * deltaTimeMultiplier * Sensitivity;
-                _cinemachineTargetPitch += _input.look.y * deltaTimeMultiplier * Sensitivity;
+                    _cinemachineTargetYaw += _input.look.x * deltaTimeMultiplier * Sensitivity;
+                    _cinemachineTargetPitch += _input.look.y * deltaTimeMultiplier * Sensitivity;
+                }
+
+                // clamp our rotations so our values are limited 360 degrees
+                _cinemachineTargetYaw = ClampAngle(_cinemachineTargetYaw, float.MinValue, float.MaxValue);
+                _cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
+
+                // Cinemachine will follow this target
+                CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride, _cinemachineTargetYaw, 0.0f);
+            } else {
+                newSensitivity = File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt");
+                if (newSensitivity != "" || newSensitivity != null)
+                    Sensitivity = float.Parse(newSensitivity);
             }
-
-            // clamp our rotations so our values are limited 360 degrees
-            _cinemachineTargetYaw = ClampAngle(_cinemachineTargetYaw, float.MinValue, float.MaxValue);
-            _cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
-
-            // Cinemachine will follow this target
-            CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride, _cinemachineTargetYaw, 0.0f);
         }
 
         private void Move()

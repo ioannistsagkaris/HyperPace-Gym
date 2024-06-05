@@ -1,12 +1,17 @@
 using System.Collections.Generic;
+using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class OptionsMenuScript : MonoBehaviour
 {
     public AudioMixer audioMixer;
+    public Slider sensitivitySlider;
     public TMP_Dropdown resolutionDropdown;
+    public Toggle toggleMan;
+    public Toggle toggleWoman;
     private Resolution[] resolutions;
 
     void Start() {
@@ -27,6 +32,21 @@ public class OptionsMenuScript : MonoBehaviour
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentRsolutionIndex;
         resolutionDropdown.RefreshShownValue();
+
+        string sensitivity = File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt");
+        if (sensitivity != "" || sensitivity != null)
+            sensitivitySlider.value = float.Parse(sensitivity);
+
+        if (toggleMan != null && toggleWoman != null) {
+            string gender = File.ReadAllText(Application.persistentDataPath + "/Gender.txt");
+            if (gender != "" || gender != null) {
+                if (gender == "Female") {
+                    toggleMan.isOn = false;
+                    toggleWoman.isOn = true;
+                }
+            }
+        }
+            
     }
 
     public void SetVolume(float volume) {
@@ -40,5 +60,9 @@ public class OptionsMenuScript : MonoBehaviour
 
     public void SetFullscreen(bool isFullscreen) {
         Screen.fullScreen = isFullscreen;
+    }
+
+    public void SetSensitivity(float sensitivity) {
+        File.WriteAllText(Application.persistentDataPath + "/Sensitivity.txt", sensitivity.ToString());
     }
 }
