@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using StarterAssets;
 
 public class TriggerArea : MonoBehaviour
 {
-    public GameObject talkText; 
+    public GameObject talkText;
     public DialogueTrigger dialogueTrigger;
     public DialogueManager dialogueManager;
     private bool isPlayerInRange = false;
@@ -13,14 +14,14 @@ public class TriggerArea : MonoBehaviour
 
     void Start()
     {
-        talkText.SetActive(false); 
+        talkText.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            talkText.SetActive(true); 
+            talkText.SetActive(true);
             isPlayerInRange = true;
         }
     }
@@ -31,7 +32,7 @@ public class TriggerArea : MonoBehaviour
         {
             talkText.SetActive(false);
             isPlayerInRange = false;
-            dialogueStarted = false; 
+            dialogueStarted = false;
         }
     }
 
@@ -43,12 +44,12 @@ public class TriggerArea : MonoBehaviour
             {
                 dialogueTrigger.TriggerDialogue();
                 dialogueStarted = true;
-                talkText.SetActive(false); 
+                talkText.SetActive(false);
             }
-            
-            dialogueManager.DisplayNextSentence();            
+
+            dialogueManager.DisplayNextSentence();
         }
-        else if(Input.GetKeyDown(KeyCode.Escape))
+        else if (isPlayerInRange && Input.GetKeyDown(KeyCode.Escape) && dialogueStarted)
         {
             dialogueManager.EndDialogue();
         }

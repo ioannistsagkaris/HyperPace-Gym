@@ -1,76 +1,10 @@
-// using System;
-// using System.Collections;
-// using System.Collections.Generic;
-// using TMPro;
-// using UnityEngine;
-// using UnityEngine.UI;
-
-// public class DialogueManager : MonoBehaviour
-// {
-//     public TMP_Text nameText;
-//     public TMP_Text dialogueText;
-//     public Animator animator;
-//     public GameObject talkText;
-//     public TriggerArea triggerArea;
-//     private Queue<string> sentences;
-
-//     void Start()
-//     {
-//         sentences = new Queue<string>();
-//     }
-
-//     public void StartDialogue(Dialogue dialogue)
-//     {
-//         animator.SetBool("IsOpen", true);
-//         nameText.text = dialogue.name;
-//         sentences.Clear();
-
-//         foreach (string sentence in dialogue.sentences)
-//         {
-//             sentences.Enqueue(sentence);
-//         }
-
-//         DisplayNextSentence();
-//     }
-
-//     public void DisplayNextSentence()
-//     {
-//         animator.SetBool("IsOpen", true);
-//         if (sentences.Count == 0)
-//         {
-//             EndDialogue();
-//             return;
-//         }
-
-//         string sentence = sentences.Dequeue();
-//         StopAllCoroutines();
-//         StartCoroutine(TypeSentence(sentence));
-//     }
-
-//     IEnumerator TypeSentence(string sentence)
-//     {
-//         dialogueText.text = "";
-//         foreach (char letter in sentence.ToCharArray())
-//         {
-//             dialogueText.text += letter;
-//             yield return null;
-//         }
-//     }
-
-//     public void EndDialogue()
-//     {
-//         animator.SetBool("IsOpen", false);
-//         talkText.SetActive(true);
-//         triggerArea.dialogueStarted = false;
-        
-//     }
-// }
-
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using StarterAssets;
+
 
 public class DialogueManager : MonoBehaviour
 {
@@ -79,8 +13,10 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     public GameObject talkText;
     public TriggerArea triggerArea;
-    public Button yesButton;
-    public Button noButton;
+    public Button StrengthButton;
+    public Button FatLossButton;
+    public Button HypertrophyButton;
+    public ThirdPersonController playerController; 
 
     private Queue<string> sentences;
     private int selectedButtonIndex = 0;
@@ -89,20 +25,23 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
-        buttons = new Button[] { yesButton, noButton };
+        buttons = new Button[] { StrengthButton, HypertrophyButton,FatLossButton };
 
         
-        yesButton.gameObject.SetActive(false);
-        noButton.gameObject.SetActive(false);
+        StrengthButton.gameObject.SetActive(false);
+        HypertrophyButton.gameObject.SetActive(false);
+        FatLossButton.gameObject.SetActive(false);
+
 
         
-        yesButton.onClick.AddListener(() => OnButtonClick(true));
-        noButton.onClick.AddListener(() => OnButtonClick(false));
+        StrengthButton.onClick.AddListener(() => OnButtonClick("Strength"));
+        FatLossButton.onClick.AddListener(() => OnButtonClick("Fat Loss"));
+        HypertrophyButton.onClick.AddListener(() => OnButtonClick("Hypertrophy"));
     }
 
     void Update()
     {
-        if (yesButton.gameObject.activeSelf && noButton.gameObject.activeSelf)
+        if (StrengthButton.gameObject.activeSelf && HypertrophyButton.gameObject.activeSelf && FatLossButton.gameObject.activeSelf)
         {
             HandleInput();
         }
@@ -110,6 +49,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        playerController.isDialogueActive = true;
         animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
         sentences.Clear();
@@ -145,8 +85,7 @@ public class DialogueManager : MonoBehaviour
             yield return null;
         }
 
-        // After typing the sentence, show Yes/No question if needed
-        if (sentence.Contains("Do you want to continue?"))
+        if (sentence.Contains("What is your goal?"))
         {
             ShowYesNoQuestion();
         }
@@ -157,33 +96,36 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("IsOpen", false);
         talkText.SetActive(true);
         triggerArea.dialogueStarted = false;
+        StrengthButton.gameObject.SetActive(false);
+        HypertrophyButton.gameObject.SetActive(false);
+        FatLossButton.gameObject.SetActive(false);
+        playerController.isDialogueActive = false;
     }
 
     private void ShowYesNoQuestion()
     {
-        yesButton.gameObject.SetActive(true);
-        noButton.gameObject.SetActive(true);
+        StrengthButton.gameObject.SetActive(true);
+        HypertrophyButton.gameObject.SetActive(true);
+        FatLossButton.gameObject.SetActive(true);
         HighlightButton(selectedButtonIndex);
     }
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.Y) || Input.GetKeyDown(KeyCode.N))
-        {
-            selectedButtonIndex = 1 - selectedButtonIndex;
-            HighlightButton(selectedButtonIndex);
-        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+    {
+        selectedButtonIndex = (selectedButtonIndex + 1) % 3;
+        HighlightButton(selectedButtonIndex);
+    }
+    else if (Input.GetKeyDown(KeyCode.RightArrow))
+    {
+        selectedButtonIndex = (selectedButtonIndex - 1 + 3) % 3;
+        HighlightButton(selectedButtonIndex);
+    }
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            if (selectedButtonIndex == 0)
-            {
-                OnButtonClick(true);
-            }
-            else
-            {
-                OnButtonClick(false);
-            }
+            OnButtonClick(buttons[selectedButtonIndex].GetComponentInChildren<TMP_Text>().text);
         }
     }
 
@@ -191,30 +133,35 @@ public class DialogueManager : MonoBehaviour
     {
         buttons[0].GetComponent<Image>().color = Color.white;
         buttons[1].GetComponent<Image>().color = Color.white;
+        buttons[2].GetComponent<Image>().color = Color.white;
         buttons[index].GetComponent<Image>().color = Color.green;
     }
 
-    private void OnButtonClick(bool isYes)
+    private void OnButtonClick(string choice)
     {
-        string playerAnswer = isYes ? "Yes" : "No";
-        
-        yesButton.gameObject.SetActive(false);
-        noButton.gameObject.SetActive(false);
+        dialogueText.text = $"You chose {choice}!";
 
-        
-        NextDialogue(playerAnswer);
+        StrengthButton.gameObject.SetActive(false);
+        FatLossButton.gameObject.SetActive(false);
+        HypertrophyButton.gameObject.SetActive(false);
+
+        NextDialogue(choice);
     }
 
     private void NextDialogue(string playerAnswer)
     {
         
-        if (playerAnswer == "Yes")
+        if (playerAnswer == "Strength")
         {
-            dialogueText.text = "You chose Yes!";
+            Debug.Log("Strength chosen");
         }
-        else
+        else if (playerAnswer == "Fat Loss")
         {
-            dialogueText.text = "You chose No!";
+            Debug.Log("Fat Loss chosen");
+        }
+        else if (playerAnswer == "Hypertrophy")
+        {
+            Debug.Log("Hypertrophy chosen");
         }
         
     }

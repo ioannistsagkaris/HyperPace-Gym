@@ -15,6 +15,8 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+        public bool isDialogueActive = false;
+
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
         public float MoveSpeed = 2.0f;
@@ -159,14 +161,26 @@ namespace StarterAssets
 
         private void Update()
         {
-            GroundedCheck();
-            JumpAndGravity();
-            Move();
+           if (!isDialogueActive)
+            {
+                GroundedCheck();
+                JumpAndGravity();
+                Move();
+            }
+            else
+            {
+                _animator.SetFloat(_animIDSpeed, 0);
+                _animator.SetFloat(_animIDMotionSpeed, 0);
+                _speed = 0;
+            }
         }
 
         private void LateUpdate()
         {
-            CameraRotation();
+            if (!isDialogueActive)
+            {
+                CameraRotation();
+            }
         }
 
         private void AssignAnimationIDs()
@@ -219,6 +233,12 @@ namespace StarterAssets
 
         private void Move()
         {
+
+            if (isDialogueActive)
+            {
+                
+                return;
+            } 
             // set target speed based on move speed, sprint speed and if sprint is pressed
             float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 
