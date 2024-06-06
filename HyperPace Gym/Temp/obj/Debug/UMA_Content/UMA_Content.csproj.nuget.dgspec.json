@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj": {}
+    "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj": {}
   },
   "projects": {
-    "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj": {
+    "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj",
+        "projectUniqueName": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj",
         "projectName": "Addressable_Editor",
-        "projectPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj",
-        "packagesPath": "/Users/stavrostsoukalas/.nuget/packages/",
-        "outputPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Temp/obj/Debug/Addressable_Editor/",
+        "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj",
+        "packagesPath": "/Users/ioannis/.nuget/packages/",
+        "outputPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Temp/obj/Debug/Addressable_Editor/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/stavrostsoukalas/.nuget/NuGet/NuGet.Config"
+          "/Users/ioannis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +33,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -48,34 +54,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj": {
+    "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj",
+        "projectUniqueName": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj",
         "projectName": "UMA_Content",
-        "projectPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj",
-        "packagesPath": "/Users/stavrostsoukalas/.nuget/packages/",
-        "outputPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Temp/obj/Debug/UMA_Content/",
+        "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Content.csproj",
+        "packagesPath": "/Users/ioannis/.nuget/packages/",
+        "outputPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Temp/obj/Debug/UMA_Content/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/stavrostsoukalas/.nuget/NuGet/NuGet.Config"
+          "/Users/ioannis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj": {
-                "projectPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj"
+              "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj": {
+                "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj"
               }
             }
           }
@@ -84,6 +91,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -100,34 +112,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj": {
+    "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj",
+        "projectUniqueName": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj",
         "projectName": "UMA_Core",
-        "projectPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj",
-        "packagesPath": "/Users/stavrostsoukalas/.nuget/packages/",
-        "outputPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Temp/obj/Debug/UMA_Core/",
+        "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/UMA_Core.csproj",
+        "packagesPath": "/Users/ioannis/.nuget/packages/",
+        "outputPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Temp/obj/Debug/UMA_Core/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/stavrostsoukalas/.nuget/NuGet/NuGet.Config"
+          "/Users/ioannis/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj": {
-                "projectPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj"
+              "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj": {
+                "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj"
               }
             }
           }
@@ -136,6 +149,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -152,7 +170,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }

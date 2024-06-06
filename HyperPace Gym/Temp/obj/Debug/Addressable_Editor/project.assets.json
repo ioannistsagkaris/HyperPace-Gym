@@ -8,24 +8,25 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "/Users/stavrostsoukalas/.nuget/packages/": {}
+    "/Users/ioannis/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj",
+      "projectUniqueName": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj",
       "projectName": "Addressable_Editor",
-      "projectPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj",
-      "packagesPath": "/Users/stavrostsoukalas/.nuget/packages/",
-      "outputPath": "/Users/stavrostsoukalas/Documents/GitHub/HyperPace-Gym/HyperPace Gym/Temp/obj/Debug/Addressable_Editor/",
+      "projectPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Addressable_Editor.csproj",
+      "packagesPath": "/Users/ioannis/.nuget/packages/",
+      "outputPath": "/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Temp/obj/Debug/Addressable_Editor/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/stavrostsoukalas/.nuget/NuGet/NuGet.Config"
+        "/Users/ioannis/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,6 +39,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -54,7 +60,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
