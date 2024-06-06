@@ -8,10 +8,10 @@ using UnityEngine.UI;
 public class OptionsMenuScript : MonoBehaviour
 {
     public AudioMixer audioMixer;
+    public Slider volumeSlider;
     public Slider sensitivitySlider;
+    public Toggle fullscreenToggle;
     public TMP_Dropdown resolutionDropdown;
-    public Toggle toggleMan;
-    public Toggle toggleWoman;
     private Resolution[] resolutions;
 
     void Start() {
@@ -33,24 +33,19 @@ public class OptionsMenuScript : MonoBehaviour
         resolutionDropdown.value = currentRsolutionIndex;
         resolutionDropdown.RefreshShownValue();
 
-        string sensitivity = File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt");
-        if (sensitivity != "" || sensitivity != null)
-            sensitivitySlider.value = float.Parse(sensitivity);
+        if (File.Exists(Application.persistentDataPath + "/Volume.txt") && File.ReadAllText(Application.persistentDataPath + "/Volume.txt") != null && File.ReadAllText(Application.persistentDataPath + "/Volume.txt") != "")
+            volumeSlider.value = float.Parse(File.ReadAllText(Application.persistentDataPath + "/Volume.txt"));
+        
+        if (File.Exists(Application.persistentDataPath + "/Sensitivity.txt") && File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt") != null && File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt") != "")
+            sensitivitySlider.value = float.Parse(File.ReadAllText(Application.persistentDataPath + "/Sensitivity.txt"));
 
-        if (toggleMan != null && toggleWoman != null) {
-            string gender = File.ReadAllText(Application.persistentDataPath + "/Gender.txt");
-            if (gender != "" || gender != null) {
-                if (gender == "Female") {
-                    toggleMan.isOn = false;
-                    toggleWoman.isOn = true;
-                }
-            }
-        }
-            
+        if (File.Exists(Application.persistentDataPath + "/Fullscreen.txt") && File.ReadAllText(Application.persistentDataPath + "/Fullscreen.txt") != null && File.ReadAllText(Application.persistentDataPath + "/Fullscreen.txt") != "")
+            fullscreenToggle.isOn = bool.Parse(File.ReadAllText(Application.persistentDataPath + "/Fullscreen.txt"));
     }
 
     public void SetVolume(float volume) {
         audioMixer.SetFloat("volume", volume);
+        File.WriteAllText(Application.persistentDataPath + "/Volume.txt", volume.ToString());
     }
 
     public void SetResolution(int resolutionIndex) {
@@ -60,6 +55,7 @@ public class OptionsMenuScript : MonoBehaviour
 
     public void SetFullscreen(bool isFullscreen) {
         Screen.fullScreen = isFullscreen;
+        File.WriteAllText(Application.persistentDataPath + "/Fullscreen.txt", isFullscreen.ToString());
     }
 
     public void SetSensitivity(float sensitivity) {
