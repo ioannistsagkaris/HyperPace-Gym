@@ -397,13 +397,16 @@
 "Assets/Scenes/DialogueManager.cs"
 "Assets/Scenes/DialogueTrigger.cs"
 "Assets/Scenes/TriggerArea.cs"
+"Assets/Scripts/ExitSceneScript.cs"
 "Assets/Scripts/MainMenuScript.cs"
+"Assets/Scripts/OnTriggerScript.cs"
 "Assets/Scripts/OptionsMenuScript.cs"
 "Assets/Scripts/PauseMenuScript.cs"
 "Assets/Scripts/RepCounterScript.cs"
 "Assets/Scripts/StarterAssetsInputs.cs"
 "Assets/Scripts/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/ThirdPersonController/Scripts/ThirdPersonController.cs"
+"Assets/Scripts/TimeCounterScript.cs"
 -langversion:9.0
 /deterministic
 /optimize+
