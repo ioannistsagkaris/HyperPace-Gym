@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
+    public SceneDataManagerScript sceneDataManager;
+    public GameObject pauseMenuUI;
+    
     public static bool gameIsPaused = false;
     private bool isCursorLocked = false;
-    public GameObject pauseMenuUI;
 
     void Update() {
         if (Input.GetKeyDown(KeyCode.Escape)) {
@@ -32,6 +34,7 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void StopGame() {
+        sceneDataManager.SaveData(new Vector3((float)-11.71, (float)3.85299993, (float)6.69999981), "");
         Application.Quit();
     }
 }

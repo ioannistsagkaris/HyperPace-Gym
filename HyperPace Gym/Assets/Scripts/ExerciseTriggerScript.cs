@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ExerciseTriggerScript : MonoBehaviour
 {
+    public SceneDataManagerScript sceneDataManager;
     public TMP_Text exerciseText;
     public GameObject boxCollider;
     public Animator transition;
@@ -82,6 +83,11 @@ public class ExerciseTriggerScript : MonoBehaviour
     }
 
     IEnumerator SceneLoader(int levelIndex) {
+        
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player != null)
+            sceneDataManager.SaveData(player.transform.position, "Hypertrophy");
+
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);

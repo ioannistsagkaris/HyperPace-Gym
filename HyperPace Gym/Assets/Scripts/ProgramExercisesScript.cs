@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ProgramExercisesScript : MonoBehaviour
 {
-    public string program;
+    private string program = "Hypertrophy";
     public GameObject squatTrigger;
     public GameObject bicepCurlTrigger;
     public GameObject frontRaiseTrigger;
