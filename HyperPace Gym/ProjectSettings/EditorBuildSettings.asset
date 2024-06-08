@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ExerciseScenes/BicepCurlScene.unity
     guid: 36ac15024915d46778d85d71e662c6ae
   - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/FrontRaiseScene.unity
+    guid: 54e0bd0738f8348e4b97e0ccb103f081
+  - enabled: 1
     path: Assets/Scenes/ExerciseScenes/RunScene.unity
     guid: 71d2f3ae0dd1e4a59b8a783e8988f1a1
   - enabled: 1
