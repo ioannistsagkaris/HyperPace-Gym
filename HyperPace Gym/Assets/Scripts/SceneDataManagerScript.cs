@@ -23,7 +23,10 @@ public class SceneDataManagerScript : MonoBehaviour
         if (scene.buildIndex == 1) {
             GameObject player = GameObject.FindWithTag("Player");
             if (player != null) {
-                player.transform.position = sceneData.position;
+                if (sceneData.position == new Vector3(0, 0, 0))
+                    player.transform.position = new Vector3((float)-11.71, (float)3.85299993, (float)6.69999981);
+                else
+                    player.transform.position = sceneData.position;
             }
         }
 

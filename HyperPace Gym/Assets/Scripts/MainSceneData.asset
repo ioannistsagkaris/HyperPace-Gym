@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f1a388e9e914a3da9ff3c35d080e79, type: 3}
   m_Name: MainSceneData
   m_EditorClassIdentifier: 
-  position: {x: 0, y: 0, z: 0}
+  position: {x: -11.71, y: 3.853, z: 6.7}
   program: 

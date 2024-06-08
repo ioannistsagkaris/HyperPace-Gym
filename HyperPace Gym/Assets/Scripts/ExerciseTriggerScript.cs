@@ -42,6 +42,7 @@ public class ExerciseTriggerScript : MonoBehaviour
             } else if (boxCollider.layer == 17) {
                 StartCoroutine(SceneLoader(4));
             }
+            
         }
     }
 
