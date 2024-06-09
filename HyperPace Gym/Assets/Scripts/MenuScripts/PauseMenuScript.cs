@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public SceneDataManagerScript sceneDataManager;
+    public PlayerPositionScript savePlayerPosition;
     public GameObject pauseMenuUI;
     
     public static bool gameIsPaused = false;
@@ -34,7 +34,7 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void StopGame() {
-        sceneDataManager.SaveData(new Vector3((float)-11.71, (float)3.85299993, (float)6.69999981), "");
+        savePlayerPosition.SavePlayerPosition((float)-11.71, (float)3.853, (float)6.7);
         Application.Quit();
     }
 }

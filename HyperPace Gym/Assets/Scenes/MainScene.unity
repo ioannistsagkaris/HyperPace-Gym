@@ -155,6 +155,51 @@ Transform:
   - {fileID: 1479673490}
   m_Father: {fileID: 2088813353}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7282237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7282239}
+  - component: {fileID: 7282240}
+  m_Layer: 0
+  m_Name: PlayerPosition
+  m_TagString: Position
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7282239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282237}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -11.71, y: 3.853, z: 6.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7282240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ea94513b852d4690825a8d59001249f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 761673457}
 --- !u!1001 &9418872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1086,7 +1131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 37685656}
   transition: {fileID: 1318023017}
@@ -4621,51 +4667,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1629736305}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &164125816
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 164125818}
-  - component: {fileID: 164125817}
-  m_Layer: 0
-  m_Name: SceneData
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &164125817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164125816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2b61b0e0576c4450b867d942ab49ad3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneData: {fileID: 11400000, guid: f8e0f38d7d3674a7cbf5e00ca1e4121d, type: 2}
---- !u!4 &164125818
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164125816}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.706024, y: 1.4266869, z: 189.17108}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &167082167
 GameObject:
@@ -10960,7 +10961,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 437095146}
   transition: {fileID: 1318023017}
@@ -14533,7 +14535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94a5734f78a8c4b5aa5c9daf9bcfd0bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
   pauseMenuUI: {fileID: 1043984670}
 --- !u!1 &621046550
 GameObject:
@@ -16926,7 +16928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 726292938}
   transition: {fileID: 1318023017}
@@ -24002,7 +24005,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 1038767086}
   transition: {fileID: 1318023017}
@@ -29466,7 +29470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 1272176355}
   transition: {fileID: 1318023017}
@@ -30426,6 +30431,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4622162269550456043, guid: 3304ecc5b2d2243439b973854bca53aa, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30608,7 +30617,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 1336537374}
   transition: {fileID: 1318023017}
@@ -30904,7 +30914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 1352842891}
   transition: {fileID: 1318023017}
@@ -32987,7 +32998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 1423497792}
   transition: {fileID: 1318023017}
@@ -35286,7 +35298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 1510187379}
   transition: {fileID: 1318023017}
@@ -41650,7 +41663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932ad61b4747d40c3b924eff769f41d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDataManager: {fileID: 164125817}
+  savePlayerPosition: {fileID: 7282240}
+  playerPosition: {fileID: 761673457}
   exerciseText: {fileID: 172965618}
   boxCollider: {fileID: 1786879499}
   transition: {fileID: 1318023017}
@@ -49105,6 +49119,7 @@ SceneRoots:
   - {fileID: 1318023016}
   - {fileID: 1811300383}
   - {fileID: 549682222}
+  - {fileID: 7282239}
   - {fileID: 761673457}
   - {fileID: 1491160665}
   - {fileID: 213196132}
@@ -49114,4 +49129,3 @@ SceneRoots:
   - {fileID: 1671324355}
   - {fileID: 29070853}
   - {fileID: 969447642}
-  - {fileID: 164125818}

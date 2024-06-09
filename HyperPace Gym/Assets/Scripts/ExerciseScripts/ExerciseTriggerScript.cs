@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ExerciseTriggerScript : MonoBehaviour
 {
-    public SceneDataManagerScript sceneDataManager;
+    public PlayerPositionScript savePlayerPosition;
+    public Transform playerPosition;
     public TMP_Text exerciseText;
     public GameObject boxCollider;
     public Animator transition;
+    
     private bool isPlayerInRange = false;
     public float transitionTime = 1.0f;
 
@@ -84,11 +86,8 @@ public class ExerciseTriggerScript : MonoBehaviour
     }
 
     IEnumerator SceneLoader(int levelIndex) {
+        savePlayerPosition.SavePlayerPosition(playerPosition.transform.position.x, playerPosition.transform.position.y, playerPosition.transform.position.z);
         
-        GameObject player = GameObject.FindWithTag("Player");
-        if (player != null)
-            sceneDataManager.SaveData(player.transform.position, "Hypertrophy");
-
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);

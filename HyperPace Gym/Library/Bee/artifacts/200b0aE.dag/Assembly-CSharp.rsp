@@ -404,8 +404,7 @@
 "Assets/Scripts/PlayerInputScripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/PlayerInputScripts/StarterAssetsInputs.cs"
 "Assets/Scripts/PlayerInputScripts/ThirdPersonController.cs"
-"Assets/Scripts/SceneManagementScripts/SceneDataManagerScript.cs"
-"Assets/Scripts/SceneManagementScripts/SceneDataScript.cs"
+"Assets/Scripts/SceneManagementScripts/PlayerPositionScript.cs"
 "Assets/Scripts/SceneManagementScripts/SceneLoaderScript.cs"
 -langversion:9.0
 /deterministic
