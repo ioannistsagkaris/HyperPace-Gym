@@ -401,6 +401,7 @@
 "Assets/Scripts/MenuScripts/MainMenuScript.cs"
 "Assets/Scripts/MenuScripts/OptionsMenuScript.cs"
 "Assets/Scripts/MenuScripts/PauseMenuScript.cs"
+"Assets/Scripts/MenuScripts/SettingsScript.cs"
 "Assets/Scripts/NutritionistScripts/NutritionDialogueManagerScript.cs"
 "Assets/Scripts/NutritionistScripts/NutritionDialogueScript.cs"
 "Assets/Scripts/NutritionistScripts/NutritionDialogueTriggerScript.cs"
@@ -416,11 +417,11 @@
 "Assets/Scripts/SellerScripts/ShopDialogueTrigger.cs"
 "Assets/Scripts/SellerScripts/ShopProgramButton.cs"
 "Assets/Scripts/SellerScripts/ShopTriggerArea.cs"
-"Assets/Scripts/TrainerScripts/TrainerDialogue.cs"
-"Assets/Scripts/TrainerScripts/TrainerDialogueManager.cs"
-"Assets/Scripts/TrainerScripts/TrainerDialogueTrigger.cs"
-"Assets/Scripts/TrainerScripts/TrainerProgramButton.cs"
-"Assets/Scripts/TrainerScripts/TrainerTriggerArea.cs"
+"Assets/Scripts/TrainerScripts/TrainerDialogueManagerScript.cs"
+"Assets/Scripts/TrainerScripts/TrainerDialogueScript.cs"
+"Assets/Scripts/TrainerScripts/TrainerDialogueTriggerScript.cs"
+"Assets/Scripts/TrainerScripts/TrainerProgramButtonScript.cs"
+"Assets/Scripts/TrainerScripts/TrainerTriggerAreaScript.cs"
 -langversion:9.0
 /deterministic
 /optimize+
