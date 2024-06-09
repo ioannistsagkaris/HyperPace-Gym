@@ -79,7 +79,7 @@ public class NutritionDialogueManager : MonoBehaviour
             yield return null;
         }
 
-        if (sentence.Contains("What Diet plan you want to follow?"))
+        if (sentence.Contains("What diet plan you want to follow?"))
             ShowQuestion();
     }
 

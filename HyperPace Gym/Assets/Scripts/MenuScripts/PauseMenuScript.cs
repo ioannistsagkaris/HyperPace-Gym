@@ -4,17 +4,21 @@ public class PauseMenu : MonoBehaviour
 {
     public PlayerPositionScript savePlayerPosition;
     public GameObject pauseMenuUI;
+    public TrainerTriggerArea trainerDialogue;
+    public NutritionTriggerArea nutritionistDialogue;
     
     public static bool gameIsPaused = false;
     private bool isCursorLocked = false;
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Escape)) {
+
+        if (Input.GetKeyDown(KeyCode.Escape) && !trainerDialogue.dialogueStarted && !nutritionistDialogue.dialogueStarted) {
             if (gameIsPaused)
                 Resume();
             else
                 Pause();
         }
+        
     }
 
     public void Resume() {
