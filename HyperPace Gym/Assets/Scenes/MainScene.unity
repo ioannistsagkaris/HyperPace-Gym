@@ -379,8 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talkText: {fileID: 620249616}
-  trainerBoxCollider: {fileID: 1052034134}
-  nutritionistBoxCollider: {fileID: 335449173}
+  boxCollider: {fileID: 0}
   dialogueTrigger: {fileID: 1638967775}
   dialogueManager: {fileID: 809062414}
   dialogueStarted: 0
@@ -10636,8 +10635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talkText: {fileID: 620249616}
-  trainerBoxCollider: {fileID: 1052034134}
-  nutritionistBoxCollider: {fileID: 335449173}
+  boxCollider: {fileID: 335449173}
   dialogueTrigger: {fileID: 1638967775}
   dialogueManager: {fileID: 809062414}
   dialogueStarted: 0
@@ -30474,8 +30472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talkText: {fileID: 620249616}
-  trainerBoxCollider: {fileID: 1052034134}
-  nutritionistBoxCollider: {fileID: 335449173}
+  boxCollider: {fileID: 1052034134}
   dialogueTrigger: {fileID: 1638967775}
   dialogueManager: {fileID: 809062414}
   dialogueStarted: 0

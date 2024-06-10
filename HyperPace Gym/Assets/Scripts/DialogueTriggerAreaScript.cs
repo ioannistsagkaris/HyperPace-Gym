@@ -3,8 +3,7 @@ using UnityEngine;
 public class DialogueTriggerAreaScript : MonoBehaviour
 {
     public GameObject talkText;
-    public GameObject trainerBoxCollider;
-    public GameObject nutritionistBoxCollider;
+    public GameObject boxCollider;
 
     public DialogueTriggerScript dialogueTrigger;
     public DialogueManagerScript dialogueManager;
@@ -25,14 +24,11 @@ public class DialogueTriggerAreaScript : MonoBehaviour
             talkText.SetActive(true);
             isPlayerInRange = true;
 
-            if (other.gameObject.layer == trainerBoxCollider.layer)
+            if (boxCollider.layer == 19)
                 inTrainersRange = true;
 
-            else if (other.gameObject.layer == nutritionistBoxCollider.layer)
+            else if (boxCollider.layer == 20)
                 inNutritionistsRange = true;
-
-            Debug.Log("Trainer: " + inTrainersRange);
-            Debug.Log("Nutritionist: " + inNutritionistsRange);
 
         }
 
@@ -45,12 +41,8 @@ public class DialogueTriggerAreaScript : MonoBehaviour
             talkText.SetActive(false);
             isPlayerInRange = false;
             dialogueStarted = false;
-
-            if (trainerBoxCollider.layer == 19)
-                inTrainersRange = false;
-
-            else if (nutritionistBoxCollider.layer == 20)
-                inNutritionistsRange = false;
+            inTrainersRange = false;
+            inNutritionistsRange = false;
 
         }
 
