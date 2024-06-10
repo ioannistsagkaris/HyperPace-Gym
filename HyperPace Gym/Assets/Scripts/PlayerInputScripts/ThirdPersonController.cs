@@ -15,7 +15,7 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
-        public bool isDialogueActive = false;
+        public static bool isDialogueActive = false;
 
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]

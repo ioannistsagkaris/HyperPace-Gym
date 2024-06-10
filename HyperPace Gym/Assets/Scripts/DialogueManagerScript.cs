@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class DialogueManagerScript : MonoBehaviour
 {
     public GameObject dialoguePanel;
-    public ThirdPersonController playerController;
 
     public DialogueTriggerAreaScript triggerArea;
     public DialogueTriggerAreaScript talkText;
@@ -52,7 +51,7 @@ public class DialogueManagerScript : MonoBehaviour
     public void StartTrainerDialogue(TrainerDialogueScript dialogue) {
 
         dialoguePanel.SetActive(true);
-        playerController.isDialogueActive = true;
+        ThirdPersonController.isDialogueActive = true;
         nameText.text = dialogue.name;
         sentences.Clear();
 
@@ -65,7 +64,7 @@ public class DialogueManagerScript : MonoBehaviour
     public void StartNutritionistDialogue(NutritionistDialogueScript dialogue) {
 
         dialoguePanel.SetActive(true);
-        playerController.isDialogueActive = true;
+        ThirdPersonController.isDialogueActive = true;
         nameText.text = dialogue.name;
         sentences.Clear();
 
@@ -107,7 +106,7 @@ public class DialogueManagerScript : MonoBehaviour
         StrengthButton.gameObject.SetActive(false);
         HypertrophyButton.gameObject.SetActive(false);
         FatLossButton.gameObject.SetActive(false);
-        playerController.isDialogueActive = false;
+        ThirdPersonController.isDialogueActive = false;
         dialoguePanel.SetActive(false);
         question = false;
 
@@ -160,10 +159,10 @@ public class DialogueManagerScript : MonoBehaviour
 
     private void OnButtonClick(string programPlan) {
 
-        if (triggerArea.inTrainersRange)
+        if (DialogueTriggerAreaScript.inTrainersRange)
             programButton.SetProgram(programPlan);
 
-        else if (triggerArea.inNutritionistsRange)
+        else if (DialogueTriggerAreaScript.inNutritionistsRange)
             programButton.SetPlan(programPlan);
 
         StrengthButton.gameObject.SetActive(false);

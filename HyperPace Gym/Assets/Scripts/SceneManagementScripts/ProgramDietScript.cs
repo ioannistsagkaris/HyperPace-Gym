@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class ProgramDietScript : MonoBehaviour
 {
-    public TrainerProgramButton trainerProgramButton;
-    public NutritionProgramButton nutritionProgramButton;
+    public DialogueButtonScript trainerProgramButton;
+    public DialogueButtonScript nutritionProgramButton;
     public ProgramExercisesScript programExercises;
 
     private string trainingProgram = string.Empty;
@@ -26,7 +26,7 @@ public class ProgramDietScript : MonoBehaviour
         trainingProgram = PlayerPrefs.GetString("TrainingProgram");
 
         if (!string.IsNullOrEmpty(trainingProgram)) {
-            trainerProgramButton.DisplayPanel(trainingProgram);
+            trainerProgramButton.DisplayPanelProgram(trainingProgram);
             programExercises.ShowExerciseTriggers(trainingProgram);
         }
     }
@@ -35,6 +35,6 @@ public class ProgramDietScript : MonoBehaviour
         dietPlan = PlayerPrefs.GetString("DietPlan");
 
         if (!string.IsNullOrEmpty(dietPlan))
-            nutritionProgramButton.DisplayPanel(dietPlan);
+            nutritionProgramButton.DisplayPanelPlan(dietPlan);
     }
 }

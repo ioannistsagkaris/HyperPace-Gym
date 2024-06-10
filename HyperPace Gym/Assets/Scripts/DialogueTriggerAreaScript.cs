@@ -10,8 +10,8 @@ public class DialogueTriggerAreaScript : MonoBehaviour
 
     public bool dialogueStarted = false;
     private bool isPlayerInRange = false;
-    public bool inTrainersRange = false;
-    public bool inNutritionistsRange = false;
+    public static bool inTrainersRange = false;
+    public static bool inNutritionistsRange = false;
     
     void Start() {
         talkText.SetActive(false);

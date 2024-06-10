@@ -4,7 +4,6 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;
-    public ThirdPersonController playerController;
     public PlayerPositionScript savePlayerPosition;
     public ProgramDietScript programDiet;
     
@@ -13,7 +12,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update() {
 
-        if (Input.GetKeyDown(KeyCode.Escape) && !playerController.isDialogueActive) {
+        if (Input.GetKeyDown(KeyCode.Escape) && !ThirdPersonController.isDialogueActive) {
             if (gameIsPaused)
                 Resume();
             else
