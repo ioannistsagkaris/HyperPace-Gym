@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class ProgramExercisesScript : MonoBehaviour
 {
-    private string program = "Strength";
     public GameObject squatTrigger;
     public GameObject bicepCurlTrigger;
     public GameObject frontRaiseTrigger;
@@ -14,7 +13,7 @@ public class ProgramExercisesScript : MonoBehaviour
     public GameObject snatchTrigger;
     public GameObject highPullTrigger;
 
-    void Start() {
+    void Awake() {
 
         squatTrigger.SetActive(false);
         snatchTrigger.SetActive(false);
@@ -29,7 +28,7 @@ public class ProgramExercisesScript : MonoBehaviour
 
     }
 
-    void Update() {
+    public void ShowExerciseTriggers(string program) {
         if (program == "Strength") {
 
             squatTrigger.SetActive(true);
@@ -58,7 +57,7 @@ public class ProgramExercisesScript : MonoBehaviour
             snatchTrigger.SetActive(false);
             highPullTrigger.SetActive(false);
 
-        } else if (program == "LoseFat") {
+        } else if (program == "FatLoss") {
 
             runTrigger.SetActive(true);
             jumpingJackTrigger.SetActive(true);

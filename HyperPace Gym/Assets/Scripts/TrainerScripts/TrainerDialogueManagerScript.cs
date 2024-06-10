@@ -25,7 +25,7 @@ public class TrainerDialogueManager : MonoBehaviour
     
     void Start() {
         sentences = new Queue<string>();
-        buttons = new Button[] { FatLossButton, HypertrophyButton, StrengthButton};
+        buttons = new Button[] { FatLossButton, HypertrophyButton, StrengthButton };
 
         StrengthButton.gameObject.SetActive(false);
         HypertrophyButton.gameObject.SetActive(false);
@@ -68,6 +68,7 @@ public class TrainerDialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
+
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
@@ -136,7 +137,7 @@ public class TrainerDialogueManager : MonoBehaviour
     private void HighlightButton(int index) {
 
         buttons[0].GetComponent<Image>().color = Color.gray;
-        buttons[1].GetComponent<Image>().color = Color.grey;
+        buttons[1].GetComponent<Image>().color = Color.gray;
         buttons[2].GetComponent<Image>().color = Color.gray;
         buttons[index].GetComponent<Image>().color = Color.white;
 
@@ -144,7 +145,7 @@ public class TrainerDialogueManager : MonoBehaviour
 
     private void OnButtonClick(string program) {
 
-        programButton.SetProgram(program); 
+        programButton.SetProgram(program);
         StrengthButton.gameObject.SetActive(false);
         HypertrophyButton.gameObject.SetActive(false);
         FatLossButton.gameObject.SetActive(false);

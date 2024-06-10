@@ -15,6 +15,7 @@ public class NutritionTriggerArea : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other) {
+        
         if (other.CompareTag("Player")) {
             talkText.SetActive(true);
             isPlayerInRange = true;
@@ -33,6 +34,7 @@ public class NutritionTriggerArea : MonoBehaviour
     }
 
     void Update() {
+
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && !dialogueManager.question) {
 
             if (!dialogueStarted) {
@@ -42,6 +44,7 @@ public class NutritionTriggerArea : MonoBehaviour
             }
 
             dialogueManager.DisplayNextSentence();
+
         } else if (isPlayerInRange && Input.GetKeyDown(KeyCode.Escape) && dialogueStarted)
             dialogueManager.EndDialogue();
     }

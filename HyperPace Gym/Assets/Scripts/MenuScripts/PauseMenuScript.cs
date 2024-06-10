@@ -1,18 +1,19 @@
+using StarterAssets;
 using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public PlayerPositionScript savePlayerPosition;
     public GameObject pauseMenuUI;
-    public TrainerTriggerArea trainerDialogue;
-    public NutritionTriggerArea nutritionistDialogue;
+    public ThirdPersonController playerController;
+    public PlayerPositionScript savePlayerPosition;
+    public ProgramDietScript programDiet;
     
     public static bool gameIsPaused = false;
     private bool isCursorLocked = false;
 
     void Update() {
 
-        if (Input.GetKeyDown(KeyCode.Escape) && !trainerDialogue.dialogueStarted && !nutritionistDialogue.dialogueStarted) {
+        if (Input.GetKeyDown(KeyCode.Escape) && !playerController.isDialogueActive) {
             if (gameIsPaused)
                 Resume();
             else
@@ -39,6 +40,8 @@ public class PauseMenu : MonoBehaviour
 
     public void StopGame() {
         savePlayerPosition.SavePlayerPosition((float)-11.71, (float)3.853, (float)6.7);
+        programDiet.SaveProgram(string.Empty);
+        programDiet.SaveDiet(string.Empty);
         Application.Quit();
     }
 }

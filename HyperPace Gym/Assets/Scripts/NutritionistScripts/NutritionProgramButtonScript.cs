@@ -3,8 +3,7 @@ using UnityEngine;
 public class NutritionProgramButton : MonoBehaviour
 {
     public GameObject strengthPanel, hyperPanel, fatlossPanel;
-
-    private string training_program; 
+    public ProgramDietScript programDiet;
     
     void Start() {
         strengthPanel.SetActive(false);
@@ -12,26 +11,26 @@ public class NutritionProgramButton : MonoBehaviour
         fatlossPanel.SetActive(false);
     }
 
-    public void SetProgram(string program) {
-        training_program = program;
-        DisplayPanel();
+    public void SetProgram(string diet) {
+        programDiet.SaveDiet(diet);
+        DisplayPanel(diet);
     }
 
-    private void DisplayPanel() {
+    public void DisplayPanel(string diet) {
 
-        if (training_program == "Strength") {
+        if (diet == "Strength") {
 
             strengthPanel.SetActive(true);
             hyperPanel.SetActive(false);
             fatlossPanel.SetActive(false);
 
-        } else if (training_program == "Hypertrophy") {
+        } else if (diet == "Hypertrophy") {
 
             strengthPanel.SetActive(false);
             hyperPanel.SetActive(true);
             fatlossPanel.SetActive(false);
 
-        } else if (training_program == "FatLoss") {
+        } else if (diet == "FatLoss") {
 
             strengthPanel.SetActive(false);
             hyperPanel.SetActive(false);

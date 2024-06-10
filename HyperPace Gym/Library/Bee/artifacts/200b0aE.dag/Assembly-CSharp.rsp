@@ -411,6 +411,7 @@
 "Assets/Scripts/PlayerInputScripts/StarterAssetsInputs.cs"
 "Assets/Scripts/PlayerInputScripts/ThirdPersonController.cs"
 "Assets/Scripts/SceneManagementScripts/PlayerPositionScript.cs"
+"Assets/Scripts/SceneManagementScripts/ProgramDietScript.cs"
 "Assets/Scripts/SceneManagementScripts/SceneLoaderScript.cs"
 "Assets/Scripts/SellerScripts/ShopDialogue.cs"
 "Assets/Scripts/SellerScripts/ShopDialogueManager.cs"

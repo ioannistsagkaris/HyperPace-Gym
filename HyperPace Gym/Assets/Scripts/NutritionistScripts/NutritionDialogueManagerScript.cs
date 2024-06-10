@@ -25,7 +25,7 @@ public class NutritionDialogueManager : MonoBehaviour
 
     void Start() {
         sentences = new Queue<string>();
-        buttons = new Button[] { FatLossButton, HypertrophyButton, StrengthButton};
+        buttons = new Button[] { FatLossButton, HypertrophyButton, StrengthButton };
 
         StrengthButton.gameObject.SetActive(false);
         HypertrophyButton.gameObject.SetActive(false);
@@ -37,10 +37,12 @@ public class NutritionDialogueManager : MonoBehaviour
     }
 
     void Update() {
+
         if (StrengthButton.gameObject.activeSelf && HypertrophyButton.gameObject.activeSelf && FatLossButton.gameObject.activeSelf) {
             question = true;
             HandleInput();
         }
+
     }
 
     public void StartDialogue(NutritionDialogue dialogue) {
@@ -135,7 +137,7 @@ public class NutritionDialogueManager : MonoBehaviour
     private void HighlightButton(int index) {
 
         buttons[0].GetComponent<Image>().color = Color.gray;
-        buttons[1].GetComponent<Image>().color = Color.grey;
+        buttons[1].GetComponent<Image>().color = Color.gray;
         buttons[2].GetComponent<Image>().color = Color.gray;
         buttons[index].GetComponent<Image>().color = Color.white;
 
