@@ -11,6 +11,7 @@ public class DialogueTriggerAreaScript : MonoBehaviour
     public static bool dialogueStarted = false;
     public static bool inTrainersRange = false;
     public static bool inNutritionistsRange = false;
+    public static bool inSellerRange = false;
     private bool isPlayerInRange = false;
     
     void Start() {
@@ -30,6 +31,8 @@ public class DialogueTriggerAreaScript : MonoBehaviour
             else if (boxCollider.layer == 20)
                 inNutritionistsRange = true;
 
+            else if (boxCollider.layer == 21)
+                inSellerRange = true;
         }
 
     }
@@ -43,6 +46,7 @@ public class DialogueTriggerAreaScript : MonoBehaviour
             dialogueStarted = false;
             inTrainersRange = false;
             inNutritionistsRange = false;
+            inSellerRange = false;
 
         }
 
@@ -62,11 +66,23 @@ public class DialogueTriggerAreaScript : MonoBehaviour
 
                 }
 
-            } else if (inNutritionistsRange) {
+            } 
+            else if (inNutritionistsRange) {
 
                 if (!dialogueStarted) {
 
                     dialogueTrigger.TriggerNutritionistDialogue();
+                    dialogueStarted = true;
+                    talkText.SetActive(false);
+
+                }
+
+            }
+            else if (inSellerRange) {
+
+                if (!dialogueStarted) {
+
+                    dialogueTrigger.TriggerSellerDialogue();
                     dialogueStarted = true;
                     talkText.SetActive(false);
 

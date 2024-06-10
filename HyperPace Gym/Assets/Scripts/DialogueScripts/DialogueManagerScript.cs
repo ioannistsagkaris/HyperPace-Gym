@@ -7,11 +7,10 @@ using UnityEngine.UI;
 
 public class DialogueManagerScript : MonoBehaviour
 {
-    public GameObject dialoguePanel;
+    public GameObject dialoguePanel, shopPanel;
     public GameObject talkText;
-
     public DialogueButtonScript programButton;
-
+    private bool isCursorLocked = false;
     public TMP_Text nameText;
     public TMP_Text dialogueText;
 
@@ -73,6 +72,22 @@ public class DialogueManagerScript : MonoBehaviour
         DisplayNextSentence();
     }
 
+    public void StartSellerDialogue(DialogueScript dialogue) {
+
+        shopPanel.SetActive(true);
+        Cursor.lockState = isCursorLocked ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.visible = !isCursorLocked;
+        dialoguePanel.SetActive(true);
+        ThirdPersonController.isDialogueActive = true;
+        nameText.text = dialogue.name;
+        sentences.Clear();
+
+        foreach (string sentence in dialogue.sentences)
+            sentences.Enqueue(sentence);
+
+        DisplayNextSentence();
+    }
+
     public void DisplayNextSentence() {
 
         if (sentences.Count == 0) {
@@ -110,6 +125,9 @@ public class DialogueManagerScript : MonoBehaviour
         question = false;
         selectedButtonIndex = 2;
         StopAllCoroutines();
+        shopPanel.SetActive(false);
+        Cursor.lockState = !isCursorLocked ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.visible = isCursorLocked;
 
     }
 
