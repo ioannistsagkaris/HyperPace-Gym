@@ -1,3 +1,4 @@
+using System.IO;
 using UnityEngine;
 
 public class DialogueButtonScript : MonoBehaviour
@@ -13,7 +14,7 @@ public class DialogueButtonScript : MonoBehaviour
     public ProgramExercisesScript programExercises;
     public ProgramDietScript programDiet;
     
-    void Start() {
+    void Awake() {
 
         strengthPanelProgram.SetActive(false);
         hyperPanelProgram.SetActive(false);

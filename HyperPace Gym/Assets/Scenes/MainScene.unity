@@ -2282,7 +2282,7 @@ GameObject:
   - component: {fileID: 59252185}
   - component: {fileID: 59252184}
   m_Layer: 5
-  m_Name: Exercise_3
+  m_Name: Situps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2541,7 +2541,7 @@ GameObject:
   - component: {fileID: 66810037}
   - component: {fileID: 66810036}
   m_Layer: 5
-  m_Name: Exercise_2
+  m_Name: BicepCurls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7453,7 +7453,7 @@ GameObject:
   - component: {fileID: 246062076}
   - component: {fileID: 246062075}
   m_Layer: 5
-  m_Name: Exercise_3
+  m_Name: HighPull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7810,7 +7810,7 @@ GameObject:
   - component: {fileID: 251446394}
   - component: {fileID: 251446393}
   m_Layer: 5
-  m_Name: Header
+  m_Name: FatLossProgram
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9448,7 +9448,7 @@ GameObject:
   - component: {fileID: 333645895}
   - component: {fileID: 333645894}
   m_Layer: 5
-  m_Name: Exercise_4
+  m_Name: PistolSquats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10517,7 +10517,7 @@ GameObject:
   - component: {fileID: 376670130}
   - component: {fileID: 376670129}
   m_Layer: 5
-  m_Name: Exercise_1
+  m_Name: Pushups
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13711,7 +13711,7 @@ GameObject:
   - component: {fileID: 492379152}
   - component: {fileID: 492379151}
   m_Layer: 5
-  m_Name: Header
+  m_Name: HypertrophyProgram
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14287,7 +14287,7 @@ GameObject:
   - component: {fileID: 521487083}
   - component: {fileID: 521487082}
   m_Layer: 5
-  m_Name: Exercise_3
+  m_Name: FrontRaises
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18303,8 +18303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b7bb2f5297594a8eb0c39a85ad37bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trainerProgramButton: {fileID: 1306881736}
-  nutritionProgramButton: {fileID: 1306881736}
+  panels: {fileID: 1306881736}
   programExercises: {fileID: 969447641}
 --- !u!4 &672849754
 Transform:
@@ -26278,7 +26277,7 @@ GameObject:
   - component: {fileID: 954577252}
   - component: {fileID: 954577251}
   m_Layer: 5
-  m_Name: Exercise_1
+  m_Name: Sprint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29104,7 +29103,7 @@ GameObject:
   - component: {fileID: 1094165029}
   - component: {fileID: 1094165028}
   m_Layer: 5
-  m_Name: Exercise_2
+  m_Name: JumpingJacks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34190,7 +34189,7 @@ GameObject:
   - component: {fileID: 1274156177}
   - component: {fileID: 1274156176}
   m_Layer: 5
-  m_Name: Exercise_1
+  m_Name: BackSquat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43484,7 +43483,7 @@ GameObject:
   - component: {fileID: 1637471492}
   - component: {fileID: 1637471491}
   m_Layer: 5
-  m_Name: Header
+  m_Name: StrengthProgram
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45062,7 +45061,7 @@ GameObject:
   - component: {fileID: 1673672532}
   - component: {fileID: 1673672531}
   m_Layer: 5
-  m_Name: Exercise_2
+  m_Name: Snatch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45107,7 +45106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Clean and Jerk\t3x8"
+  m_text: "Snatch\t\t3x8"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

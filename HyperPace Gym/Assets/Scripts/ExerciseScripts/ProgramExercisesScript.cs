@@ -29,6 +29,7 @@ public class ProgramExercisesScript : MonoBehaviour
     }
 
     public void ShowExerciseTriggers(string program) {
+        
         if (program == "Strength") {
 
             squatTrigger.SetActive(true);

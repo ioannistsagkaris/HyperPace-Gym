@@ -1,4 +1,5 @@
 using System.Collections;
+using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,13 +15,12 @@ public class ExerciseTriggerScript : MonoBehaviour
     private bool isPlayerInRange = false;
     public float transitionTime = 1.0f;
 
-    void Start()
-    {
+    void Start() {
         exerciseText.gameObject.SetActive(false);
     }
 
-    void Update()
-    {
+    void Update() {
+
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E)) {
 
             if (boxCollider.layer == 8) {
