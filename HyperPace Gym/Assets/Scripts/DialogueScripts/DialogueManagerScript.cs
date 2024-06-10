@@ -8,9 +8,8 @@ using UnityEngine.UI;
 public class DialogueManagerScript : MonoBehaviour
 {
     public GameObject dialoguePanel;
+    public GameObject talkText;
 
-    public DialogueTriggerAreaScript triggerArea;
-    public DialogueTriggerAreaScript talkText;
     public DialogueButtonScript programButton;
 
     public TMP_Text nameText;
@@ -24,7 +23,7 @@ public class DialogueManagerScript : MonoBehaviour
     private Button[] buttons;
 
     public bool question = false;
-    private int selectedButtonIndex = 0;
+    private int selectedButtonIndex = 2;
     
     void Start() {
         sentences = new Queue<string>();
@@ -48,27 +47,27 @@ public class DialogueManagerScript : MonoBehaviour
 
     }
 
-    public void StartTrainerDialogue(TrainerDialogueScript dialogue) {
+    public void StartTrainerDialogue(DialogueScript dialogue) {
 
         dialoguePanel.SetActive(true);
         ThirdPersonController.isDialogueActive = true;
         nameText.text = dialogue.name;
         sentences.Clear();
 
-        foreach (string sentence in dialogue.trainerSentences)
+        foreach (string sentence in dialogue.sentences)
             sentences.Enqueue(sentence);
 
         DisplayNextSentence();
     }
 
-    public void StartNutritionistDialogue(NutritionistDialogueScript dialogue) {
+    public void StartNutritionistDialogue(DialogueScript dialogue) {
 
         dialoguePanel.SetActive(true);
         ThirdPersonController.isDialogueActive = true;
         nameText.text = dialogue.name;
         sentences.Clear();
 
-        foreach (string sentence in dialogue.nutritionistSentences)
+        foreach (string sentence in dialogue.sentences)
             sentences.Enqueue(sentence);
 
         DisplayNextSentence();
@@ -101,14 +100,16 @@ public class DialogueManagerScript : MonoBehaviour
 
     public void EndDialogue() {
 
-        triggerArea.talkText.SetActive(true);
-        triggerArea.dialogueStarted = false;
+        talkText.SetActive(true);
+        DialogueTriggerAreaScript.dialogueStarted = false;
         StrengthButton.gameObject.SetActive(false);
         HypertrophyButton.gameObject.SetActive(false);
         FatLossButton.gameObject.SetActive(false);
         ThirdPersonController.isDialogueActive = false;
         dialoguePanel.SetActive(false);
         question = false;
+        selectedButtonIndex = 2;
+        StopAllCoroutines();
 
     }
 
@@ -127,12 +128,12 @@ public class DialogueManagerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftArrow)) {
 
-            selectedButtonIndex = (selectedButtonIndex + 1 + 3) % 3; 
+            selectedButtonIndex = (selectedButtonIndex + 1) % 3;
             HighlightButton(selectedButtonIndex);
 
         } else if (Input.GetKeyDown(KeyCode.RightArrow)) {
 
-            selectedButtonIndex = (selectedButtonIndex - 1) % 3;
+            selectedButtonIndex = (selectedButtonIndex + 2) % 3;
             HighlightButton(selectedButtonIndex);
 
         }

@@ -12,7 +12,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update() {
 
-        if (Input.GetKeyDown(KeyCode.Escape) && ThirdPersonController.isDialogueActive) {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
             if (gameIsPaused)
                 Resume();
             else

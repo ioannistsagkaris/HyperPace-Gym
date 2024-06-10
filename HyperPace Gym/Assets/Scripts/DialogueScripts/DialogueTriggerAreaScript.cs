@@ -8,10 +8,10 @@ public class DialogueTriggerAreaScript : MonoBehaviour
     public DialogueTriggerScript dialogueTrigger;
     public DialogueManagerScript dialogueManager;
 
-    public bool dialogueStarted = false;
-    private bool isPlayerInRange = false;
+    public static bool dialogueStarted = false;
     public static bool inTrainersRange = false;
     public static bool inNutritionistsRange = false;
+    private bool isPlayerInRange = false;
     
     void Start() {
         talkText.SetActive(false);
@@ -76,7 +76,7 @@ public class DialogueTriggerAreaScript : MonoBehaviour
 
             dialogueManager.DisplayNextSentence();
 
-        } else if (isPlayerInRange && Input.GetKeyDown(KeyCode.Escape) && dialogueStarted)
+        } else if (isPlayerInRange && Input.GetKeyDown(KeyCode.X) && dialogueStarted)
             dialogueManager.EndDialogue();
     }
 

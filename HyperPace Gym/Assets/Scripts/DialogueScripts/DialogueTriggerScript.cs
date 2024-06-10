@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class DialogueTriggerScript : MonoBehaviour
 {
-    public TrainerDialogueScript trainerDialogue;
-    public NutritionistDialogueScript nutritionistDialogue;
+    public DialogueScript trainerDialogue;
+    public DialogueScript nutritionistDialogue;
 
     public void TriggerTrainerDialogue() {
         FindObjectOfType<DialogueManagerScript>().StartTrainerDialogue(trainerDialogue);
