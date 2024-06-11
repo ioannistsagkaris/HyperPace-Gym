@@ -71,3 +71,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 HyperPace Gym/Library/PackageCache/com.unity.burst@1.8.13/.Runtime/libburst-llvm-16.dylib
+HyperPace Gym/Library/PlayerDataCache/Win64/Data/resources.assets.resS
+HyperPace Gym/Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS
