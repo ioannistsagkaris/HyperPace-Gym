@@ -14560,9 +14560,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d31ba394e732e4108818e69152b8486a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Trainer
+  name: Jeff
   sentences:
-  - You are a gym rat!!!
+  - Your physique is highly developed.
+  - As an advanced athlete, maintaining and pushing past plateaus will be crucial
+    for continued improvement.
+  - Your dedication and hard work are evident in your advanced physique.
+  - Now, it's about refining your skills and consistently breaking your own records.
 --- !u!1 &469051151
 GameObject:
   m_ObjectHideFlags: 0
@@ -29148,7 +29152,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -0.10543823, w: -14.564776}
+  m_margin: {x: 0, y: -2.817812, z: -107.33588, w: -14.564776}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -30861,7 +30865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 150
+  m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 900, y: 900}
   m_ScreenMatchMode: 0
@@ -32390,7 +32394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000911857, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -5, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1072318761
@@ -33582,7 +33586,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2133632886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.53999996}
+  m_AnchorMin: {x: 0, y: 0.30999994}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -35659,10 +35663,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d31ba394e732e4108818e69152b8486a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Trainer
+  name: Jeff
   sentences:
   - 
-  - What is your goal?
+  - Welcome to HyperPace gym! I'm Jeff, your trainer.
+  - Whether you're looking to build muscle, lose weight, or improve your overall
+    fitness, I'm here to help.
+  - Let's create a plan that suits your needs and pushes you to your limits.
+  - Ready to get started?
+  - Remember, consistency is key and don't forget to follow each exercise instruction.
 --- !u!1 &1190160017
 GameObject:
   m_ObjectHideFlags: 0
@@ -46354,9 +46363,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d31ba394e732e4108818e69152b8486a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Trainer
+  name: Jeff
   sentences:
-  - You need more work!!!
+  - You're off to a great start!
+  - As a beginner, it's important to focus on building a solid foundation.
+  - Let's work on enhancing your form and endurance to set you up for long-term success.
+  - Remember, progress takes time, so stay patient and committed to your routine.
 --- !u!1 &1542772399
 GameObject:
   m_ObjectHideFlags: 0
@@ -47170,7 +47182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d31ba394e732e4108818e69152b8486a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Seller
+  name: Mike
   sentences:
   - 
   - 
@@ -53467,10 +53479,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d31ba394e732e4108818e69152b8486a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Nutritionist
+  name: Stephanie
   sentences:
   - 
-  - What diet plan you want to follow?
+  - Welcome to HyperPace gym! I'm Stephanie, your nutritionist.
+  - It's fantastic to see you taking the first step toward optimizing your diet.
+  - Let's start by discussing your current eating habits and fitness goals.
+  - Are you aiming to build muscle, lose weight, or gain strength?
+  - Remember, achieving your fitness goals is a combination of proper nutrition,
+    regular exercise, and a healthy lifestyle.
+  - Stay committed, and let's make your goals a reality!
 --- !u!1 &1815085539
 GameObject:
   m_ObjectHideFlags: 0
@@ -57897,7 +57915,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1115561241}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.46
+  m_Size: 0.69000006
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -60529,9 +60547,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d31ba394e732e4108818e69152b8486a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Trainer
+  name: Jeff
   sentences:
-  - You are doing good!!!
+  - You've made significant progress since you started.
+  - As an intermediate, it's time to fine-tune your techniques and push your limits
+    further.
+  - Let's focus on targeting specific muscle groups to further enhance your overall
+    strength and definition.
+  - Your dedication is paying off, and your physique is really starting to shape
+    up.
+  - Keep challenging yourself with more complex workouts.
 --- !u!1 &2123253531
 GameObject:
   m_ObjectHideFlags: 0

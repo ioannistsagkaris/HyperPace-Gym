@@ -6,8 +6,11 @@ public class MainMenuScript : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime = 1.0f;
+    private bool isCursorLocked = false;
 
     public void StartGame() {
+        Cursor.lockState = !isCursorLocked ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.visible = isCursorLocked;
         StartCoroutine(SceneLoader(1));
     }
 

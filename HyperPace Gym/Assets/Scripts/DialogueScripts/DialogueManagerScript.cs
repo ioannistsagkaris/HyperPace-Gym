@@ -104,7 +104,7 @@ public class DialogueManagerScript : MonoBehaviour
             yield return null;
         }
 
-        if (sentence.Contains("What is your goal?") || sentence.Contains("What diet plan you want to follow?"))
+        if (sentence.Contains("Ready to get started?") || sentence.Contains("Are you aiming to build muscle, lose weight, or gain strength?"))
             ShowQuestion();
     }
 
