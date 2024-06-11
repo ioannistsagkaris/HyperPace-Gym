@@ -1,5 +1,4 @@
 using System.Collections;
-using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -24,25 +23,55 @@ public class ExerciseTriggerScript : MonoBehaviour
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E)) {
 
             if (boxCollider.layer == 8) {
+
                 StartCoroutine(SceneLoader(2));
+                ProgramPanelsBoolScript.squatBool = true;
+
             } else if (boxCollider.layer == 9) {
+
                 StartCoroutine(SceneLoader(7));
+                ProgramPanelsBoolScript.bicepCurlBool = true;
+
             } else if (boxCollider.layer == 10) {
+
                 StartCoroutine(SceneLoader(8));
+                ProgramPanelsBoolScript.frontRaiseBool = true;
+
             } else if (boxCollider.layer == 11) {
+
                 StartCoroutine(SceneLoader(10));
+                ProgramPanelsBoolScript.jumpingJackBool = true;
+
             } else if (boxCollider.layer == 12) {
+
                 StartCoroutine(SceneLoader(6));
+                ProgramPanelsBoolScript.pistoSquatBool = true;
+
             } else if (boxCollider.layer == 13) {
+
                 StartCoroutine(SceneLoader(5));
+                ProgramPanelsBoolScript.pushupBool = true;
+
             } else if (boxCollider.layer == 14) {
+
                 StartCoroutine(SceneLoader(9));
+                ProgramPanelsBoolScript.sprintBool = true;
+
             } else if (boxCollider.layer == 15) {
+
                 StartCoroutine(SceneLoader(11));
+                ProgramPanelsBoolScript.situpBool = true;
+
             } else if (boxCollider.layer == 16) {
+
                 StartCoroutine(SceneLoader(3));
+                ProgramPanelsBoolScript.snatchBool = true;
+
             } else if (boxCollider.layer == 17) {
+
                 StartCoroutine(SceneLoader(4));
+                ProgramPanelsBoolScript.highPullBool = true;
+                
             }
             
         }

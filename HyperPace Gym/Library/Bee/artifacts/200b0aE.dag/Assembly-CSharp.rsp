@@ -398,6 +398,7 @@
 "Assets/Scripts/DialogueScripts/DialogueScript.cs"
 "Assets/Scripts/DialogueScripts/DialogueTriggerAreaScript.cs"
 "Assets/Scripts/DialogueScripts/DialogueTriggerScript.cs"
+"Assets/Scripts/DialogueScripts/ProgramPanelsBoolScript.cs"
 "Assets/Scripts/ExerciseScripts/ExerciseTriggerScript.cs"
 "Assets/Scripts/ExerciseScripts/OnTriggerScript.cs"
 "Assets/Scripts/ExerciseScripts/ProgramExercisesScript.cs"
