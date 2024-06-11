@@ -13,6 +13,7 @@ public class ExerciseTriggerScript : MonoBehaviour
     
     private bool isPlayerInRange = false;
     public float transitionTime = 1.0f;
+    public static int exerciseFinishedCounter = 0;
 
     void Start() {
         exerciseText.gameObject.SetActive(false);
@@ -25,51 +26,71 @@ public class ExerciseTriggerScript : MonoBehaviour
             if (boxCollider.layer == 8) {
 
                 StartCoroutine(SceneLoader(2));
+                if (!ProgramPanelsBoolScript.squatBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.squatBool = true;
 
             } else if (boxCollider.layer == 9) {
 
                 StartCoroutine(SceneLoader(7));
+                if (!ProgramPanelsBoolScript.bicepCurlBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.bicepCurlBool = true;
 
             } else if (boxCollider.layer == 10) {
 
                 StartCoroutine(SceneLoader(8));
+                if (!ProgramPanelsBoolScript.frontRaiseBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.frontRaiseBool = true;
 
             } else if (boxCollider.layer == 11) {
 
                 StartCoroutine(SceneLoader(10));
+                if (!ProgramPanelsBoolScript.jumpingJackBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.jumpingJackBool = true;
 
             } else if (boxCollider.layer == 12) {
 
                 StartCoroutine(SceneLoader(6));
+                if (!ProgramPanelsBoolScript.pistoSquatBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.pistoSquatBool = true;
 
             } else if (boxCollider.layer == 13) {
 
                 StartCoroutine(SceneLoader(5));
+                if (!ProgramPanelsBoolScript.pushupBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.pushupBool = true;
 
             } else if (boxCollider.layer == 14) {
 
                 StartCoroutine(SceneLoader(9));
+                if (!ProgramPanelsBoolScript.sprintBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.sprintBool = true;
 
             } else if (boxCollider.layer == 15) {
 
                 StartCoroutine(SceneLoader(11));
+                if (!ProgramPanelsBoolScript.situpBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.situpBool = true;
 
             } else if (boxCollider.layer == 16) {
 
                 StartCoroutine(SceneLoader(3));
+                if (!ProgramPanelsBoolScript.snatchBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.snatchBool = true;
 
             } else if (boxCollider.layer == 17) {
 
                 StartCoroutine(SceneLoader(4));
+                if (!ProgramPanelsBoolScript.highPullBool)
+                    exerciseFinishedCounter ++;
                 ProgramPanelsBoolScript.highPullBool = true;
                 
             }
@@ -78,6 +99,7 @@ public class ExerciseTriggerScript : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider collider) {
+
         if (collider.CompareTag("Player")) {
 
             if (boxCollider.layer == 8) {
@@ -105,13 +127,16 @@ public class ExerciseTriggerScript : MonoBehaviour
             exerciseText.gameObject.SetActive(true);
             isPlayerInRange = true;
         }
+
     }
 
     private void OnTriggerExit(Collider collider) {
+
         if (collider.CompareTag("Player")) {
             exerciseText.gameObject.SetActive(false);
             isPlayerInRange = false;
         }
+        
     }
 
     IEnumerator SceneLoader(int levelIndex) {

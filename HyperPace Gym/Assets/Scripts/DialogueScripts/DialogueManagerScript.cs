@@ -9,6 +9,9 @@ public class DialogueManagerScript : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public GameObject talkText;
+    public GameObject talkTextSecond;
+    public GameObject progressText;
+    public GameObject scrollViewPanel;
 
     public DialogueButtonScript programButton;
 
@@ -23,6 +26,7 @@ public class DialogueManagerScript : MonoBehaviour
     private Button[] buttons;
 
     public bool question = false;
+    private bool isCursorLocked = false;
     private int selectedButtonIndex = 2;
     
     void Start() {
@@ -47,7 +51,7 @@ public class DialogueManagerScript : MonoBehaviour
 
     }
 
-    public void StartTrainerDialogue(DialogueScript dialogue) {
+    public void StartDialogue(DialogueScript dialogue) {
 
         dialoguePanel.SetActive(true);
         ThirdPersonController.isDialogueActive = true;
@@ -58,11 +62,13 @@ public class DialogueManagerScript : MonoBehaviour
             sentences.Enqueue(sentence);
 
         DisplayNextSentence();
+
     }
 
-    public void StartNutritionistDialogue(DialogueScript dialogue) {
+    public void StartShop(DialogueScript dialogue) {
 
-        dialoguePanel.SetActive(true);
+        dialoguePanel.SetActive(false);
+        scrollViewPanel.SetActive(true);
         ThirdPersonController.isDialogueActive = true;
         nameText.text = dialogue.name;
         sentences.Clear();
@@ -71,6 +77,9 @@ public class DialogueManagerScript : MonoBehaviour
             sentences.Enqueue(sentence);
 
         DisplayNextSentence();
+
+        Cursor.lockState = isCursorLocked ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.visible = !isCursorLocked;
     }
 
     public void DisplayNextSentence() {
@@ -84,6 +93,7 @@ public class DialogueManagerScript : MonoBehaviour
 
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+
     }
 
     IEnumerator TypeSentence(string sentence) {
@@ -100,16 +110,30 @@ public class DialogueManagerScript : MonoBehaviour
 
     public void EndDialogue() {
 
-        talkText.SetActive(true);
+        if (DialogueTriggerAreaScript.inTrainersRange) {
+
+            progressText.SetActive(true);
+            talkTextSecond.SetActive(true);
+
+        } else
+            talkText.SetActive(true);
+
         DialogueTriggerAreaScript.dialogueStarted = false;
+
         StrengthButton.gameObject.SetActive(false);
         HypertrophyButton.gameObject.SetActive(false);
         FatLossButton.gameObject.SetActive(false);
+
         ThirdPersonController.isDialogueActive = false;
+
         dialoguePanel.SetActive(false);
         question = false;
         selectedButtonIndex = 2;
         StopAllCoroutines();
+
+        scrollViewPanel.SetActive(false);
+        Cursor.lockState = !isCursorLocked ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.visible = isCursorLocked;
 
     }
 
