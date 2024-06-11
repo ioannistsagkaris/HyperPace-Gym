@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenuScene.unity
+    guid: 9057fc54acc8844a09a329cd836e2176
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 5040d6aecf8cb4df389077c89ad83cba
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/BackSquatScene.unity
+    guid: ad3fac93666944af5a44045cb647d596
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/SnatchScene.unity
+    guid: 53134e24569294050bbf69085cac5d7f
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/SumoHighPullScene.unity
+    guid: 01717d71614c74eb08990bb3c3e0d9c9
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/PushupScene.unity
+    guid: 733e8536affda48b8aaf50582d4c42bd
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/PistolSquatScene.unity
+    guid: 2d12c2540150048d6965304fc92a11ad
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/BicepCurlScene.unity
+    guid: 36ac15024915d46778d85d71e662c6ae
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/FrontRaiseScene.unity
+    guid: 54e0bd0738f8348e4b97e0ccb103f081
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/RunScene.unity
+    guid: 71d2f3ae0dd1e4a59b8a783e8988f1a1
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/JumpingJackScene.unity
+    guid: 84d673d7ff3d54237a580103b29ac5c9
+  - enabled: 1
+    path: Assets/Scenes/ExerciseScenes/SitupScene.unity
+    guid: 035ad3d1471194e289ee8290027958cf
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
