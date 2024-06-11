@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Position
+  - Event
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - 
   - Trainer
   - Nutritionist
-  - 
+  - Seller
   - 
   - 
   - 

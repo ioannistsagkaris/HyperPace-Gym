@@ -86,6 +86,5 @@ public class DialogueButtonScript : MonoBehaviour
             fatlossPanelPlan.SetActive(true);
 
         }
-        
     }
 }
