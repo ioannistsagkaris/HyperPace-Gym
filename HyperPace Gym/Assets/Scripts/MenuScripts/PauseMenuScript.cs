@@ -1,7 +1,6 @@
-using StarterAssets;
 using UnityEngine;
 
-public class PauseMenu : MonoBehaviour
+public class PauseMenuScript : MonoBehaviour
 {
     public GameObject pauseMenuUI;
     public PlayerPositionScript savePlayerPosition;

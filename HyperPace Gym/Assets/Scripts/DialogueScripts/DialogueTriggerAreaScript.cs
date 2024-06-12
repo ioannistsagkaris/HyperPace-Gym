@@ -63,7 +63,7 @@ public class DialogueTriggerAreaScript : MonoBehaviour
 
     void Update() {
 
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && !dialogueManager.question) {
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && !dialogueManager.question && !PauseMenuScript.gameIsPaused) {
 
             if (inTrainersRange) {
 
@@ -100,7 +100,7 @@ public class DialogueTriggerAreaScript : MonoBehaviour
 
             dialogueManager.DisplayNextSentence();
 
-        } else if (isPlayerInRange && Input.GetKeyDown(KeyCode.Q) && !dialogueManager.question) {
+        } else if (isPlayerInRange && Input.GetKeyDown(KeyCode.Q) && !dialogueManager.question && !PauseMenuScript.gameIsPaused) {
 
             if (inTrainersRange) {
 
@@ -121,7 +121,7 @@ public class DialogueTriggerAreaScript : MonoBehaviour
 
             }
 
-        } else if (isPlayerInRange && Input.GetKeyDown(KeyCode.X) && dialogueStarted)
+        } else if (isPlayerInRange && Input.GetKeyDown(KeyCode.X) && dialogueStarted && !PauseMenuScript.gameIsPaused)
             dialogueManager.EndDialogue();
     }
 

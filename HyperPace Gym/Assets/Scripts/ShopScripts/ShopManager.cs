@@ -8,8 +8,8 @@ public class ShopManager : MonoBehaviour
    public float coins;
    public TextMeshProUGUI CoinsTXT;
 
-    void Start()
-    {
+    void Start() {
+        
         CoinsTXT.text = "Funds:" + coins.ToString();
 
         //ID
@@ -45,16 +45,16 @@ public class ShopManager : MonoBehaviour
         
     }
 
-    public void Buy()
-    {
+    public void Buy() {
         GameObject ButtonRef = GameObject.FindGameObjectWithTag("Event").GetComponent<EventSystem>().currentSelectedGameObject;
         
-        if(coins >= shopItems[2,ButtonRef.GetComponent<ButtonInfo>().ItemID])
-        {
+        if(coins >= shopItems[2,ButtonRef.GetComponent<ButtonInfo>().ItemID]) {
+
             coins -= shopItems[2,ButtonRef.GetComponent<ButtonInfo>().ItemID];
             shopItems[3,ButtonRef.GetComponent<ButtonInfo>().ItemID]++;
             CoinsTXT.text = "Funds:" + coins.ToString();
             ButtonRef.GetComponent<ButtonInfo>().QuantityTxt.text = shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID].ToString();
+        
         }
         
     }
