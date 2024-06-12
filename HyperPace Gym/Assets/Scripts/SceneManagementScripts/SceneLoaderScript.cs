@@ -6,7 +6,7 @@ public class SceneLoaderScript : MonoBehaviour
 {
     Scene currentScene;
     public Animator transition;
-    public float transitionTime = 1.0f;
+    public float transitionTime = 0.1f;
 
     void Start() {
         currentScene = SceneManager.GetActiveScene();

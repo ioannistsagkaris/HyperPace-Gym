@@ -4935,10 +4935,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0351a3bffec244ddd8e53ccb69e1fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 5
   PriceTxt: {fileID: 834279237}
   QuantityTxt: {fileID: 1399461035}
   ShopManager: {fileID: 181189309}
+  ItemID: 5
 --- !u!1 &144293163
 GameObject:
   m_ObjectHideFlags: 0
@@ -6135,8 +6135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd860a1f940047d89aec256f5a5c687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 1000
   CoinsTXT: {fileID: 966140646}
+  shopItemSaveLoad: {fileID: 850876389}
 --- !u!1 &182510229
 GameObject:
   m_ObjectHideFlags: 0
@@ -7844,7 +7844,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 646538366}
   m_HandleRect: {fileID: 646538365}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -11479,10 +11479,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0351a3bffec244ddd8e53ccb69e1fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
   PriceTxt: {fileID: 226923215}
   QuantityTxt: {fileID: 946559806}
   ShopManager: {fileID: 181189309}
+  ItemID: 6
 --- !u!1 &381923454
 GameObject:
   m_ObjectHideFlags: 0
@@ -14269,10 +14269,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0351a3bffec244ddd8e53ccb69e1fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 7
   PriceTxt: {fileID: 496027406}
   QuantityTxt: {fileID: 1341081324}
   ShopManager: {fileID: 181189309}
+  ItemID: 7
 --- !u!1 &460704659
 GameObject:
   m_ObjectHideFlags: 0
@@ -16015,10 +16015,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0351a3bffec244ddd8e53ccb69e1fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 1
   PriceTxt: {fileID: 1816617224}
   QuantityTxt: {fileID: 2129430362}
   ShopManager: {fileID: 181189309}
+  ItemID: 1
 --- !u!1 &535381308
 GameObject:
   m_ObjectHideFlags: 0
@@ -16397,10 +16397,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0351a3bffec244ddd8e53ccb69e1fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 3
   PriceTxt: {fileID: 557361992}
   QuantityTxt: {fileID: 1191815635}
   ShopManager: {fileID: 181189309}
+  ItemID: 3
 --- !u!1 &538734189
 GameObject:
   m_ObjectHideFlags: 0
@@ -19663,10 +19663,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0351a3bffec244ddd8e53ccb69e1fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 2
   PriceTxt: {fileID: 1110845358}
   QuantityTxt: {fileID: 1216038997}
   ShopManager: {fileID: 181189309}
+  ItemID: 2
 --- !u!1 &644456043
 GameObject:
   m_ObjectHideFlags: 0
@@ -26265,6 +26265,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5513132900869745937, guid: 42d02825c1f08e245bdbee705a5dc8d4, type: 3}
   m_PrefabInstance: {fileID: 850749147}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &850876387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850876388}
+  - component: {fileID: 850876389}
+  m_Layer: 0
+  m_Name: ShopItemsSaveLoad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &850876388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850876387}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 156.63972, y: 4.9620457, z: -39.31716}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &850876389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850876387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96e7a04853dc444e8344ceafc1c23e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopManager: {fileID: 181189311}
 --- !u!1 &855130755
 GameObject:
   m_ObjectHideFlags: 0
@@ -32575,10 +32620,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0351a3bffec244ddd8e53ccb69e1fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 8
   PriceTxt: {fileID: 1028092248}
   QuantityTxt: {fileID: 1350587840}
   ShopManager: {fileID: 181189309}
+  ItemID: 8
 --- !u!1 &1080308192
 GameObject:
   m_ObjectHideFlags: 0
@@ -39556,7 +39601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4622162269550456043, guid: 3304ecc5b2d2243439b973854bca53aa, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4622162269550456043, guid: 3304ecc5b2d2243439b973854bca53aa, type: 3}
       propertyPath: m_TagString
@@ -40692,10 +40737,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0351a3bffec244ddd8e53ccb69e1fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 4
   PriceTxt: {fileID: 825626627}
   QuantityTxt: {fileID: 855279021}
   ShopManager: {fileID: 181189309}
+  ItemID: 4
 --- !u!1 &1356591737
 GameObject:
   m_ObjectHideFlags: 0
@@ -58049,8 +58094,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1115561242}
   m_HandleRect: {fileID: 1115561241}
   m_Direction: 2
-  m_Value: 0.99999976
-  m_Size: 0.68999994
+  m_Value: 1.0000002
+  m_Size: 0.69
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -61739,3 +61784,4 @@ SceneRoots:
   - {fileID: 672849754}
   - {fileID: 55221247}
   - {fileID: 181189310}
+  - {fileID: 850876388}

@@ -9,21 +9,20 @@ public class PlayerPositionScript : MonoBehaviour
     }
 
     public void SavePlayerPosition(float x, float y, float z) {
+
         PlayerPrefs.SetFloat("position.x", x);
         PlayerPrefs.SetFloat("position.y", y);
         PlayerPrefs.SetFloat("position.z", z);
+
     }
 
     public void LoadPlayerPosition() {
-        float x = PlayerPrefs.GetFloat("position.x");
-        float y = PlayerPrefs.GetFloat("position.y");
-        float z = PlayerPrefs.GetFloat("position.z");
 
-        if (x == 0 && y == 0 && z == 0) {
-            playerPosition.position = new Vector3((float)-11.71, (float)3.853, (float)6.7);
-            return;
-        }
+        float x = PlayerPrefs.GetFloat("position.x", (float)-11.71);
+        float y = PlayerPrefs.GetFloat("position.y", (float)3.853);
+        float z = PlayerPrefs.GetFloat("position.z", (float)6.7);
         
         playerPosition.position = new Vector3(x, y, z);
+        
     }
 }

@@ -12,7 +12,7 @@ public class ExerciseTriggerScript : MonoBehaviour
     public Animator transition;
     
     private bool isPlayerInRange = false;
-    public float transitionTime = 1.0f;
+    public float transitionTime = 0.1f;
     public static int exerciseFinishedCounter = 0;
 
     void Start() {

@@ -416,8 +416,9 @@
 "Assets/Scripts/SceneManagementScripts/PlayerPositionScript.cs"
 "Assets/Scripts/SceneManagementScripts/ProgramDietScript.cs"
 "Assets/Scripts/SceneManagementScripts/SceneLoaderScript.cs"
-"Assets/Scripts/ShopScripts/ButtonInfo.cs"
-"Assets/Scripts/ShopScripts/ShopManager.cs"
+"Assets/Scripts/ShopScripts/ButtonInfoScript.cs"
+"Assets/Scripts/ShopScripts/ShopItemSaveLoadScript.cs"
+"Assets/Scripts/ShopScripts/ShopManagerScript.cs"
 -langversion:9.0
 /deterministic
 /optimize+
