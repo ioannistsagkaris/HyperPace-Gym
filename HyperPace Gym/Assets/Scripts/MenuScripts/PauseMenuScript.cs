@@ -28,7 +28,7 @@ public class PauseMenuScript : MonoBehaviour
         Cursor.visible = isCursorLocked;
     }
 
-    void Pause() {
+    public void Pause() {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         gameIsPaused = true;
@@ -41,5 +41,9 @@ public class PauseMenuScript : MonoBehaviour
         programDiet.SaveProgram(string.Empty);
         programDiet.SaveDiet(string.Empty);
         Application.Quit();
+    }
+
+    public void Help() {
+        Application.OpenURL("file://" + Application.streamingAssetsPath + "/" + "UserManual.pdf");
     }
 }
