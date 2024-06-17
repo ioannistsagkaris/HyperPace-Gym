@@ -130,8 +130,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    Unity.Postprocessing.Editor.dll:
-    - UnityEditor.Rendering.PostProcessing.PostProcessProfileEditor
     Unity.Postprocessing.Runtime:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
     - UnityEngine.Rendering.PostProcessing.Bloom
@@ -474,6 +472,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: OptionsMenuScript
     methodName: SetVolume
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenuScript
+    methodName: Help
   - assembly: Assembly-CSharp
     fullTypeName: ShopManagerScript
     methodName: Buy
@@ -5635,4 +5636,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/ExerciseScenes/RunScene.unity
   - Assets/Scenes/ExerciseScenes/JumpingJackScene.unity
   - Assets/Scenes/ExerciseScenes/SitupScene.unity
-  playerPath: /Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym.exe
+  playerPath: /Volumes/SSD/HyperPaceGymBuild/HyperPace Gym.exe

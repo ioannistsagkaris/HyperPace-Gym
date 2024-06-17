@@ -1,305 +1,448 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1718194479527311, "dur":44605, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718194479571920, "dur":2659, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718194479574599, "dur":78, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718194479574681, "dur":2206, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718194479576888, "dur":3776822, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718194483353870, "dur":2402, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1718194479574632, "dur":2260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1718194479576893, "dur":3958, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1718194479589690, "dur":879, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1718194479590633, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1718194479591076, "dur":274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479591351, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479591502, "dur":423, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479591930, "dur":261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479592235, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479592446, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479592691, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479590570, "dur":2396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1718194479596575, "dur":152531, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1718194479758320, "dur":7620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1718194479765947, "dur":6684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479773028, "dur":6915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479780103, "dur":7508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479787720, "dur":9561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479797644, "dur":5977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479803757, "dur":7171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479811093, "dur":8106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479819320, "dur":7621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479827040, "dur":6995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479834280, "dur":16079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1718194479850425, "dur":7095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":1, "ts":1718194479857741, "dur":45586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1718194479903492, "dur":20772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1718194479924334, "dur":49014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level9" }}
-,{ "pid":12345, "tid":1, "ts":1718194479973406, "dur":44410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level8" }}
-,{ "pid":12345, "tid":1, "ts":1718194480017888, "dur":49513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level7" }}
-,{ "pid":12345, "tid":1, "ts":1718194480067465, "dur":43108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level6" }}
-,{ "pid":12345, "tid":1, "ts":1718194480110642, "dur":52425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level5" }}
-,{ "pid":12345, "tid":1, "ts":1718194480163131, "dur":39108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level3" }}
-,{ "pid":12345, "tid":1, "ts":1718194480202308, "dur":46633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level11.resS" }}
-,{ "pid":12345, "tid":1, "ts":1718194480249020, "dur":42569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level1.resS" }}
-,{ "pid":12345, "tid":1, "ts":1718194480291653, "dur":29526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1718194480321258, "dur":3032459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718194479574639, "dur":2256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718194479576897, "dur":71, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718194479576969, "dur":360, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718194479577329, "dur":260, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718194479577589, "dur":3265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1718194479580859, "dur":528, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479581392, "dur":363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479581756, "dur":320, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479582077, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479582485, "dur":358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479582844, "dur":746, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479583592, "dur":1046, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479584641, "dur":473, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479585118, "dur":887, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479586007, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479586475, "dur":3188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479589708, "dur":258, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479589966, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479590112, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479590238, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/UMA_Examples.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479590350, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479590404, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479590561, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/UMA_Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479590739, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/FbxBuildTestAssets.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479590820, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479590931, "dur":424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479591356, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479591514, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479591704, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479591916, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479592228, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479592506, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1718194479592708, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings/BurstAotSettings_StandaloneWindows.json" }}
-,{ "pid":12345, "tid":2, "ts":1718194479595544, "dur":640, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/PackageCache/com.unity.burst@1.8.13/.Runtime/bcl.exe" }}
-,{ "pid":12345, "tid":2, "ts":1718194479580856, "dur":15328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":2, "ts":1718194479610657, "dur":3727792, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":2, "ts":1718194483350994, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479574640, "dur":2258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718194479576943, "dur":842, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718194479577786, "dur":3070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718194479580860, "dur":426, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718194479595518, "dur":10266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1718194479605795, "dur":12667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1718194479633783, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718194479621148, "dur":12709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1718194479633942, "dur":31265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1718194479665397, "dur":31884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479697394, "dur":9356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479706879, "dur":15335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479722398, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718194479722497, "dur":5309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479738089, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1718194479727955, "dur":10333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479738413, "dur":5624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479744201, "dur":10588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UMA_Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479755233, "dur":7185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479762978, "dur":8241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479771440, "dur":8171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479779775, "dur":7403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479787261, "dur":9050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479796509, "dur":7166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479803773, "dur":6269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479810140, "dur":7450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479818029, "dur":7763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479826021, "dur":8124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479834303, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479834375, "dur":15539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1718194479850016, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":3, "ts":1718194479857366, "dur":28454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":3, "ts":1718194479885872, "dur":17832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1718194479903774, "dur":417220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1718194480321074, "dur":30543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1718194480351664, "dur":3002080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718194479574647, "dur":2275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718194479576924, "dur":726, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718194479577650, "dur":3248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718194479580899, "dur":379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1718194479580898, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1718194479590905, "dur":12208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1718194479603424, "dur":12147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1718194479615774, "dur":9228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1718194479629248, "dur":35665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1718194479665011, "dur":17916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479683028, "dur":14162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479697311, "dur":8917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479706436, "dur":15957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479722555, "dur":5490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479728185, "dur":4364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479736474, "dur":5962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479748729, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718194479742548, "dur":6250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479748930, "dur":9777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UMA_Content.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479758763, "dur":7199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479766065, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718194479766120, "dur":6465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479772800, "dur":7036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479779954, "dur":7559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479787631, "dur":8475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479796358, "dur":7244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479803729, "dur":7443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479811290, "dur":9041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479820518, "dur":6403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479827060, "dur":7017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479849707, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1718194479834247, "dur":15557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1718194479849901, "dur":7543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":4, "ts":1718194479857778, "dur":45822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":4, "ts":1718194479903669, "dur":184965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/resources.resource" }}
-,{ "pid":12345, "tid":4, "ts":1718194480088703, "dur":37341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level5.resS" }}
-,{ "pid":12345, "tid":4, "ts":1718194480126108, "dur":37073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level4" }}
-,{ "pid":12345, "tid":4, "ts":1718194480163238, "dur":38881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1718194480202188, "dur":46720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1718194480248969, "dur":42728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level10" }}
-,{ "pid":12345, "tid":4, "ts":1718194480291757, "dur":29264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1718194480321084, "dur":30618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1718194480351749, "dur":3001981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718194479574657, "dur":2313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718194479576971, "dur":160, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718194479577131, "dur":428, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718194479577559, "dur":3314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718194479597087, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1718194479587183, "dur":9967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1718194479601132, "dur":11813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1718194479615107, "dur":6913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1718194479623865, "dur":59116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479683110, "dur":14110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479697294, "dur":8958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479706473, "dur":15541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479722377, "dur":5019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479727516, "dur":4922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479732563, "dur":8390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479741083, "dur":7663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479748810, "dur":10529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479759598, "dur":7115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479766781, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479774197, "dur":5916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479780180, "dur":7398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479787680, "dur":8499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479796428, "dur":6690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479803352, "dur":7029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479810520, "dur":9886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479820570, "dur":7103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479827943, "dur":6229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194479834480, "dur":466085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1718194480300642, "dur":51175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1718194480351869, "dur":3001880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718194479574662, "dur":2316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718194479576978, "dur":409, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718194479577387, "dur":3470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718194479587123, "dur":9097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1718194479596592, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1718194479596715, "dur":13563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1718194479612912, "dur":8334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1718194479623894, "dur":19978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479647412, "dur":49617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479706210, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718194479697159, "dur":9151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479706459, "dur":15305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479722181, "dur":5881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479728204, "dur":10195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479738512, "dur":5799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479744436, "dur":10698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479755564, "dur":6994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479762997, "dur":8001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479771315, "dur":8258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479779734, "dur":6789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479786695, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479800537, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1718194479791709, "dur":8889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479800793, "dur":7619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479808862, "dur":7266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479816336, "dur":8533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479824949, "dur":8694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479833921, "dur":15486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1718194479849531, "dur":7643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":6, "ts":1718194479857568, "dur":28250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets11.assets" }}
-,{ "pid":12345, "tid":6, "ts":1718194479885894, "dur":17823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1718194479903799, "dur":69373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level9.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718194479973239, "dur":44535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level8.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718194480017850, "dur":49513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level7.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718194480067435, "dur":43312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level6.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718194480110807, "dur":52200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level4.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718194480163107, "dur":39172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level3.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718194480202346, "dur":46376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level11" }}
-,{ "pid":12345, "tid":6, "ts":1718194480248868, "dur":42853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level10.resS" }}
-,{ "pid":12345, "tid":6, "ts":1718194480291787, "dur":29275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1718194480321110, "dur":3032613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718194479574671, "dur":2310, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718194479576981, "dur":665, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718194479577646, "dur":3247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718194479589474, "dur":7526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1718194479599353, "dur":13437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1718194479615040, "dur":9067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1718194479624313, "dur":905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":7, "ts":1718194479624312, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym.exe" }}
-,{ "pid":12345, "tid":7, "ts":1718194479625224, "dur":18760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym.exe" }}
-,{ "pid":12345, "tid":7, "ts":1718194479647468, "dur":35539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479683065, "dur":13972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479697115, "dur":9129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479706467, "dur":15245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479722256, "dur":5763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479728186, "dur":9914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Autodesk.Fbx.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479738214, "dur":5684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479743983, "dur":5061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/FbxBuildTestAssets.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479749129, "dur":11525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UMA_Examples.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479760928, "dur":6322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479767394, "dur":7604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479775095, "dur":7630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479782813, "dur":8768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479800544, "dur":96, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718194479791698, "dur":8945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479809261, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718194479800915, "dur":8417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479809455, "dur":6702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479816377, "dur":7950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479824455, "dur":4669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479829238, "dur":5908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1718194479849747, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1718194479835212, "dur":14629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":7, "ts":1718194479849928, "dur":7348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":7, "ts":1718194479857621, "dur":28182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets10.assets" }}
-,{ "pid":12345, "tid":7, "ts":1718194479885863, "dur":17727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1718194479903681, "dur":2306772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1718194482210632, "dur":1143088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479574678, "dur":2306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479576984, "dur":658, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479577642, "dur":3239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479580881, "dur":396, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1718194479580881, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1718194479590187, "dur":7152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1718194479601197, "dur":13944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1718194479615264, "dur":9341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1718194479627754, "dur":36852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1718194479664892, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479665016, "dur":32551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479697878, "dur":8828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479706800, "dur":15315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479729237, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479722514, "dur":6802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479729514, "dur":8830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479744070, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479738505, "dur":5712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479744370, "dur":10991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479755804, "dur":6095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479761993, "dur":9200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479771425, "dur":7941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479779459, "dur":6434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479786195, "dur":5425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479800472, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479791695, "dur":8877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479800701, "dur":8173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479809054, "dur":7081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479824668, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1718194479816372, "dur":8350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479824853, "dur":9130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479834253, "dur":14877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1718194479849252, "dur":8073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":8, "ts":1718194479857681, "dur":1729473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymFinalBuild/HyperPace Gym_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1718194481587450, "dur":1766256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1718194483359968, "dur":237, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1718627469333845, "dur":29239, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718627469363087, "dur":38737, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718627469401877, "dur":93, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718627469401982, "dur":3203, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718627469405186, "dur":3013585, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718627472418802, "dur":80, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718627472418988, "dur":6861, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1718627469401901, "dur":3291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469405194, "dur":17138, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469437007, "dur":1600, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1718627469438652, "dur":354, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1718627469439142, "dur":308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469439451, "dur":1289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469440740, "dur":442, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469441183, "dur":341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469441524, "dur":1200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469438609, "dur":4185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718627469444192, "dur":124296, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718627469576159, "dur":9126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1718627469585287, "dur":615, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469585908, "dur":10523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469596568, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469596687, "dur":5828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UMA_Examples.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469602617, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469602691, "dur":13141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469615999, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469616179, "dur":10284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469626558, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469626720, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469632132, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469632230, "dur":9105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469641461, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469641950, "dur":7546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469649779, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469649906, "dur":6284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469656308, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469656445, "dur":9598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469666305, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469666476, "dur":6482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469673029, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718627469673132, "dur":10092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718627469683320, "dur":16032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1718627469699424, "dur":16228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1718627469715947, "dur":57347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1718627469773483, "dur":402844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1718627470176388, "dur":45745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level11.resS" }}
+,{ "pid":12345, "tid":1, "ts":1718627470222250, "dur":43604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level10" }}
+,{ "pid":12345, "tid":1, "ts":1718627470265918, "dur":49784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1718627470315764, "dur":40177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1718627470356068, "dur":2062712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469401917, "dur":3279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469405200, "dur":363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469405564, "dur":516, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469406080, "dur":16288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469436567, "dur":9344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1718627469446159, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469446610, "dur":12060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1718627469459027, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469462733, "dur":9858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1718627469472711, "dur":763, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469539801, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469475687, "dur":64220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1718627469539986, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469540122, "dur":11496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469551791, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469551841, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469552216, "dur":15718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469568083, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469568236, "dur":6985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469575308, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469575489, "dur":8234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469584024, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469596215, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469584229, "dur":12050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469596402, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469596593, "dur":5745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469602391, "dur":10694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469613584, "dur":522, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469614112, "dur":10327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469624567, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469624909, "dur":6335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469631374, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469639933, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469631541, "dur":8457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469640157, "dur":611, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469640775, "dur":8121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469648949, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469656190, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469649135, "dur":7108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469656357, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469656604, "dur":10118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469666934, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469667177, "dur":13490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469681127, "dur":612, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718627469681746, "dur":16933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718627469698793, "dur":15935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1718627469715069, "dur":31247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1718627469746418, "dur":27102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1718627469773714, "dur":749452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1718627470523226, "dur":1895541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469401926, "dur":3283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469405212, "dur":456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469405669, "dur":415, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469406084, "dur":16289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469436502, "dur":9907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1718627469446441, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1718627469446440, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1718627469446602, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469446803, "dur":68, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469449080, "dur":14903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1718627469464131, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469466641, "dur":11575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469478308, "dur":5906, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469484224, "dur":33012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469517312, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469517393, "dur":22816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469540525, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469540836, "dur":10921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469551998, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469552228, "dur":15840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469568189, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469568498, "dur":7827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469576369, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469576594, "dur":10709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469587506, "dur":348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469587861, "dur":8588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469596613, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469596740, "dur":11176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469607998, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469608313, "dur":9148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469618148, "dur":736, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469618892, "dur":8187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469627137, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469627340, "dur":12061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469639561, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469639759, "dur":8524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469648524, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469648647, "dur":7481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469656278, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469656409, "dur":8800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469665724, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469666072, "dur":6071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469672220, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469672379, "dur":10057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718627469682916, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/StreamingAssets/UserManual.pdf" }}
+,{ "pid":12345, "tid":3, "ts":1718627469683437, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718627469685503, "dur":687058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/StreamingAssets/UserManual.pdf" }}
+,{ "pid":12345, "tid":3, "ts":1718627470372623, "dur":2046179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469401934, "dur":3280, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469405216, "dur":556, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469405772, "dur":316, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469406088, "dur":16288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469436440, "dur":10243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1718627469446881, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1718627469446880, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1718627469446940, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469449147, "dur":9582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1718627469459064, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469462780, "dur":7424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1718627469470326, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469470832, "dur":73391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469544302, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469544365, "dur":7600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469552198, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469552397, "dur":15768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469568241, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469568584, "dur":7301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469576032, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469576190, "dur":11187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469587521, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469587897, "dur":8810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UMA_Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469596982, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469597458, "dur":10551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469608065, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469608322, "dur":8896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469617510, "dur":696, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469618213, "dur":8850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469627119, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469627316, "dur":12394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469639851, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469640184, "dur":8722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469648963, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469649178, "dur":7475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469656725, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469656929, "dur":9638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469666654, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469666892, "dur":5659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469672616, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469672713, "dur":8974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469682128, "dur":584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718627469682718, "dur":16246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1718627469699056, "dur":16388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1718627469715819, "dur":2329143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1718627472045258, "dur":373530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469401943, "dur":3296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469405245, "dur":791, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469406036, "dur":16305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469446361, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469434441, "dur":11982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1718627469446607, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1718627469448988, "dur":9597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1718627469458693, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469462876, "dur":8331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1718627469472265, "dur":1565, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":5, "ts":1718627469472256, "dur":1575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/HyperPace Gym.exe" }}
+,{ "pid":12345, "tid":5, "ts":1718627469473831, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469474001, "dur":20883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym.exe" }}
+,{ "pid":12345, "tid":5, "ts":1718627469494948, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469540166, "dur":94, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469495030, "dur":45234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469540632, "dur":708, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469541347, "dur":10582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469552107, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469552106, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469552169, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469552292, "dur":15291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469567686, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469567835, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469567900, "dur":5993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469574516, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469574786, "dur":6864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469581767, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469581915, "dur":8557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469590583, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469590784, "dur":7296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469598262, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469598588, "dur":10169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469609137, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469609422, "dur":13370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469622898, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469623071, "dur":6536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469629718, "dur":420, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469630152, "dur":9894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469640400, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469640855, "dur":7771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469648773, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469649043, "dur":7035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469656229, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469656362, "dur":8334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469665258, "dur":652, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469665916, "dur":6140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469672171, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469672259, "dur":10253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627469682967, "dur":537, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718627469683508, "dur":538671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718627470222412, "dur":43184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1718627470265676, "dur":50154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1718627470315879, "dur":2102902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469401955, "dur":3300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469405257, "dur":770, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469406027, "dur":53, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469406080, "dur":16274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469434075, "dur":12300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1718627469446379, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1718627469446492, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469446740, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469450809, "dur":12154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1718627469463124, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/Unity Engine/2022.3.25f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1718627469463122, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1718627469463359, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469463529, "dur":12501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1718627469476173, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469478231, "dur":39000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1718627469517303, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469517371, "dur":22760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469540201, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469540544, "dur":10927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469551582, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469552055, "dur":16033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469568214, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469568508, "dur":7572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469576223, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469576551, "dur":9007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469586092, "dur":575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469586673, "dur":9715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469596499, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469596613, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469596704, "dur":5876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UMA_Content.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469602657, "dur":3909, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469606573, "dur":8985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469615864, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469616024, "dur":10362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469626518, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469626640, "dur":5655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469632445, "dur":11132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469643694, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469644167, "dur":6743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469651043, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469651185, "dur":6669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469658342, "dur":503, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469658852, "dur":7940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469666900, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469666991, "dur":14615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469682074, "dur":571, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718627469682651, "dur":15956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718627469698803, "dur":16700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":6, "ts":1718627469715852, "dur":30564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1718627469746481, "dur":27073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1718627469773662, "dur":60058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level9.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718627469833792, "dur":57897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level8.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718627469891752, "dur":54556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level7" }}
+,{ "pid":12345, "tid":6, "ts":1718627469946367, "dur":44251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level6.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718627469990713, "dur":59057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level5" }}
+,{ "pid":12345, "tid":6, "ts":1718627470049849, "dur":55983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718627470105913, "dur":53738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718627470159709, "dur":62087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1718627470221878, "dur":43910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level11" }}
+,{ "pid":12345, "tid":6, "ts":1718627470265894, "dur":49814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1718627470315776, "dur":40427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1718627470356260, "dur":2062540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469401963, "dur":3296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469405262, "dur":771, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469406034, "dur":16304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469422530, "dur":368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469422899, "dur":794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469423694, "dur":616, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469424310, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469424551, "dur":248, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469424800, "dur":902, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469425702, "dur":692, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/UMA_Examples.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469426395, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/UMA_Content.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469426671, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469426858, "dur":597, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469427455, "dur":1890, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469429345, "dur":690, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/UMA_Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469430035, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469430255, "dur":1227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469431482, "dur":763, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469432245, "dur":634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469432879, "dur":1367, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469434247, "dur":655, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469434903, "dur":1960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469436864, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469437159, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469437341, "dur":620, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469437962, "dur":904, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469438867, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469439140, "dur":306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469439447, "dur":1236, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469440684, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469441204, "dur":378, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469441583, "dur":1109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469442737, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings/BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":7, "ts":1718627469443163, "dur":1095, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/SSD/GitHub/HyperPace-Gym/HyperPace Gym/Library/PackageCache/com.unity.burst@1.8.13/.Runtime/bcl.exe" }}
+,{ "pid":12345, "tid":7, "ts":1718627469422340, "dur":21918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":7, "ts":1718627469444259, "dur":850, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469454498, "dur":8797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469463295, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1718627469463361, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469463563, "dur":12575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1718627469476300, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469539833, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469476437, "dur":63475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1718627469539996, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469540094, "dur":6035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469546194, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469546274, "dur":5764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469552209, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469552310, "dur":15542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469567953, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469568112, "dur":6359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469574748, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469574901, "dur":6709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469581736, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469581895, "dur":8628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469590657, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469590862, "dur":7352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469598369, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469598518, "dur":9536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469608142, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469608339, "dur":9582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469618648, "dur":614, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469619267, "dur":7757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469627101, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469627299, "dur":12138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469639575, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469639784, "dur":7706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469647765, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469648106, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469653520, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469653661, "dur":6939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469660709, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469660972, "dur":6641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469667949, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469668114, "dur":14241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469682868, "dur":609, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718627469683483, "dur":16088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718627469699838, "dur":15748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1718627469715893, "dur":57731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1718627469773714, "dur":60182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level9" }}
+,{ "pid":12345, "tid":7, "ts":1718627469833964, "dur":57709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level8" }}
+,{ "pid":12345, "tid":7, "ts":1718627469891743, "dur":54659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level7.resS" }}
+,{ "pid":12345, "tid":7, "ts":1718627469946477, "dur":44155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1718627469990709, "dur":59255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level5.resS" }}
+,{ "pid":12345, "tid":7, "ts":1718627470050031, "dur":55920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1718627470106013, "dur":53552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1718627470159628, "dur":62387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1718627470222114, "dur":43842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/level10.resS" }}
+,{ "pid":12345, "tid":7, "ts":1718627470266259, "dur":73897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1718627470340215, "dur":2078571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469401972, "dur":3293, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469405265, "dur":775, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469406040, "dur":16300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469422345, "dur":503, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469439900, "dur":6999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1718627469446929, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469450763, "dur":13116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1718627469464067, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469468326, "dur":8011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1718627469476448, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469484160, "dur":56829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469541112, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469541363, "dur":10084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469551566, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469551733, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469552042, "dur":15955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469568168, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469568283, "dur":8095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469576426, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469576653, "dur":8760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469586035, "dur":568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469586611, "dur":9909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469596631, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469596843, "dur":5585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469602500, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469602573, "dur":12682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469615773, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469615973, "dur":10521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469626661, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469626845, "dur":12536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469639549, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469639738, "dur":7880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469647843, "dur":584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469648433, "dur":4981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469653498, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469653582, "dur":6985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469660694, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469660951, "dur":8994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469670150, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718627469670548, "dur":12044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718627469683018, "dur":15452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718627469698618, "dur":16699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718627469715692, "dur":30530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718627469746310, "dur":27107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1718627469773619, "dur":2644926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Volumes/SSD/HyperPaceGymBuild/HyperPace Gym_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1718627472434472, "dur":882, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

@@ -44,6 +44,6 @@ public class PauseMenuScript : MonoBehaviour
     }
 
     public void Help() {
-        Application.OpenURL("file://" + Application.streamingAssetsPath + "/" + "UserManual.pdf");
+        Application.OpenURL("file://" + Application.streamingAssetsPath + "/UserManual.pdf");
     }
 }
